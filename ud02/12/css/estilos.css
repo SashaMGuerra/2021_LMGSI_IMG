@@ -1,9 +1,60 @@
-div{
-	/*Block*/
+p{
+	padding: 0;
+	margin: 0;
 }
-div.left{
+div.izda, div.dcha{
+	height: 825px;
+}
+div.izda{
 	background-color: grey;
+	width: 30%;
+	display: inline-block;
 }
-div.right{
-	background-color: lightyellow;
+div.dcha{
+	background-color: khaki;
+	width: 69%;
+	display: inline-block;
+	position: absolute;
+}
+figure{
+	text-align: center;
+	text-transform: uppercase;
+	color: white;
+}
+figcaption{
+	padding: 20px;
+	font-size: 75%;
+}
+span.info{
+	text-transform: uppercase;
+	font-weight: bold;
+	letter-spacing: 5px;
+}
+div.info{
+	margin-left: 40px;
+	padding-bottom: 12px;
+	padding-top: 12px;
+}
+div.info:first-child{
+	content: url(../../fontawesome/svgs/solid/cat.svg);
+}
+li{
+	list-style-image: url(../../fontawesome/svgs/solid/check.svg);
+}
+li:first-child{
+	list-style: none;
+	margin-left: -15px;
+}
+span.trabajo{
+	text-transform: uppercase;
+	font-weight: bold;
+	padding: 0;
+}
+p.empresa{
+	color: blue;
+	font-style: italic;
+	padding: 0;
+}
+hr{
+	border: 1px dotted blue;
 }
