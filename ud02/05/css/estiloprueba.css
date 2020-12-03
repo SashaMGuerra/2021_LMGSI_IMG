@@ -1,0 +1,47 @@
+a{
+	text-decoration: none;
+	color: black;
+}
+header {
+	text-align: center;
+	font-variant: small-caps;
+}
+h1{
+	padding-top: 1%;
+	margin-bottom: 5px;
+}
+nav{
+	position: fixed;
+	width: 100%;
+	top: 0;
+	left: 0;
+	background-image: url("../../../images/fondocebra_oscuro.jpg");
+	text-align: center;
+}
+nav a{
+	color: gainsboro;
+	margin: 2%;
+}
+nav a:hover{
+	background-color: rgb(176,196,222);
+	color: black;
+	font-weight: bold;
+}
+body {
+	font-family: Calibri, sans-serif;
+	background-image: url("../../../images/fondocebra_claro.jpg");
+}
+fieldset:nth-child(odd) {
+	background-color: rgb(176,196,222,0.8)
+}
+fieldset:nth-child(even) {
+	color: white;
+	background-color: rgb(105,105,105,0.8);
+}
+ul.a {list-style-type: none;}
+ul.b {list-style-type: square}
+legend {
+	color: black;
+	border: 1px solid black;
+	background-color: white
+}
