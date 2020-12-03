@@ -4,11 +4,12 @@
 	padding: 0;
 	vertical-align: top;
 }
+
 h1{
 	text-align: center;
 	margin: 20px;
 }
-nav a{
+a{
 	text-decoration: none;
 }
 body{
@@ -44,8 +45,55 @@ section{
 
 h2{
 	text-align: center;
-	margin: 10px;
+	margin: 2%;
+	font-variant: small-caps;
 }
+h3{
+	text-align: center;
+	padding: 1%;
+}
+h3:link{
+	color: purple;
+}
+h3:visited{
+	color: thistle;
+}
+h3:hover{
+	background-color: black;
+	color: white;
+}
+
 article{
-	background-color: lightgray;
+	background-color: gainsboro;
+	margin: 5px;
+	padding: 5px;
+	height: 330px;
+}
+article address{
+	font-size: 9pt;
+	text-align: right;
+	margin-top: 5%;
+	margin-right: 5%;
+}
+footer address{
+	text-align: center;
+	font-size: 7pt;
+	margin-top: 5px;
+	background-color: gray;
+	color: white;
+}
+
+h4{
+	text-align: justify;
+	padding: 2%;
+}
+p{
+	text-align: justify;
+	margin-left: 155px;
+	font-size: 11pt;
+}
+img{
+	width: 150px;
+	height: 200px;
+	position: absolute;
 }
