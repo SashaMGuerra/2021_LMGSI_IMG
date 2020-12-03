@@ -1,0 +1,117 @@
+@font-face{
+	font-family: ArchitectsDaughter;
+	src: url(../fonts/ArchitectsDaugher-Regular.ttf);
+}
+@font-face{
+	font-family: Fredericka;
+	src: url(../fonts/FrederickatheGreat-Regular.ttf);
+}
+@font-face{
+	font-family: Goldman-Bold;
+	src: url(../fonts/Goldman-Bold.ttf);
+}
+@font-face{
+	font-family: Goldman-Regular;
+	src: url(../fonts/Goldman-Regular.ttf);
+}
+@font-face{
+	font-family: Parisienne;
+	src: url(../fonts/Parisienne-Regular.ttf);
+}
+body{
+	font-family: Parisienne, cursive;
+	background-image: url(../images/lepetitprince.png);
+	background-position: top right;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	margin-right: 300px;
+}
+
+h1{
+	font-family: Fredericka, serif;
+	font-size: 3em;
+	font-weight: bold;
+	text-decoration: double underline crimson;
+	letter-spacing: 5px;
+	text-transform: capitalize;
+	color: crimson;
+}
+p{
+	font-family: Goldman-Regular, sans-serif;
+	font-style: italic;
+	background-color: crimson;
+	color: black;
+	font-size: 2em;
+	padding: 0;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+p:first-letter{
+	font-size: 2.5em;
+}
+p span{
+	color:white;
+}
+
+ul{
+	font-size: 1.5em;
+}
+.lista1 li, .lista2 li, .lista3 li{
+	border: dotted crimson;
+}
+.lista1{
+	list-style: circle;
+	list-style-position: inside;
+}
+.lista1 li:nth-child(even){
+	font-family: Goldman-Regular, sans-serif;
+}
+.lista1 li:nth-child(odd){
+	font-family: Goldman-Bold, sans-serif;
+}
+.lista2:first-line{
+	font-family: ArchitectsDaughter, cursive;
+}
+.lista2{
+	list-style: square;
+}
+.lista3 li:last-child{
+	font-family: Parisienne, serif; /*¿No que es la fuente de todo el cuerpo?*/
+}
+.lista3{
+	list-style-image: url(../images/sqpurple.png);
+	list-style-position: inside;
+}
+.lista4{
+	background-color: lightsalmon;
+	border: dashed 2px darkred;
+	list-style-type: none;
+}
+.lista4 li{
+	color: lightsalmon;
+	background-color: darkred;
+	margin: 5px;
+}
+.lista4 li:before{
+	content: "#";
+	width: 1em;
+	margin-left: -1em;
+	color: darkred;
+}
+.lista5{
+	background-color: lightsalmon;
+	list-style: none;
+	padding: 10px;
+	border-left: 1em solid darkred;
+}
+.lista6{
+	list-style: none;
+	color: darkred;
+}
+.lista6 li{
+	border: dotted darkred 1px;
+	border-bottom: 0px;
+}
+.lista6 li:last-child{
+	border-bottom:dotted darkred 1px;
+}

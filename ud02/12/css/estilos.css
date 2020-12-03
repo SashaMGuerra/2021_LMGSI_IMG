@@ -1,0 +1,9 @@
+div{
+	/*Block*/
+}
+div.left{
+	background-color: grey;
+}
+div.right{
+	background-color: lightyellow;
+}

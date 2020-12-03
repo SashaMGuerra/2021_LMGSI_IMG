@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<!-- Autor: Isabel Martínez Guerra. Fecha: 27/10/2020 -->
+<!-- Fecha de modificación: 29/10/2020 -->
+<html lang="es">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="description" content="Formulario personal para personajes">
+		<meta name="autor" content="Sasha">
+		<meta name="generator" content="Notepad">
+		<link rel="icon" href="../../images/favicon.png" type="image/png">
+		<title>HTML 05 Isabel Martínez Guerra</title>
+		<style>
+			header {text-align: center; font-variant: small-caps;}
+			body {
+				font-family: Calibri;
+				background-image: url("../../images/fondocebra_claro.jpg");
+			}
+			fieldset:nth-child(odd) {background-color: rgb(176,196,222,0.8)}
+			fieldset:nth-child(even) {
+				color: white;
+				background-color: rgb(105,105,105,0.8);
+			}
+			ul.a {list-style-type: none;}
+			ul.b {list-style-type: square}
+			legend {
+				color: black;
+				border: 1px solid black;
+				background-color: white
+			}
+		</style>
+	</head>
+	<body>
+		<header>
+			<h1>Plantilla personal de formulario de Personajes</h1>
+			<nav>
+				<a href="#organizacion">Organización</a>
+				<a href="#informacion">Información básica</a>
+				<a href="#documentacion">Documentación</a>
+				<a href="#infoadicional">Información adicional</a>
+			</nav>
+		</header>
+		<form action="/registro.php" method="post">
+			<input type="hidden" value="Personaje de la Alianza">
+			<datalist id="lugar">
+				<option value="La Alianza">
+				<option value="Rebelionistas">
+				<option value="El Anillo">
+				<option value="La Liga">
+			</datalist>
+			<fieldset>
+				<legend id="organizacion"><b>ORGANIZACIÓN</b></legend>
+				<table>
+					<tr>
+						<td><label for="idnum">Número de personaje*</label>
+						<td><label for="idapodo">Apodo*</label></td>
+						<td><label for="idtipopersonaje">Tipo de personaje*</label></td>						
+					</tr>
+					<tr>
+						<td><input id="idnum" type="number" min="1" name="numpersonaje" required></td>					
+						<td><input id="idapodo" type="text" name="apodo" required></td>
+						<td><select id="idtipopersonaje" required>
+							<option value="">Seleccione</option>
+							<option value="protagonista">Protagonista</option>
+							<option value="secundario">Secundario</option>
+							<option value="terciario">Terciario</option>
+							<option value="antagonista">Antagonista</option>
+						</select></td>
+					</tr>
+				</table>
+			</fieldset>
+			<fieldset>
+				<legend id="informacion"><b>INFORMACIÓN BÁSICA</b></legend>
+				<table>
+					<tr>
+						<td><label for="idnombre">Nombre*</label></td>
+						<td><label for="idapellidos">Apellidos*</label></td>
+						<td><label for="idcolor">Color asignado</label></td>
+					</tr>
+					<tr>
+						<td><input id="idnombre" type="text" name="nombre" required></td>
+						<td><input id="idapellidos" type="text" name="apellidos" required></td>
+						<td><input id="idcolor" type="color" name="color"></td>
+					</tr>
+					<tr>
+						<td><label for="idfechanacimiento">Fecha de nacimiento*</label></td>
+						<td><label for="idorigen">Lugar de origen*</label></td>
+						<td><label for="idsexo">Sexo*</label></td>
+					</tr>
+					<tr>
+						<td><input id="idfechanacimiento" type="date" name="fechanacimiento" required></td>
+						<td><input id="idorigen" list="lugar" name="lugarorigen" placeholder="Seleccione" required></td>
+						<td><select id="idsexo" required>
+							<option value="">Seleccione</option>
+							<option value="m">M</option>
+							<option value="h">H</option>
+						</select></td>
+					</tr>
+					<tr>
+						<td colspan="2">Ocupación*</td>
+						<td></td>
+					</tr>
+					<tr>
+						<td colspan="2">
+							<ul class="a">
+								<li><input id="idtrabajo" type="radio" name="ocupacion" required>
+								<label for="idtrabajo">Trabajo</label>
+								<label for="idtrabajoesp"></label>
+								<input id="idtrabajoesp" type="text" name="trabajo"></li>
+								<li><input id="idestudio" type="radio" name="ocupacion">
+								<label for="idestudio">Estudio</label>
+								<label for="idestudioesp"></label>
+								<input id="idestudioesp" type="text" name="estudio"></li>
+								<li><input id="idsinocupacion" type="radio" name="ocupacion">
+								<label for="idsinocupacion">Sin ocupación</label></li>
+							</ul>
+						</td>
+						<td>
+							<p><label for="idpareja">¿Tiene pareja?</label>
+							<input id="idpareja" type="checkbox" name="pareja"></p>
+							<p><label for="idhijos">¿Tiene hijos?</label>
+							<input id="idhijos" type="checkbox" name="hijos"></p>
+						</td>
+					</tr>
+				</table>
+			</fieldset>
+			<fieldset>
+				<legend id="documentacion"><b>DOCUMENTACIÓN</b></legend>
+				<table>
+					<tr>
+						<td colspan="2"><label for="ididoriginal">Identificador original*</label></td>
+						<td><label for="idnumid">Nº de identificación*</label></td>
+					</tr>
+					<tr>
+						<td colspan="2"><input id="ididoriginal" list="lugar" name="idoriginal" placeholder="Seleccione" required>
+						<label for="ididoriginalesp"></label>
+						<input id="ididoriginalesp" type="text" name="idoriginalesp"></td>
+						<td><input id="idnumid" type="text" pattern="[0-9]{5}[A-Z]{1}" placeholder="00000A" name="numid" required></td>
+					</tr>
+					<tr>
+						<td><label for="idnumidexp">Mes de expedición</label></td>
+						<td><label for="idaccesso">Nivel de acceso</label></td>
+						<td><label for="idhora">Hora de llegada a la zona Aliada</label></td>
+					</tr>
+					<tr>
+						<td><input id="idnumidexp" type="month" name="mesdeexp"></td>
+						<td>1<input id="idaccesso" type="range" min="1" max="5" name="nvacceso">5</td>						
+						<td><input id="idhora" type="time" name="horallegada"></td>
+					</tr>
+				</table>
+				<hr/> <!-- Código de entrada -->
+				<table>
+					<tr>
+						<td><label for="idcod">Código de entrada*</label></td>
+						<td><label for="idcodent">Obtención del código*</label></td>
+						<td><label for="idcodsemana">Semana de expedición</label></td>						
+					</tr>
+					<tr>
+						<td><input id="idcod" type="password" name="codigoentrada" required></td>
+						<td><select id="idcodent" required>
+							<option value="">Seleccione</option>
+							<option value="Aliado original">Aliado original</option>
+							<option value="Concesión simple">Concesión simple</option>
+							<option value="Concesión familiar">Concesión familiar</option>
+							<option value="Código de la Liga">Código de la Liga*</option>
+							<option value="Refugiado Zona A">Refugiado Zona A</option>
+							<option value="Refugiado Zona B">Refugiado Zona B</option>
+							<option value="Concesión extraordinaria">Concesión extraordianria</option>
+						</select></td>
+						<td><input id="idcodsemana" type="week" name="semanaexpedicion"></td>						
+					</tr>
+					<tr>
+						<td colspan="3"><label for="idcoddup">*Si cuenta con un código duplicado, marque la siguiente casilla:</label>
+						<input id="idcoddup" type="checkbox" name="codigoduplicado"></td>
+					</tr>
+				</table>	
+			</fieldset>
+			<fieldset>
+				<legend id="infoadicional"><b>INFORMACIÓN ADICIONAL</b></legend>
+				<table>
+					<tr>
+						<td><label for="idtel1">Móvil</label></td>						
+						<td><input id="idtel1lugar" list="lugar" name="lugartel1" placeholder="Seleccione">
+						<label for="idtel1lugar"></label></td>
+						<td><input id="idtel1" type="tel" name="tel1"></td>
+					</tr>
+					<tr>
+						<td><label for="idtel2">Teléfono fijo</label></td>
+						<td><input id="idtel2lugar" list="lugar" name="lugartel2" placeholder="Seleccione">
+						<label for="idtel2lugar"></label></td>
+						<td><input id="idtel2" type="tel" name="tel2"></td>
+					</tr>
+					<tr>
+						<td>Correo</td>
+						<td><select id="idcorreotipo">
+							<option value="Personal">Personal</option>
+							<option value="Profesional">Profesional</option>
+							<option value="Educativo">Educativo</option>
+						</select></td>
+						<td><input type="email" name="correo"></td>
+					</tr>
+				</table>
+				<hr/>
+				<table>
+					<tr>
+						<td><label for="idarchivo">Archivo para ampliar información:</label></td>
+						<td><input id="idarchivo" type="file" name="archivo"></td>
+					</tr>
+					<tr>
+						<td><label for="idweb">Página web para ampliar información:</label></td>
+						<td><input id="idweb" type="url" name="web"></td>
+					</tr>
+					<tr>
+						<td colspan="2"><label for="idhistoria">Historia del personaje*:</label></td>
+					</tr>
+					<tr>
+						<td colspan="2">
+							<textarea id="idhistoria" rows="5" cols="50" placeholder="Redacte su historia escuetamente." required></textarea>
+						</td>
+					</tr>
+				</table>
+			</fieldset>
+			<p>Búsqueda:<input type="search"></p>
+			<p><input type="reset" value="Limpiar formulario">
+			<input type="submit" value="Enviar"></p>
+			<p><input type="image" src="images/enviar.png" alt="enviar" height="23" width="129"></p>
+		</form>
+	</body>
+</html>

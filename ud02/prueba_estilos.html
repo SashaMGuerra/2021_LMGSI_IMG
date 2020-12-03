@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<meta charset="UTF-8">
+		<title>Estilo</title>
+		<link href="style/estilo.css" rel="stylesheet">
+		<style>
+			h1,h2 {font-variant: small-caps;}
+			h1:before{content: "Capítulo -";}
+			
+			li:nth-child(odd){background: beige;}
+			li:nth-child(even){background: indianred;}
+			li:nth-child(3n){font-variant: small-caps;}
+			
+			a:hover{font-size:30px;}
+			a:focus{background-color: grey;}
+			a:active{background-color: purple}
+			a:link{font-color: grey;}
+			a:visited{font-color: beige}
+		</style>
+	</head>
+	<head>
+		<h1 class="destacado">Bienvenido</h1>
+		<p><a href="https://www.google.es/">Clic clic clic clic clic clic</a></p>
+		<p id="verde">Hola, Mundo.</p>
+		<p>Hola, Mundo.</p>
+		<p class="destacado">Hola, Mundo.</p>
+		<!-- Descendiente, Hijo -->
+		<div>Hoy es <span>Jueves, <span>5 de Octubre</span></span>.</div>
+		<!-- Hermanos adyacentes -->
+		<ul>
+			<li>Uno</li>
+			<li>Dos</li>
+			<li>Tres</li>
+			<li>Cuatro</li>
+			<li>Cinco</li>
+			<li>Seis</li>
+			<li>Siete</li>
+			<li>Ocho</li>
+			<li>Nueve</li>
+			<li>Diez</li>
+			<li>Once</li>
+			<li>Doce</li>
+		</ul>
+		<ol>
+			<li>Uno</li>
+			<li>Dos</li>
+			<li>Tres</li>
+		</ol>
+	</head>
+</html>

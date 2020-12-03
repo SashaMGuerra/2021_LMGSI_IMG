@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<!-- Autor: Isabel Martínez Guerra. Fecha: 23/10/2020 -->
+<!-- Fecha de modificación: 26/10/2020 -->
+<html lang="es">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="description" content="Práctica de formularios.">
+		<meta name="autor" content="Sasha">
+		<meta name="generator" content="Notepad">
+		<link rel="icon" href="../../images/favicon.png" type="image/png">
+		<title>HTML 04 Isabel Martínez Guerra</title>
+		<style>
+			ul.a {list-style-type: none;}
+		</style>
+	</head>
+	<body>
+		<h1 style="text-align:center">HOJA DE INSCRIPCIÓN</h1>
+		<h2 style="text-align:center">EN LOS CICLOS FORMATIVOS DE GRADO SUPERIOR</h2>
+		<form method="GET" action="/registro.php">
+			<fieldset style="background-color: #BBBBBB">
+				<legend style="border: 1px solid black; background-color: white">Datos Personales</legend>
+				<table>
+					<tr>
+						<td><label for="idNombre">Nombre</label></td>
+						<td><label for="idApellidos">Apellidos</label></td>
+						<td><label for="idDNI">DNI</label></td>
+						<td><label for="idTel">Teléfono</label></td>
+					</tr>
+					<tr>
+						<td><input id="idNombre" type="text" name="nombre"></td>
+						<td><input id="idApellidos" type="text" name="apellidos"></td>
+						<td><input id="idDNI" type="text" name="dni" pattern="[0-9]{8}[A-Z]{1}" placeholder="00000000A"></td>
+						<td><input id="idTel" type="tel" name="telefono" pattern="[0-9]{9}" placeholder="000000000"></td>
+					</tr>
+					<tr>
+						<td><label for="idLocalidad">Localidad</label></td>
+						<td><label for="idProvincia">Provincia</label></td>
+						<td><label for="idNacimiento">Fecha de Nacimiento</label></td>
+						<td></td>
+					</tr>
+					<tr>
+						<td><input id="idLocalidad" type="text" name="localidad"></td>
+						<td>
+							<select id="idProvincia" name="provincia">
+								<option value="Leon">León</option>
+								<option value="Zamora">Zamora</option>
+								<option value="Salamanca">Salamanca</option>
+								<option value="Palencia">Palencia</option>
+								<option value="Valladolid">Valladolid</option>
+								<option value="Avila">Ávila</option>
+								<option value="Segovia">Segovia</option>
+								<option value="Burgos">Burgos</option>
+								<option value="Soria">Soria</option>
+							</select>
+						</td>
+						<td><input id="idNacimiento" type="date" name="nacimiento" min="1960-01-01"></td>
+						<td></td>
+					</tr>
+					<tr>
+						<td><label for="idDireccion">Dirección</label></td>
+						<td><label for="idCodPostal">Código Postal</label></td>
+						<td></td>
+						<td></td>
+					</tr>
+					<tr>
+						<td><input id="idDireccion" type="text" name="direccion"></td>
+						<td><input id="idCodPostal" type="text" name="codigopostal" pattern="[0-9]{5}" placeholder="00000"></td>
+						<td></td>
+						<td></td>
+					</tr>
+				</table>
+			</fieldset>
+			<fieldset style="background-color: #B6B7EA">
+				<legend style="border: 1px solid black; background-color: white">Forma de Acceso</legend>
+				<ul class="a">
+					<li><input id="idDirecto" type="radio" name="acceso">
+					<label for="idDirecto">Directo</label>
+					<ul class="a">
+						<li><input id="idBach" type="radio" name="directo">
+						<label for="idBach">Bachillerato modalidad</label>
+						<label for="idBachesp"></label>
+						<input id="idBachesp" type="text" name="bach"></li>
+						<li><input id="idBachExp" type="radio" name="directo">
+						<label for="idBachExp">Bachillerato Experimental</label></li>
+						<li><input id="idCOU" type="radio" name="directo">
+						<label for="idCOU">COU Opción</label>
+						<label for="idCOUesp"></label>
+						<input id="idCOUesp" type="text" name="cou"></li>
+						<li><input id="idTitTecGM" type="radio" name="directo">
+						<label for="idTitTecGM">Título de Técnico (FPGM)</label>
+						<label for="idTitTecGMesp"></label>
+						<input id="idTitTecGMesp" type="text" name="titulotecnico"></li>
+						<li><input id="idTitUni" type="radio" name="directo">
+						<label for="idTitUni">Titulación Universitaria</label>
+						<label for="idTitUniesp"></label>
+						<input id="idTitUniesp" type="text" name="titulouniversitario"></li>
+						<li><input id="idTitOtros" type="radio" name="directo">
+						<label for="idTitOtros">Otros (especifique)</label>
+						<label for="idTitOtrosesp"></label>
+						<input id="idTitOtrosesp" type="text" name="otrostitulos"></li>
+					</ul></li>
+					<li><input id="idPrueba" type="radio" name="acceso">
+					<label for="idPrueba">Prueba libre</label></li>
+				</ul>
+			</fieldset>
+			<fieldset style="background-color: #B6E1EA">
+				<legend style="border: 1px solid black; background-color: white">Documentos adjuntados</legend>
+				<p><input id="idFotoDni" type="checkbox" name="fotocopiadni">
+				<label for="idFotoDni">Fotocopia DNI</label>
+				<input id="idCertificado" type="checkbox" name="certificadoacademico">
+				<label for="idCertificado">Certificado Académico</label></p>
+				<p><input id="idOtrosDoc" type="checkbox" name="otrosdocumentos">
+				<label for="idOtrosDoc">Otros documentos (especifique)</label>
+				<label for="idOtrosDocesp"></label>
+				<input id="idOtrosDocesp" type="text" name="otrosdocumentos"></p>
+			</fieldset>
+			<input type="submit" value="Enviar Solicitud">
+		</form>
+	</body>
+</html>

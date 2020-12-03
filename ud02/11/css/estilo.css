@@ -1,0 +1,131 @@
+﻿
+/* 
+    Created on : 03-dic-2019, 19:10:50
+    Author     : Amor Rodríguez <amor at marodriguezn@educa.jcyl.es>
+   
+*/
+
+/*
+Calibri, Arial, Sans-serif
+*/
+
+/* Reset */
+body, div, p, h1, image{
+	margin: 0;
+	padding: 0;
+}
+
+/*Css*/
+h1{
+	color: red;
+	background-color: orange;
+	font-variant: small-caps;
+}
+body{
+	font-family: Calibri, Arial, sans-serif;
+}
+p{
+	margin: 6px;
+}
+.par1{
+	background-color: lightblue;
+	color: green;
+	padding-top: 6px;
+	padding-bottom: 6px;
+	margin-right: 300px;
+}
+.static{
+	position: static;
+	border: 3px solid darkred;
+	margin-right: 300px;
+}
+.relative{
+	position: relative;
+	border: 3px dotted pink;
+	left: 75px;
+	margin-right: 375px;
+}
+.fixed{
+	position: fixed;
+	border: 3px dashed green;
+	background-color: sandybrown;
+	bottom: 0;
+	right: 0;
+	width: 300px;
+	height: 90px;
+	box-sizing: border-box;
+}
+.relative1{
+	border: 3px solid green;
+	position: relative;
+	width: 500px;
+	height: 120px;
+	background-color: rgb(255, 255, 255, 0.3);
+}
+.absolute1{
+	border: 3px solid lime;
+	position: absolute;
+	bottom: 15%;
+	right: 2px;
+}
+.sticky{
+	position: sticky;
+	background-color: green;
+	border: 3px solid lime;
+	text-align: center;
+	color: lime;
+	margin-right: 300px;
+}
+.img1{
+	position: absolute;
+	width: 25%;
+	z-index: -1;
+}
+.img2{
+	border: 3px solid purple;
+}
+.img3{
+	width: 300px;
+	height: 300px;
+}
+.image{
+	position: fixed;
+	right: 0;
+	top: 0;
+}
+.container{
+	position: absolute;
+}
+.container div{
+	background-color:orange;
+	color: purple;
+	border: 3px solid purple;
+	width: 10%;
+	height: 5%;
+	text-align: center;
+}
+.center{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+}
+.topleft{
+	position: absolute;
+	top: 10px;
+	left: 10px;
+}
+.topright{
+	position: absolute;
+	top: 10px;
+	right: 10px;
+}
+.bottomright{
+	position: absolute;
+	bottom: 10px;
+	right: 10px;
+}
+.bottomleft{
+	position: absolute;
+	bottom: 10px;
+	left: 10px;
+}

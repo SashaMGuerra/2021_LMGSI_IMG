@@ -1,0 +1,39 @@
+@font-face{
+	font-family: Goldman;
+	src: url(../font/Goldman-Regular.ttf);
+}
+@font-face{
+	font-family: Goldman-Bold;
+	src: url(../font/Goldman-Bold.ttf);
+}
+/*Colores: cyan, lightblue, #A64B00*/
+th, td{
+	border: 1px solid black;
+	width: 30%;
+	padding: 20px;
+}
+table{
+	border-collapse: separate;
+	border-spacing: 10px 30px;
+	margin: auto;
+	text-align: center;
+	width: 90%;
+}
+ul{
+	text-align: left;
+}
+tbody tr:nth-child(odd){
+	background-color: cyan;
+	font-family: Goldman-Bold;
+}
+tbody tr:nth-child(even){
+	background-color: lightblue;
+	font-family: Goldman, monospace;
+}
+caption{
+	font-family: Goldman-Bold, monospace;
+	font-size: 150%;
+}
+tbody th:hover, tbody td:hover{
+	background-color: #A64B00;
+}
