@@ -20,8 +20,7 @@ h3{
 	padding: 1%;
 }
 h2:before{
-	content: "X- ";
-	color: red;
+	content: url(../../fontawesome/svgs/regular/newspaper.svg);
 }
 main{
 	display: table;

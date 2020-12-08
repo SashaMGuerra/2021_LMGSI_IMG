@@ -94,7 +94,11 @@ p{
 	top: 0;
 }
 .container{
-	position: absolute;
+	position: relative;
+	margin-right: 300px;
+}
+.img2{
+	width: 99%;
 }
 .container div{
 	background-color:orange;
