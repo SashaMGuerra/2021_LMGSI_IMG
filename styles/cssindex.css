@@ -1,0 +1,64 @@
+/*Limpieza de estilo*/
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+/*Fuentes*/
+@font-face{
+    font-family: Inconsolata;
+    src: url(../fonts/Inconsolata/Inconsolata-Regular.ttf);
+}
+*{
+    font-family: Inconsolata, monospace;
+}
+
+/*Fondo*/
+body{
+    background-image: url(../images/fondocebra_oscuro.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+/*Estilo*/
+h1{
+    text-align: center;
+    padding: 0.75%;
+    color: white;
+}
+ul{
+    text-align: center;
+}
+.unidad{
+    background-color: rgb(255,255,255,0.5);
+    width: 48%;
+    display: inline-block;
+    padding: 0.5%;
+}
+.unidad{
+    text-align: center;
+}
+
+/*Links*/
+a:hover{
+    color: red;
+}
+a:visited{
+    color: darkblue;
+}
+a:link{
+    color: magenta;
+}
+
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 12 ene. 2021, 20:12:40
+    Author     : Clase
+*/
+
