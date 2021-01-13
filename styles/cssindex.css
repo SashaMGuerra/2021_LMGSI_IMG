@@ -4,6 +4,10 @@
     padding: 0;
     text-decoration: none;
     list-style: none;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
 }
 
 /*Fuentes*/
@@ -17,29 +21,33 @@
 
 /*Fondo*/
 body{
-    background-image: url(../images/fondocebra_oscuro.jpg);
-    background-size: 100%;
+    background-color: gainsboro;
+    background-image: url(../images/fondocebra_claro.jpg);
     background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
 }
 
 /*Estilo*/
 h1{
     text-align: center;
     padding: 0.75%;
-    color: white;
 }
-ul{
-    text-align: center;
-}
-.unidad{
+table{
+    width: 100%;
+    margin: auto;
     background-color: rgb(255,255,255,0.5);
-    width: 48%;
-    display: inline-block;
-    padding: 0.5%;
 }
-.unidad{
-    text-align: center;
+tr{
+    width: 49%;
 }
+/*Bordes de table -en desuso-
+table, th, td{
+    border: 1px solid black;
+}
+*/
+
+
 
 /*Links*/
 a:hover{
