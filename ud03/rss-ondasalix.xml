@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+    <channel>
+        <title>Radio Onda Salix: IES Los Sauces</title>
+        <link>http://ieslossauces.centros.educa.jcyl.es/sitio/index.cgi?wid_seccion=51</link>
+        <description>
+                <![CDATA[
+                        <h1>Onda Salix: la radio de IES Los Sauces</h1>
+                ]]>
+        </description>
+        <category>Radio</category>
+        <category>Educación</category>
+        <language>es</language>
+        <item>
+                <title>Programa 1</title>
+                <link>https://www.mixcloud.com/ondasalix/no1-para-que-te-enteres-onda-salix/</link>
+                <description>
+                        <![CDATA[
+                                <h2>Nº1 - PARA QUE TE ENTERES</h2>
+                                <p>Onda Salix estrena su programa "Para que te enteres", con buena música y buen rollo. Podrás escuchar 3 secciones de lo más interesante:</p>
+                                <ul>
+                                        <li>- En ¿Cuál es el siguiente número? La maravillosa sucesión de Fibonacci</li>
+                                        <li>- En "Unos y Ceros", ¿es lo mismo wifi que internet?</li>
+                                        <li>- Día especial 25 N. ¿Qué sabes y qué opinas de ese día? Yolanda, trabajadora social de la Cruz Roja te saca de dudas.</li>
+                                        <li>- El proyecto Erasmus K3 en el que el centro está participando.</li>
+                                </ul>
+                        ]]>
+                </description>
+                <category>Matemáticas</category>
+                <category>Erasmus</category>
+                <guid>https://www.mixcloud.com/ondasalix/no1-para-que-te-enteres-onda-salix/</guid>
+        </item>
+        <item>
+                <title>Programa 2</title>
+                <link>https://www.mixcloud.com/ondasalix/no2-para-que-te-enteres-onda-salix/</link>
+                <description>
+                        <![CDATA[
+                                <h2>Nº2 - PARA QUE TE ENTERES</h2>
+                                <p>Una nueva edición del programa "Para Que Te Enteres" de Onda Salix, la radio del IES "LOS SAUCES".</p>
+                                <p>Noticias, mitología griega, matemáticas, aula empresa, unos y ceros, paloteo...</p>
+                                <iframe width="100%" height="60" src="https://www.mixcloud.com/widget/iframe/?hide_cover=1&mini=1&feed=%2Fondasalix%2Fno2-para-que-te-enteres-onda-salix%2F" frameborder="0" ></iframe>
+                        ]]>
+                </description>
+                <category>Matemáticas</category>
+                <category>Humanidades</category>
+                <guid>https://www.mixcloud.com/ondasalix/no2-para-que-te-enteres-onda-salix/</guid>
+        </item>
+        <item>
+                <title>Programa 3</title>
+                <link>https://www.ivoox.com/n-3-para-te-enteres-audios-mp3_rf_62208741_1.html</link>
+                <description>
+                    <![CDATA[
+                        <h2>Nº3 - PARA QUE TE ENTERES</h2>
+                    ]]>
+                </description>
+                <author>49000391@educa.jcyl.es</author>
+                <guid>https://www.ivoox.com/n-3-para-te-enteres-audios-mp3_rf_62208741_1.html</guid>
+        </item>
+        <item>
+                <title>Programa 4</title>
+                <link>https://www.ivoox.com/n-4-para-te-enteres-onda-audios-mp3_rf_62853064_1.html</link>
+                <description>
+                        <![CDATA[
+                                <h2>Nº4 - PARA QUE TE ENTERES</h2>
+                        ]]>
+                </description>
+                <author>IES Los Sauces</author>
+                <guid>https://www.ivoox.com/n-4-para-te-enteres-onda-audios-mp3_rf_62853064_1.html</guid>
+        </item>
+    </channel>
+</rss>
