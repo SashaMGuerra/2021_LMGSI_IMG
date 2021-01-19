@@ -42,6 +42,11 @@ table{
     width: 49%;
     text-align: center;
 }
+.caption{
+    font-weight: bold; 
+    padding: 1%;
+}
+
 td{
     padding: 0.5%;
 }

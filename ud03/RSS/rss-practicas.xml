@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+    <channel>
+        <title>LMGSI - RSS - IMG</title>
+        <link>http://192.168.2.110/</link>
+        <description>Cinco últimas prácticas de la Unidad 1</description>
+        <pubDate>Tue, 19 Jan 2021 13:17:00 +0100</pubDate>
+        <lastBuildDate>Tue, 19 Jan 2021 14:00:00 +0100</lastBuildDate>
+        <category>Unidad 3</category>
+        <skipDays>
+            <day>Saturday</day>
+            <day>Sunday</day>
+        </skipDays>
+        <skipHours>
+            <hour>0</hour>
+            <hour>1</hour>
+            <hour>2</hour>
+            <hour>3</hour>
+            <hour>4</hour>
+            <hour>5</hour>
+            <hour>6</hour>
+            <hour>7</hour>
+            <hour>8</hour>
+        </skipHours>
+        <item>
+            <title>Práctica 10</title>
+            <link>http://192.168.2.110/ud02/10/index.html</link>
+            <description>
+                <![CDATA[
+                    <h1>Práctica 10</h1>
+                    <p>Tabla cuyas celdas cambian de color</p>
+                ]]>
+            </description>
+            <enclosure url="http://192.168.2.110/images/img_practicas/ud02-10.png" length="50000" type="image/png"></enclosure>
+            <category>CSS</category>
+            <pubDate>Wed, 30 Sep 2020 12:00:00 +0100</pubDate>
+        </item>
+        <item>
+            <title>Práctica 11</title>
+            <link>http://192.168.2.110/ud02/11/index.html</link>
+            <description>
+                <![CDATA[
+                    <h1>Práctica 11</h1>
+                    <p>CSS: etiqueta <i>position</i></p>
+                ]]>
+            </description><enclosure url="http://192.168.2.110/images/img_practicas/ud02-11.png" length="50000" type="image/png"></enclosure>
+            <category>CSS</category>
+            <pubDate>Thu, 15 Oct 2020 12:00:00 +0100</pubDate>
+        </item>
+        <item>
+            <title>Práctica 12</title>
+            <link>http://192.168.2.110/ud02/12/index.html</link>
+            <description>
+                <![CDATA[
+                    <h1>Práctica 12</h1>
+                    <p>Currículum</p>
+                ]]>
+            </description>
+            <enclosure url="http://192.168.2.110/images/img_practicas/ud02-12.png" length="50000" type="image/png"></enclosure>
+            <category>CSS</category>
+            <pubDate>Mon, 2 Nov 2020 12:00:00 +0100</pubDate>
+        </item>
+        <item>
+            <title>Práctica 13</title>
+            <link>http://192.168.2.110/ud02/13/index.html</link>
+            <description>
+                <![CDATA[
+                    <h1>Práctica 13</h1>
+                    <p>Página de noticias</p>
+                ]]>
+            </description>
+            <enclosure url="http://192.168.2.110/images/img_practicas/ud02-13.png" length="50000" type="image/png"></enclosure>
+            <category>CSS</category>
+            <pubDate>Fri, 27 Nov 2020 12:00:00 +0100</pubDate>
+        </item>
+        <item>
+            <title>Práctica 14</title>
+            <link>http://192.168.2.110/ud02/14/index.html</link>
+            <description>
+                <![CDATA[
+                    <h1>Práctica 14</h1>
+                    <p>Práctica inacabada</p>
+                ]]>
+            </description>
+            <pubDate>Mon, 21 Dec 2020 12:00:00 +0100</pubDate>
+            <category>CSS</category>
+        </item>
+        <item>
+            <title>Prueba de RSS</title>
+            <link>http://192.168.2.110/ud03/RSS/rss-ondasalix.xml</link>
+            <description>
+                <![CDATA[
+                    <h1>RSS Onda Salix</h1>
+                ]]>
+            </description>
+            <pubDate>Fri, 15 Jan 2020 12:00:00 +0100</pubDate>
+            <category>RSS</category>
+        </item>
+    </channel>
+</rss>
