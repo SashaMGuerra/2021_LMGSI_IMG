@@ -15,55 +15,52 @@
     font-family: Inconsolata;
     src: url(../fonts/Inconsolata/Inconsolata-Regular.ttf);
 }
+@font-face{
+    font-family: InconsolataL;
+    src: url(../fonts/Inconsolata/Inconsolata-Light.ttf);
+}
 *{
     font-family: Inconsolata, monospace;
 }
 
-/*Fondo*/
-body{
-    background-color: gainsboro;
-    background-image: url(../images/fondocebra_claro.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-}
-
-/*Estilo*/
+/*Título*/
 h1{
     text-align: center;
     padding: 0.75%;
 }
-table{
-    width: 100%;
-    margin: auto;
-    background-color: rgb(255,255,255,0.5);
-}
-.grantd{
-    width: 49%;
-    text-align: center;
-}
-.caption{
-    font-weight: bold; 
-    padding: 1%;
-}
 
-td{
+/*Subtítulos y Unidades*/
+h3, caption{
+    text-align: center;
+    font-weight: bold; 
     padding: 0.5%;
 }
-/*Bordes de table -en desuso-
-table, th, td{
-    border: 1px solid black;
+div{
+    display: inline-block;
+    width: 32%;
+    margin: auto;
 }
-*/
 
+/*Unidad 2*/
+.ud02{
+    width: 100%;
+    text-align: center;
+    margin-bottom: 1%;
+}
 
+/*Unidad 3*/
+.ud03{
+    width: 100%;
+    text-align: center;
+    margin-bottom: 1%;
+}
 
 /*Links*/
 a:hover{
     color: red;
 }
 a:visited{
-    color: darkblue;
+    color: royalblue;
 }
 a:link{
     color: magenta;

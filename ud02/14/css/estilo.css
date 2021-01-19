@@ -4,6 +4,8 @@
     Author     : Amor Rodríguez <amor at marodriguezn@educa.jcyl.es>
    
 */
+
+/*Limpieza de estilo*/
 *{
 	margin: 0;
 	padding: 0;
@@ -11,10 +13,77 @@
 	text-decoration: none;
 }
 
-nav{
+	/*Menú superior*/
+.topmenu{
 	text-align: center;
 	background-color: grey;
 }
+.topmenu a{
+	color: black;
+}
 nav ul li{
 	display: inline-block;
+	padding: 1%;
+}
+	/*Iconos del menú*/
+.topmenu li:nth-child(1):before{
+	content: url(../../fontawesome/svgs/solid/home.svg);
+}
+.topmenu li:nth-child(2):before{
+	content: url(../../fontawesome/svgs/solid/newspaper.svg);
+}
+.topmenu li:nth-child(3):before{
+	content: url(../../fontawesome/svgs/solid/portrait.svg);
+}
+.topmenu li:nth-child(4):before{
+	content: url(../../fontawesome/svgs/solid/question.svg);
+}
+	/*Menú lateral*/
+.column_sidemenu, .column_content{
+	display: inline-block;
+}
+.column_sidemenu{
+	width: 20%;
+	position: fixed;
+}
+.column_content{
+	width: 79%;
+	margin: 0.75%;
+	margin-left: 20%;
+}
+.column_sidemenu a{
+	color: white;
+}
+.column_sidemenu li{
+	background: grey;
+	list-style: none;
+	margin: 4%;
+	padding: 4%;
+}
+
+	/*Contenido*/
+.header{
+	text-align: center;
+	padding: 1.5%;
+	border: firebrick 2px solid;
+	color: firebrick;
+}
+article h2{
+	color: firebrick;
+	margin: 10px;
+	margin-left: 3%;
+	letter-spacing: 3px;
+	font-variant: small-caps;
+	text-transform: capitalize;
+}
+article p{
+	font-size: 90%;
+}
+
+	/*Pie*/
+footer{
+	text-align: center;
+	background: grey;
+	padding: 0.5%;
+	font-size: 90%;
 }

@@ -1,0 +1,22 @@
+/*Fondo*/
+body{
+    background-color: gainsboro;
+    background-image: url(../images/fondocebra_oscuro.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+*{
+    color: white;
+}
+
+div, caption, table{
+    background-color: rgb(100,100,100,0.5);
+}
+
+/*Bordes de table -en desuso-
+table, th, td{
+    border: 1px solid black;
+}
+*/
