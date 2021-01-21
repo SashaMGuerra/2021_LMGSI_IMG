@@ -29,30 +29,52 @@ h1{
     padding: 0.75%;
 }
 
+
 /*Subtítulos y Unidades*/
 h3, caption{
     text-align: center;
     font-weight: bold; 
     padding: 0.5%;
 }
+body{
+    text-align: center;
+}
 div{
     display: inline-block;
-    width: 32%;
-    margin: auto;
+    width: 49%;
+    margin-bottom: 1%;
+}
+
+/*Github*/
+img.github{
+    position: relative;
+    top: 0;
+    width: 5%;
 }
 
 /*Unidad 2*/
 .ud02{
     width: 100%;
-    text-align: center;
     margin-bottom: 1%;
 }
 
 /*Unidad 3*/
 .ud03{
     width: 100%;
-    text-align: center;
     margin-bottom: 1%;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.ud03 td:first-child{
+    text-align: left;
+}
+.ud03 td:nth-child(2){
+    text-align: center;
+    padding-right: 15%;
+}
+.ud03 td:nth-child(3){
+    text-align: right;
 }
 
 /*Links*/

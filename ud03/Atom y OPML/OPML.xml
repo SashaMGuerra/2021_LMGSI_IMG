@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<opml version="2.0">
+    <head>
+        <title>Práctica con OPML</title>
+        <dateCreated>Thu, 21 Jan 2021 08:30:00 +0100</dateCreated>
+        <dateModified>Thu, 21 Jan 2021 08:30:00 +0100</dateModified>
+        <ownerName>IMG</ownerName>
+        <ownerEmail>misabel.margue@educa.jcyl.es</ownerEmail>
+    </head>
+    <body>
+        <outline 
+            text="Práctica 6"
+            description="Práctica de elementos multimedia"
+            title="Práctica 6"
+            language="es-es"
+            type="rss"
+            version="RSS2"
+            xmlURL="view-source:"http://192.168.2.110/ud02/06/index.html">
+        </outline>
+        <outline 
+            text="Práctica 7"
+            description="Primera práctica de CSS"
+            title="Práctica 7"
+            language="es-es"
+            type="rss"
+            version="RSS2"
+            xmlURL="view-source:"http://192.168.2.110/ud02/07/index.html">
+        </outline>
+        <outline 
+            text="Práctica 8"
+            description="Dados creados con CSS"
+            title="Práctica 8"
+            language="es-es"
+            type="rss"
+            version="RSS2"
+            xmlURL="view-source:"http://192.168.2.110/ud02/08/index.html">
+        </outline>
+        <outline 
+            text="Práctica 9"
+            description="CSS en una lista"
+            title="Práctica 9"
+            language="es-es"
+            type="rss"
+            version="RSS2"
+            xmlURL="view-source:"http://192.168.2.110/ud02/09/index.html">
+        </outline>
+    </body>
+</opml>
