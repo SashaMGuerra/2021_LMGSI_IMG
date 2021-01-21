@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>http://192.168.2.110/</id>
+    <title>5 primeras prácticas</title>
+    <updated>2021-01-21T08:30:00+01:00</updated>
+    <author>
+        <name>Isabel Martínez Guerra</name>
+        <email>misabel.margue@educa.jcyl.es</email>
+    </author>
+    <entry>
+        <id>http://192.168.2.110/ud02/01/index.html</id>
+        <title>Práctica 1</title>
+        <updated>2020-09-25T10:30:00+01:00</updated>
+        <content>Primera práctica. Cuenta, además, con stylesheet.</content>
+    </entry>
+    <entry>
+        <id>http://192.168.2.110/ud02/02/index.html</id>
+        <title>Práctica 2</title>
+        <updated>2020-10-01T11:00:00+01:00</updated>
+        <content>Práctica con tablas.</content>
+    </entry>
+    <entry>
+        <id>http://192.168.2.110/ud02/03/index.html</id>
+        <title>Práctica 3</title>
+        <updated>2020-10-29T13:15:00+01:00</updated>
+        <content>Horario extendido de clase.</content>
+    </entry>
+    <entry>
+        <id>http://192.168.2.110/ud02/04/index.html</id>
+        <title>Práctica 4</title>
+        <updated>2020-11-15T11:00:00+01:00</updated>
+        <content>Práctica con formularios.</content>
+    </entry>
+    <entry>
+        <id>http://192.168.2.110/ud02/05/index.html</id>
+        <title>Práctica 5</title>
+        <updated>2020-12-07T11:05:00+01:00</updated>
+        <content>Práctica con tablas.</content>
+    </entry>
+</feed>
