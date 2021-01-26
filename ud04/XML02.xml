@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE tabla[
+    <!ELEMENT continente (#PCDATA)>
+    <!ELEMENT pais (#PCDATA)>
+    <!ELEMENT capital (#PCDATA)>
+    <!ELEMENT lugar (continente, pais, capital)>
+    <!ELEMENT tabla (lugar+)>
+]>
+<tabla>
+    <lugar>
+        <continente>Europa</continente>
+        <pais>Alemania</pais>
+        <capital>Berlín</capital>
+    </lugar>
+    <lugar>
+        <continente>América</continente>
+        <pais>Argentina</pais>
+        <capital>Buenos Aires</capital>
+    </lugar>
+    <lugar>
+        <continente>América</continente>
+        <pais>Bahamas</pais>
+        <capital>Nassau</capital>
+    </lugar>
+    <lugar>
+        <continente>Asia</continente>
+        <pais>Afganistán</pais>
+        <capital>Kabul</capital>
+    </lugar>
+    <lugar>
+        <continente>Asia</continente>
+        <pais>Arabia Saudita</pais>
+        <capital>Riad</capital>
+    </lugar>
+</tabla>
