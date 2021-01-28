@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!ELEMENT remitente (#PCDATA)>
+<!ELEMENT destinatario (#PCDATA)>
+<!ELEMENT asunto (#PCDATA)>
+<!ELEMENT mensaje (#PCDATA)>
+<!ELEMENT fecha EMPTY>
+<!ELEMENT fichero (#PCDATA)>
+<!ELEMENT mail (remitente, destinatario+, fecha, asunto?, mensaje?, fichero*)>
+<!ATTLIST fecha dia CDATA #REQUIRED mes CDATA #REQUIRED anyo CDATA #REQUIRED>
+<!ATTLIST fichero tipo CDATA #IMPLIED>

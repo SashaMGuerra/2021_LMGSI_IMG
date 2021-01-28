@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE tabla SYSTEM '02_2.dtd'>
+<tabla>
+    <lugar pais="Alemania">
+        <continente>Europa</continente>
+        <capital>Berlín</capital>
+    </lugar>
+    <lugar pais="Argentina">
+        <continente>América</continente>
+        <capital>Buenos Aires</capital>
+    </lugar>
+    <lugar pais="Bahamas">
+        <continente>América</continente>
+        <capital>Nassau</capital>
+    </lugar>
+    <lugar pais="Afganistan">
+        <continente>Asia</continente>
+        <capital>Kabul</capital>
+    </lugar>
+    <lugar pais="Arabia Saudita">
+        <continente>Asia</continente>
+        <capital>Riad</capital>
+    </lugar>
+</tabla>

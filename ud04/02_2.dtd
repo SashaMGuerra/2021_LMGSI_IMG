@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!ELEMENT continente (#PCDATA)>
+<!ELEMENT pais (#PCDATA)>
+<!ELEMENT capital (#PCDATA)>
+<!ELEMENT lugar (continente, capital)>
+<!ELEMENT tabla (lugar+)>
+<!ATTLIST lugar pais CDATA #REQUIRED>
+

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<horario>
+    <asignatura>
+        <nombre>Entornos de Desarrollo</nombre>
+        <profesor>Marcos</profesor>
+        <dia>
+            <diasem dia="mon"/>
+            <hora inicio="8:30" fin="9:20"/>
+        </dia>
+        <dia>
+            <diasemn dia="wed"/>
+            <hora inicio="13:05" fin="13:55"/>
+        </dia>
+        <dia>
+            <diasem dia="fri"/>
+            <hora inicio="8:30" fin="9:20"/>
+        </dia>
+    </asignatura>
+    <asignatura>
+        <nombre>Sistemas Informáticos</nombre>
+        <profesor>Natividad</profesor>
+        <dia>
+            <diasem dia="mon"/>
+            <hora inicio="9:20" fin="11:00"/>
+        </dia>
+        <dia>
+            <diasem dia="thu"/>
+            <hora inicio="12:15" fin="13:55"/>
+        </dia>
+        <dia>
+            <diasem dia="fri"/>
+            <hora inicio="9:20" fin="11:00"/>
+        </dia>
+    </asignatura>
+    <asignatura>
+        <nombre>Programación</nombre>
+        <profesor>Ambrosio</profesor>
+        <dia>
+            <diasem dia="mon"/>
+            <hora inicio="11:00" fin="13:05"/>
+        </dia>
+        <dia>
+            <diasem dia="tue"/>
+            <hora inicio="10:10" fin="11:50"/>
+        </dia>
+        <dia>
+            <diasem dia="wed"/>
+            <hora inicio="8:30" fin="10:10"/>
+        </dia>
+    </asignatura>
+</horario>

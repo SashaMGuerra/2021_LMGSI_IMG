@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mail SYSTEM '01_2.dtd'>
+<mail>
+    <remitente>remitente@correo.com</remitente>
+    <destinatario>destinatario1@gmail.com</destinatario>
+    <destinatario>destintatario2@gmail.com</destinatario>
+    <fecha dia="28" mes="01" anyo="2021"/>
+    <asunto>Asunto</asunto>
+    <mensaje>Cuerpo del mensaje</mensaje>
+    <fichero tipo="application/pdf">informe.pdf</fichero>
+    <fichero tipo="image/jpeg">foto.jpg</fichero>
+</mail>

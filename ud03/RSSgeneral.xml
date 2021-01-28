@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+    <channel>
+        <title>Prácticas de Sasha</title>
+        <link>http://192.168.2.110/</link>
+        <description>Actualización de las prácticas</description>
+        <item>
+            <title>Práctica XML 01</title>
+            <link>http://192.168.2.110/ud04/XML01.xml</link>
+            <description>XML de un correo</description>
+            <category>XML</category>
+            <pubDate>Tue, 26 Jan 2021 13:00:00 +0100</pubDate>
+        </item>
+        <item>
+            <title>Práctica XML 02</title>
+            <link>http://192.168.2.110/ud04/XML02.xml</link>
+            <description>XML de una tabla de países</description>
+            <category>XML</category>
+            <pubDate>Tue, 26 Jan 2021 13:00:00 +0100</pubDate>
+        </item>
+        <item>
+            <title>Práctica XML 01</title>
+            <link>http://192.168.2.110/ud04/XML02.xml</link>
+            <description>XML de fundación de empresas</description>
+            <category>XML</category>
+            <pubDate>Tue, 26 Jan 2021 13:00:00 +0100</pubDate>
+        </item>
+    </channel>
+</rss>

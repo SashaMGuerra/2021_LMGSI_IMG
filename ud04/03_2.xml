@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE tabla SYSTEM '03_2.dtd'>
+<tabla>
+    <hecho>
+        <descripcion>Se funda Youtube</descripcion>
+        <fecha dia="15" mes="02" anyo="2005"/>
+    </hecho>
+    <hecho>
+        <descripcion>Se funda Google</descripcion>
+        <fecha dia="04" mes="09" anyo="1998"/>
+    </hecho>
+    <hecho>
+        <descripcion>Se funda Facebook</descripcion>
+        <fecha dia="04" mes="02" anyo="2004"/>
+    </hecho>
+</tabla>

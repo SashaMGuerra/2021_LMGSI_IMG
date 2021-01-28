@@ -38,6 +38,11 @@ img.github{
     filter: invert(100%);
 }
 
+img.rss{
+    width: 40px;
+    padding: 0.15%;
+}
+
 
 /*Título*/
 h1{
@@ -87,9 +92,6 @@ div{
 }
 
 /*Unidad 4*/
-.ud04{
-    width: 100%;
-}
 
 /*Links*/
 a:hover{
