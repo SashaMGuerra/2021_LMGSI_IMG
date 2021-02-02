@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="06.css"?>
+<!DOCTYPE lenguajes SYSTEM "06.dtd">
+<lenguajes>
+    <lenguaje>
+        <titulo>HTML</titulo>
+        <codigo>
+            <![CDATA[
+                <h2>Ejemplo de HTML</h2>
+                <p>Hola mundo</p>
+            ]]>
+        </codigo>
+    </lenguaje>
+    <lenguaje>
+        <titulo>Java</titulo>
+        <codigo>
+            <![CDATA[
+                System.out.println("Prueba de Java");
+            ]]>
+        </codigo>
+    </lenguaje>
+    <lenguaje>
+        <titulo>SQL</titulo>
+        <codigo>
+            <![CDATA[
+                select nombre, apellidos
+                from alumnos
+                where provincia="Zamora"
+            ]]>
+        </codigo>
+    </lenguaje>
+</lenguajes>

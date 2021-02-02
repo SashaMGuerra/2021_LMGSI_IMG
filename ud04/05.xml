@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE company SYSTEM "05.dtd">
+<company>
+    <employee>
+        <firstname>Juan</firstname>
+        <lastname>Sánchez</lastname>
+        <contact_n>123456789</contact_n>
+        <email>juansanchez@company.com</email>
+        <address>
+            <city>Bangalore</city>
+            <state>Karnataka</state>
+            <zip>560212</zip>
+        </address>
+    </employee>
+</company>

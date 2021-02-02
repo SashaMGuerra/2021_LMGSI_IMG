@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!ELEMENT lenguajes (lenguaje+)>
+<!ELEMENT lenguaje (titulo, codigo)>
+<!ELEMENT titulo (#PCDATA)>
+<!ELEMENT codigo (#PCDATA)>

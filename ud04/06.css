@@ -1,0 +1,13 @@
+codigo::after{
+    content: "\a";
+    white-space: pre;
+}
+
+titulo{
+    display: inline-block;
+    color: red;
+    border: red 1px solid;
+}
+codigo{
+    white-space: pre;
+}

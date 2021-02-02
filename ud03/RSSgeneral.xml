@@ -6,24 +6,32 @@
         <description>Actualización de las prácticas</description>
         <item>
             <title>Práctica XML 01</title>
-            <link>http://192.168.2.110/ud04/XML01.xml</link>
+            <link>http://192.168.2.110/ud04/01.xml</link>
             <description>XML de un correo</description>
             <category>XML</category>
             <pubDate>Tue, 26 Jan 2021 13:00:00 +0100</pubDate>
         </item>
         <item>
             <title>Práctica XML 02</title>
-            <link>http://192.168.2.110/ud04/XML02.xml</link>
+            <link>http://192.168.2.110/ud04/02.xml</link>
             <description>XML de una tabla de países</description>
             <category>XML</category>
             <pubDate>Tue, 26 Jan 2021 13:00:00 +0100</pubDate>
         </item>
         <item>
-            <title>Práctica XML 01</title>
-            <link>http://192.168.2.110/ud04/XML02.xml</link>
+            <title>Práctica XML 03</title>
+            <link>http://192.168.2.110/ud04/03.xml</link>
             <description>XML de fundación de empresas</description>
             <category>XML</category>
             <pubDate>Tue, 26 Jan 2021 13:00:00 +0100</pubDate>
+        </item>
+        <item>
+            <title>Práctica DTD 04</title>
+            <link>http://192.168.2.110/ud04/04.xml</link>
+            <description>Horario de clase</description>
+            <category>XML</category>
+            <category>DTD</category>
+            <pubDate>Tue, 02 Feb 2021 13:00:00 +0100</pubDate>
         </item>
     </channel>
 </rss>

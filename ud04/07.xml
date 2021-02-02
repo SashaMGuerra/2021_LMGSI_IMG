@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE grupo SYSTEM "07.dtd">
+<grupo>
+    <estudiante cod="A1" tutor="A5">Estudiante 1</estudiante>
+    <estudiante cod="A2">Estudiante 2</estudiante>
+    <estudiante cod="A3" tutor="A2 A3">Estudiante 3</estudiante>
+    <estudiante cod="A4" tutor="A5">Estudiante 4</estudiante>
+    <estudiante cod="A5">Estudiante 5</estudiante>
+</grupo>

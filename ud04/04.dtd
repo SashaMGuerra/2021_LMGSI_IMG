@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT profesor (#PCDATA)>
+<!ELEMENT dia (diasem, hora)>
+<!ELEMENT diasem EMPTY>
+<!ATTLIST diasem dia CDATA #REQUIRED>
+<!ELEMENT hora EMPTY>
+<!ATTLIST hora inicio CDATA #REQUIRED
+            fin CDATA #REQUIRED>
+<!ELEMENT asignatura (nombre, profesor+, dia+)>
+<!ELEMENT horario (asignatura+)>
