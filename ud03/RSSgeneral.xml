@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0">
+    <!-- En ocasiones las fechas son inexactas -->
     <channel>
         <title>Prácticas de Sasha</title>
         <link>http://192.168.2.110/</link>
@@ -32,6 +33,54 @@
             <category>XML</category>
             <category>DTD</category>
             <pubDate>Tue, 02 Feb 2021 13:00:00 +0100</pubDate>
+        </item>
+        <item>
+            <title>Práctica DTD 05</title>
+            <link>http://192.168.2.110/ud04/05.xml</link>
+            <description>Información sobre un empleado</description>
+            <category>XML</category>
+            <category>DTD</category>
+            <pubDate>Tue, 02 Feb 2021 13:00:00 +0100</pubDate>
+        </item>
+        <item>
+            <title>Práctica DTD 06</title>
+            <link>http://192.168.2.110/ud04/06.xml</link>
+            <description>Ejemplos de código</description>
+            <category>XML</category>
+            <category>DTD</category>
+            <pubDate>Tue, 02 Feb 2021 13:00:00 +0100</pubDate>
+        </item>
+        <item>
+            <title>Práctica DTD 07</title>
+            <link>http://192.168.2.110/ud04/07.xml</link>
+            <description>Grupo de estudiantes</description>
+            <category>XML</category>
+            <category>DTD</category>
+            <pubDate>Tue, 02 Feb 2021 13:00:00 +0100</pubDate>
+        </item>
+        <item>
+            <title>Práctica DTD 08</title>
+            <link>http://192.168.2.110/ud04/08.xml</link>
+            <description>Práctica con PCDATA junto a entidades</description>
+            <category>XML</category>
+            <category>DTD</category>
+            <pubDate>Tue, 02 Feb 2021 13:00:00 +0100</pubDate>
+        </item>
+        <item>
+            <title>Práctica DTD 09</title>
+            <link>http://192.168.2.110/ud04/09.xml</link>
+            <description>Práctica con entidades</description>
+            <category>XML</category>
+            <category>DTD</category>
+            <pubDate>Tue, 04 Feb 2021 10:00:00 +0100</pubDate>
+        </item>
+        <item>
+            <title>Práctica DTD 10</title>
+            <link>http://192.168.2.110/ud04/10.xml</link>
+            <description>Horario de clase</description>
+            <category>XML</category>
+            <category>DTD</category>
+            <pubDate>Tue, 04 Feb 2021 10:00:00 +0100</pubDate>
         </item>
     </channel>
 </rss>
