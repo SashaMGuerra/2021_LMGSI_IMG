@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Autor: Sasha. Fecha de creación: 9/2/2021 -->
+<mail
+    xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance'
+    xsi:noNamespaceSchemaLocation='01 Schema.xsd'>
+    <remitente>Usuario 1</remitente>
+    <destinatario>Usuario 2</destinatario>
+    <destinatario>Usuario 3</destinatario>
+    <fecha>
+        <dia>8</dia>
+        <mes>1</mes>
+        <anyo>2021</anyo>
+    </fecha>
+    <asunto>Clase del día 9</asunto>
+    <fichero>
+        <nombre>Ejemplo de SCHEMA</nombre>
+        <tipo>image/jpg</tipo>
+    </fichero>
+    <fichero>
+        <nombre>Ejemplo de SCHEMA</nombre>
+        <tipo>image/jpg</tipo>
+    </fichero>
+    <fichero>
+        <nombre>Ejemplo de SCHEMA</nombre>
+        <tipo>image/jpg</tipo>
+    </fichero>
+</mail>

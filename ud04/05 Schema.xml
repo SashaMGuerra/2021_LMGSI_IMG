@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<company
+    xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance'
+    xsi:noNamespaceSchemaLocation='05 Schema.xsd'>
+    <employee>
+        <firstname>Juan</firstname>
+        <lastname>Sánchez</lastname>
+        <contact_n>123456789</contact_n>
+        <email>juansanchez@company.com</email>
+        <address>
+            <city>Bangalore</city>
+            <state>Karnataka</state>
+            <zip>560212</zip>
+        </address>
+    </employee>
+</company>

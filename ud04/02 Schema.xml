@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Autor: Sasha. Fecha de creación: 9/2/2021 -->
+<tabla
+    xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance'
+    xsi:noNamespaceSchemaLocation='02 Shema.xsd'>
+    <lugar>
+        <continente>Europa</continente>
+        <pais>Alemania</pais>
+        <capital>Berlín</capital>
+    </lugar>
+    <lugar>
+        <continente>América</continente>
+        <pais>Argentina</pais>
+        <capital>Buenos Aires</capital>
+    </lugar>
+    <lugar>
+        <continente>América</continente>
+        <pais>Bahamas</pais>
+        <capital>Nassau</capital>
+    </lugar>
+    <lugar>
+        <continente>Asia</continente>
+        <pais>Afganistán</pais>
+        <capital>Kabul</capital>
+    </lugar>
+    <lugar>
+        <continente>Asia</continente>
+        <pais>Arabia Saudita</pais>
+        <capital>Riad</capital>
+    </lugar>
+</tabla>

@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<!-- Autor: Sasha. Fecha de creación: 9/2/2021 -->
+
+<xs:schema version="1.0"
+           xmlns:xs="http://www.w3.org/2001/XMLSchema"
+           elementFormDefault="qualified">
+    <xs:element name="table">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="hecho" maxOccurs="unbounded">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="descripcion" type="xs:string"/>
+                            <xs:element name="fecha" type="xs:date"/>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>

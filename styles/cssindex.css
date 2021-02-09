@@ -95,12 +95,10 @@ div{
 .ud04{
     width: 100%;
     margin-bottom: 1%;
+    border-collapse: collapse;
 }
 .ud04 tr:nth-child(3), .ud04 tr:nth-child(4){
     background-color: rgb(0,0,0,0.1);
-}
-.dtd9{
-    text-decoration: line-through;
 }
 .xmlhora{
     /*No funciona*/
