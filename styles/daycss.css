@@ -15,6 +15,17 @@ div, caption, table{
     background-color: rgb(255,255,255,0.5);
 }
 
+/*Links*/
+a:hover{
+    color: red;
+}
+a:visited{
+    color: royalblue;
+}
+a:link{
+    color: magenta;
+}
+
 /*Bordes de table -en desuso-
 table, th, td{
     border: 1px solid black;
