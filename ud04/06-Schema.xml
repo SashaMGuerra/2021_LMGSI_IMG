@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="text/css" href="06.css"?>
 <!-- Autor: Sasha. Fecha de creación: 18/2/2021 -->
-<!DOCTYPE lenguajes SYSTEM "06.dtd">
-<lenguajes>
+<lenguajes
+    xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance'
+    xsi:noNamespaceSchemaLocation='06-Schema.xsd'>
     <lenguaje>
-        <titulo>HTML</titulo>
+        <nombre>HTML</nombre>
         <codigo>
             <![CDATA[
                 <h2>Ejemplo de HTML</h2>
@@ -13,7 +13,7 @@
         </codigo>
     </lenguaje>
     <lenguaje>
-        <titulo>Java</titulo>
+        <nombre>Java</nombre>
         <codigo>
             <![CDATA[
                 System.out.println("Prueba de Java");
@@ -21,7 +21,7 @@
         </codigo>
     </lenguaje>
     <lenguaje>
-        <titulo>SQL</titulo>
+        <nombre>SQL</nombre>
         <codigo>
             <![CDATA[
                 select nombre, apellidos
