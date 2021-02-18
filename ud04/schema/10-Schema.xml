@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Autor: Sasha. Fecha de creación: 18/2/2021 -->
+
+<horario curso="DAW1"
+    xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance'
+    xsi:noNamespaceSchemaLocation='10-Schema.xsd'>
+    
+    <modulos>
+        <modulo codM="EDD">Entornos de Desarrollo</modulo>
+        <modulo codM="LMGSI">Lenguaje de Marcas y Sistemas Informáticos</modulo>
+    </modulos>
+    <profesores>
+        <profesor codP="MUP">Marcos Unzueta Puente</profesor>
+        <profesor codP="ARN">Amor Rodríguez Navarro</profesor>
+        <profesor codP="HRO">Hermelinda Ramos Osorio</profesor>
+    </profesores>
+    <imparte>
+        <asignatura codM="EDD" codProfesor="MUP"/>
+        <asignatura codM="LMGSI" codProfesor="ARN"/>
+    </imparte>
+    <grupo codT="MUP" idgrupo="DAW1">
+        <hora entrada="08:30:00" salida="09:20:00">
+            <dia_sem dia="lunes" num="1">EDD</dia_sem>
+        </hora>
+        <hora entrada="12:15:00" salida="13:55:00">
+            <dia_sem dia="martes" num="2">LMGSI</dia_sem>
+        </hora>
+    </grupo>
+</horario>

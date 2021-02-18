@@ -8,7 +8,7 @@ and open the template in the editor.
 
 <table
     xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance'
-    xsi:noNamespaceSchemaLocation='03 Schema.xsd'>
+    xsi:noNamespaceSchemaLocation='03-Schema.xsd'>
     <hecho>
         <descripcion>Se funda Youtube</descripcion>
         <fecha>2005-02-15</fecha>

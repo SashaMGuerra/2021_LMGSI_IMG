@@ -13,11 +13,10 @@ and open the template in the editor.
     <destinatario>Usuario 2</destinatario>
     <destinatario>Usuario 3</destinatario>
     <fecha>
-        <dia>8</dia>
-        <mes>1</mes>
+        <dia>---08</dia>
+        <mes>--01</mes>
         <anyo>2021</anyo>
     </fecha>
     <asunto>Clase del día 9</asunto>
     <fichero tipo="image/png"/>
-
 </mail>

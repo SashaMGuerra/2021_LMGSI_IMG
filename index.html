@@ -1,17 +1,23 @@
 <!doctype html>
-<html lang="es">
+<html lang="es" data-theme="night">
     <head>
         <title>IMG LGMSI</title>
         <meta charset="UTF-8">
         <link href="styles/cssindex.css" rel="stylesheet" type="text/css"/>
         <link href="styles/daycss.css" rel="stylesheet" type="text/css"/>
         <link rel="icon" href="images/favicon.png" type="image/png">
+        <script type="text/javascript">
+            // Wait for document to load
+            document.addEventListener("DOMContentLoaded", function(event) {
+              document.documentElement.setAttribute("data-theme", "dark");
+            });
+        </script>
     </head>
     <body>
         <div class="header">
             <a href="https://github.com/SashaMGuerra"><img class="github" src="images/github.png" alt="github"/></a>
             <a href="ud03/RSSgeneral.xml"><img class="rss" src="images/rss2.png" alt="rss"/></a>
-            
+            <button onclick="funcionNoche()">Noche</button>
         </div>
         <h1>Índice de prácticas</h1>
         <div>
@@ -103,14 +109,14 @@
             <table class="ud04">
                 <caption>XML y DTD</caption>
                 <tr>
-                    <td><a href="ud04/04.xml">XML</a>+<a href="ud04/04.dtd">DTD</a> 04</td>
-                    <td><a href="ud04/05.xml">XML 05</a>+<a href="ud04/05.dtd">DTD</a> 05</td>
-                    <td><a href="ud04/06.xml">XML 06</a>+<a href="ud04/06.dtd">DTD</a> 06</td>
+                    <td><a href="ud04/04.xml">04</a> + <a href="ud04/04.dtd">DTD</a></td>
+                    <td><a href="ud04/05.xml">05</a> + <a href="ud04/05.dtd">DTD</a></td>
+                    <td><a href="ud04/06.xml">06</a> + <a href="ud04/06.dtd">DTD</a></td>
                 </tr>
                 <tr>
-                    <td><a href="ud04/07.xml">XML 07</a>+<a href="ud04/07.dtd">DTD</a> 07</td>
-                    <td><a href="ud04/08.xml">XML 08</a>+<a href="ud04/08.dtd">DTD</a> 08</td>
-                    <td><a href="ud04/09.xml">XML 09</a>+<abbr title="DTD Interno"><i>DTD</i></abbr> 09</td>
+                    <td><a href="ud04/07.xml">07</a> + <a href="ud04/07.dtd">DTD</a></td>
+                    <td><a href="ud04/08.xml">08</a> + <a href="ud04/08.dtd">DTD</a></td>
+                    <td><a href="ud04/09.xml">09</a> + <abbr title="DTD Interno"><i>DTD</i></abbr></td>
                 </tr>
                 <tr class="xmlhora">
                     <td colspan="3">• <a href="ud04/10.xml">XML 10</a> - Horario - <a href="ud04/10.dtd">DTD 10</a> •</td>
@@ -119,19 +125,19 @@
             <table class="ud02">
                 <caption>SCHEMA</caption>
                 <tr>
-                    <td><a href="ud04/01-Schema.xml">01</a> + <a href="ud04/01-Schema.xsd">Schema</a></td>
-                    <td><a href="ud04/02-Schema.xml">02</a> + <a href="ud04/02-Schema.xsd">Schema</a></td>
-                    <td><a href="ud04/03-Schema.xml">03</a> + <a href="ud04/03-Schema.xsd">Schema</a></td>
+                    <td><a href="ud04/schema/01-Schema.xml">01</a> + <a href="ud04/schema/01-Schema.xsd">Schema</a></td>
+                    <td><a href="ud04/schema/02-Schema.xml">02</a> + <a href="ud04/schema/02-Schema.xsd">Schema</a></td>
+                    <td><a href="ud04/schema/03-Schema.xml">03</a> + <a href="ud04/schema/03-Schema.xsd">Schema</a></td>
                 </tr>
                 <tr>
-                    <td></td>
-                    <td><a href="ud04/05-Schema.xml">05</a> + <a href="ud04/05-Schema.xsd">Schema</a></td>
-                    <td><a href="ud04/06-Schema.xml">06</a> + <a href="ud04/06-Schema.xsd">Schema</a></td>
+                    <td><a href="ud04/schema/10-Schema.xml">10</a> + <a href="ud04/schema/10-Schema.xsd">Schema</a></td>
+                    <td><a href="ud04/schema/05-Schema.xml">05</a> + <a href="ud04/schema/05-Schema.xsd">Schema</a></td>
+                    <td><a href="ud04/schema/06-Schema.xml">06</a> + <a href="ud04/schema/06-Schema.xsd">Schema</a></td>
                 </tr>
                 <tr>
-                    <td><a href="ud04/07-Schema.xml">07</a> + <a href="ud04/07-Schema.xsd">Schema</a></td>
-                    <td><a href="ud04/08-Schema.xml">08</a> + <a href="ud04/08-Schema.xsd">Schema</a></td>
-                    <td></td>
+                    <td><a href="ud04/schema/07-Schema.xml">07</a> + <a href="ud04/schema/07-Schema.xsd">Schema</a></td>
+                    <td><a href="ud04/schema/08-Schema.xml">08</a> + <a href="ud04/schema/08-Schema.xsd">Schema</a></td>
+                    <td><b>09 + Schema</b></td>
                 </tr>
             </table>
         </div>

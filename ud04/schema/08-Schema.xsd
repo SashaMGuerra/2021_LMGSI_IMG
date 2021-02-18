@@ -5,10 +5,11 @@
            xmlns:xs="http://www.w3.org/2001/XMLSchema"
            elementFormDefault="qualified">
     
-    <xs:element name="horario">
-        
-        
-        
-        <xs:attribute name="codM" type="xs:ID"/>
+    <xs:element name="lugares">
+        <xs:complexType mixed="true">
+            <xs:sequence>
+                <xs:element name="lugar" maxOccurs="unbounded"/>
+            </xs:sequence>
+        </xs:complexType>
     </xs:element>
 </xs:schema>

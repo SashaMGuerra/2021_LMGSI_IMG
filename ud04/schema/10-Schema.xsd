@@ -1,0 +1,76 @@
+<?xml version="1.0"?>
+<!-- Autor: Sasha. Fecha de creación: 18/2/2021 -->
+
+<xs:schema version="1.0"
+           xmlns:xs="http://www.w3.org/2001/XMLSchema"
+           elementFormDefault="qualified">
+    
+    <xs:element name="horario">
+        <!-- Elementos contenidos -->
+        <xs:complexType>
+            <xs:sequence>
+                <!-- Modulos -->
+                <xs:element name="modulos">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="modulo" maxOccurs="unbounded">
+                                <xs:complexType mixed="true">
+                                    <xs:attribute name="codM" type="xs:ID"/>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+                <!-- Profesores -->
+                <xs:element name="profesores">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="profesor" maxOccurs="unbounded">
+                                <xs:complexType mixed="true">
+                                    <xs:attribute name="codP" type="xs:ID"/>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+                <!-- Imparte -->
+                <xs:element name="imparte">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="asignatura" maxOccurs="unbounded">
+                                <xs:complexType>
+                                    <xs:attribute name="codM" type="xs:IDREF"/>
+                                    <xs:attribute name="codProfesor" type="xs:IDREF"/>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+                <!-- Grupo -->
+                <xs:element name="grupo">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="hora" maxOccurs="unbounded">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="dia_sem" maxOccurs="unbounded">
+                                            <xs:complexType mixed="true">
+                                                <xs:attribute name="dia" type="xs:string"/>
+                                                <xs:attribute name="num" type="xs:integer"/>
+                                            </xs:complexType>
+                                        </xs:element>
+                                    </xs:sequence>
+                                    <xs:attribute name="entrada" type="xs:time"/>
+                                    <xs:attribute name="salida" type="xs:time"/>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                        <xs:attribute name="idgrupo" type="xs:IDREF"/>
+                        <xs:attribute name="codT" type="xs:IDREF"/>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+            <xs:attribute name="curso" type="xs:ID"/>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>

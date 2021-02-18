@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- Autor: Sasha. Fecha de creación: 9/2/2021 -->
+
 <tabla
     xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance'
-    xsi:noNamespaceSchemaLocation='02 Shema.xsd'>
+    xsi:noNamespaceSchemaLocation='02-Shema.xsd'>
     <lugar>
         <continente>Europa</continente>
         <pais>Alemania</pais>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <company
     xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance'
-    xsi:noNamespaceSchemaLocation='05 Schema.xsd'>
+    xsi:noNamespaceSchemaLocation='05-Schema.xsd'>
     <employee>
         <firstname>Juan</firstname>
         <lastname>Sánchez</lastname>
