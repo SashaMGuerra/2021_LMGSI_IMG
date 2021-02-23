@@ -1,5 +1,7 @@
 <?xml version="1.0"?>
-<!-- Autor: Sasha. Fecha de creación: 18/2/2021 -->
+<!-- Autor: Sasha. Fecha de creación: 18/2/2021
+Faltan restricciones
+Faltan required -->
 
 <xs:schema version="1.0"
            xmlns:xs="http://www.w3.org/2001/XMLSchema"
@@ -14,8 +16,28 @@
                     <xs:complexType>
                         <xs:sequence>
                             <xs:element name="modulo" maxOccurs="unbounded">
-                                <xs:complexType mixed="true">
-                                    <xs:attribute name="codM" type="xs:ID"/>
+                                <!-- Sólo los tipos complejos tienen atributos
+                                    Los tipos complejos pueden contener contenido simple o complejo;
+                                        el contenido simple sólo puede tener caracteres,
+                                        el contenido complejo puede tener elementos hijos
+                                    
+                                    extension = extiende (por ejemplo, un atributo a un tipo simple);
+                                    restriction = restringe.
+                                -->
+                                <xs:complexType>
+                                    <xs:complexContent>
+                                        <xs:extension base="xs:simple">
+                                        <!-- extension porque hay texto + atributos -->
+                                            <xs:attribute name="codM" type="xs:ID">
+                                                <xs:simpleType>
+                                                    <xs:restriction base="xs:string">
+                                                        <xs:pattern value="(EDD|LMGSI|SINF|PROG|BBDD|FOL)"/>
+                                                    </xs:restriction>
+                                                </xs:simpleType>
+                                            </xs:attribute>
+                                        </xs:extension>
+                                    </xs:complexContent>
+                                    <!-- Pattern del elemento -->
                                 </xs:complexType>
                             </xs:element>
                         </xs:sequence>
@@ -26,8 +48,14 @@
                     <xs:complexType>
                         <xs:sequence>
                             <xs:element name="profesor" maxOccurs="unbounded">
-                                <xs:complexType mixed="true">
-                                    <xs:attribute name="codP" type="xs:ID"/>
+                                <xs:complexType>
+                                    <xs:simpleContent>
+                                        <xs:extension base="xs:string">
+                                            <xs:attribute name="codP" type="xs:ID"/>
+                                            <!-- Pattern del atributo -->
+                                        </xs:extension>
+                                    </xs:simpleContent>
+                                    <!-- Pattern del elemento -->
                                 </xs:complexType>
                             </xs:element>
                         </xs:sequence>
@@ -55,13 +83,32 @@
                                     <xs:sequence>
                                         <xs:element name="dia_sem" maxOccurs="unbounded">
                                             <xs:complexType mixed="true">
-                                                <xs:attribute name="dia" type="xs:string"/>
-                                                <xs:attribute name="num" type="xs:integer"/>
+                                                <xs:attribute name="dia">
+                                                    <xs:simpleType>
+                                                        <xs:restriction base="xs:string">
+                                                            <xs:enumeration value="lunes"/>
+                                                            <xs:enumeration value="martes"/>
+                                                            <xs:enumeration value="miercoles"/>
+                                                            <xs:enumeration value="jueves"/>
+                                                            <xs:enumeration value="viernes"/>
+                                                        </xs:restriction>
+                                                    </xs:simpleType>
+                                                </xs:attribute>
+                                                <xs:attribute name="num">
+                                                    <xs:simpleType>
+                                                        <xs:restriction base="xs:integer">
+                                                            <xs:enumeration value="1"/>
+                                                            <xs:enumeration value="2"/>
+                                                        </xs:restriction>
+                                                    </xs:simpleType>
+                                                </xs:attribute>
                                             </xs:complexType>
                                         </xs:element>
                                     </xs:sequence>
                                     <xs:attribute name="entrada" type="xs:time"/>
+                                    <!-- Restricción -->
                                     <xs:attribute name="salida" type="xs:time"/>
+                                    <!-- Restricción -->
                                 </xs:complexType>
                             </xs:element>
                         </xs:sequence>

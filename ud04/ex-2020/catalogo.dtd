@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Autor: Sasha. Fecha de creación: 23/2/2021-->
+<!ELEMENT catalogo (portatil*)>
+<!ELEMENT portatil (ref, nombre, fabricante, procesador, ram, disco, pantalla, grafica*, foto*)>
+<!ELEMENT ref (#PCDATA) ID>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT fabricante EMPTY>
+<!ATTLIST fabricante
+        nombre CDATA>
+<!ELEMENT procesador (#PCDATA)>
+<!ELEMENT ram (#PCDATA)>
+<!ELEMENT disco (#PCDATA)>
+<!ELEMENT pantalla (#PCDATA)>
+<!ELEMENT grafica (#PCDATA)>
+<!ELEMENT foto (#PCDATA)>
+

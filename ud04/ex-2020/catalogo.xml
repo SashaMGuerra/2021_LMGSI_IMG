@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Autor: Sasha. Fecha de creación: 23/2/2021 -->
+
+
+<catalogo>
+    <portatil>
+        <ref>HP10219</ref>
+        <nombre>DA0204NS</nombre>
+        <fabricante>HP</fabricante>
+        <procesador>I3-7020U</procesador>
+        <ram>8GB DDR4</ram>
+        <disco>256GB SSD</disco>
+        <pantalla>15"</pantalla>
+        <grafica/>
+        <foto>portatilhp.jpg</foto>
+    </portatil>
+    <portatil>
+        <ref>LV14583</ref>
+        <nombre>IDEAPAD</nombre>
+        <fabricante>Lenovo</fabricante>
+        <procesador>I3-8145U</procesador>
+        <ram>8GB DDR4</ram>
+        <disco>256GB SSD</disco>
+        <pantalla>15"</pantalla>
+        <grafica/>
+        <foto>portatillenovo.jpg</foto>
+    </portatil>
+</catalogo>
