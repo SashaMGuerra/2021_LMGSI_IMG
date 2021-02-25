@@ -1,0 +1,151 @@
+<?xml version="1.0"?>
+<!-- Autor: Sasha. Fecha de creación: 25/2/2021 -->
+
+<xs:schema version="1.0"
+           xmlns:xs="http://www.w3.org/2001/XMLSchema"
+           elementFormDefault="qualified">
+    
+    <xs:attribute name="tamanyo">
+        <xs:simpleType>
+            <xs:restriction base="xs:string">
+                <xs:enumeration value="GB"/>
+                <xs:enumeration value="MB"/>
+                <xs:enumeration value="TB"/>
+            </xs:restriction>
+        </xs:simpleType>
+    </xs:attribute>
+    
+    <xs:element name="catalogo">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="portatil" minOccurs="0" maxOccurs="unbounded">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="ref">
+                                <xs:simpleType>
+                                    <xs:restriction base="xs:ID">
+                                        <xs:pattern value="[A-Z]{2}[0-9]{5}"/>
+                                    </xs:restriction>
+                                </xs:simpleType>
+                            </xs:element>
+                            <xs:element name="nombre">
+                                <xs:simpleType>
+                                    <xs:restriction base="xs:string">
+                                        <xs:maxLength value="20"/>
+                                    </xs:restriction>
+                                </xs:simpleType>
+                            </xs:element>
+                            <xs:element name="fabricante">
+                                <xs:complexType>
+                                    <xs:attribute name="nombre">
+                                        <xs:simpleType>
+                                            <xs:restriction base="xs:string">
+                                                <xs:enumeration value="HP"/>
+                                                <xs:enumeration value="Lenovo"/>
+                                                <xs:enumeration value="Apple"/>
+                                                <xs:enumeration value="Asus"/>
+                                            </xs:restriction> 
+                                        </xs:simpleType>
+                                    </xs:attribute>
+                                </xs:complexType>
+                            </xs:element>
+                            <xs:element name="procesador">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="nombreproc" type="xs:string"/>
+                                        <xs:element name="cache">
+                                            <xs:complexType>
+                                                <xs:simpleContent>
+                                                    <xs:extension base="xs:integer">
+                                                        <xs:attribute ref="tamanyo"/>
+                                                    </xs:extension>
+                                                </xs:simpleContent>
+                                            </xs:complexType>
+                                        </xs:element>
+                                        <xs:element name="numero" type="xs:byte"/>
+                                        <xs:element name="vel" type="xs:decimal"/>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                            <xs:element name="ram">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="memoria">
+                                            <xs:complexType>
+                                                <xs:simpleContent>
+                                                    <xs:extension base="xs:integer">
+                                                        <xs:attribute ref="tamanyo"/>
+                                                    </xs:extension>
+                                                </xs:simpleContent>
+                                            </xs:complexType>
+                                        </xs:element>
+                                        <xs:element name="tipo">
+                                            <xs:simpleType>
+                                                <xs:restriction base="xs:string">
+                                                    <xs:enumeration value="DDR3"/>
+                                                    <xs:enumeration value="DDR4"/>
+                                                </xs:restriction>
+                                            </xs:simpleType>
+                                        </xs:element>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                            <xs:element name="disco">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="tamanyodisco">
+                                            <xs:complexType>
+                                                <xs:simpleContent>
+                                                    <xs:extension base="xs:string">
+                                                        <xs:attribute ref="tamanyo"/>
+                                                    </xs:extension>
+                                                </xs:simpleContent>
+                                            </xs:complexType>
+                                        </xs:element>
+                                        <xs:element name="tipodisco">
+                                            <xs:simpleType>
+                                                <xs:restriction base="xs:string">
+                                                    <xs:enumeration value="SSD"/>
+                                                    <xs:enumeration value="HDD"/>
+                                                </xs:restriction>
+                                            </xs:simpleType>
+                                        </xs:element>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                            <xs:element name="pantalla">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="dimension" type="xs:float"/>
+                                        <xs:element name="resolucion">
+                                            <xs:simpleType>
+                                                <xs:restriction base="xs:string">
+                                                    <xs:pattern value="[1-9]*[x][1-9]*"/>
+                                                </xs:restriction>
+                                            </xs:simpleType>
+                                        </xs:element>
+                                        <xs:element name="max_resolucion" minOccurs="0">
+                                            <xs:simpleType>
+                                                <xs:restriction base="xs:string">
+                                                    <xs:pattern value="[1-9]*[x][1-9]*"/>
+                                                </xs:restriction>
+                                            </xs:simpleType>
+                                        </xs:element>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                            <xs:element name="grafica" minOccurs="0" type="xs:string"/>
+                            <xs:element name="foto" minOccurs="0" maxOccurs="unbounded">
+                                <xs:simpleType>
+                                    <xs:restriction base="xs:string">
+                                        <xs:pattern value="[a-z]*[.][a-z]{3}"/>
+                                    </xs:restriction>
+                                </xs:simpleType>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>

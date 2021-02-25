@@ -1,16 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- Autor: Sasha. Fecha de creación: 23/2/2021-->
 <!ELEMENT catalogo (portatil*)>
-<!ELEMENT portatil (ref, nombre, fabricante, procesador, ram, disco, pantalla, grafica*, foto*)>
-<!ELEMENT ref (#PCDATA) ID>
+<!ELEMENT portatil (ref, nombre, fabricante, procesador, ram, disco, pantalla, grafica?, foto*)>
+<!ELEMENT ref (#PCDATA)> <!-- No permite ID -->
 <!ELEMENT nombre (#PCDATA)>
 <!ELEMENT fabricante EMPTY>
 <!ATTLIST fabricante
-        nombre CDATA>
-<!ELEMENT procesador (#PCDATA)>
-<!ELEMENT ram (#PCDATA)>
-<!ELEMENT disco (#PCDATA)>
-<!ELEMENT pantalla (#PCDATA)>
+            nombre (HP|Lenovo|Asus|MSI|Apple) #REQUIRED>
+<!ELEMENT procesador (nombreproc, cache, numero, vel)>
+<!ELEMENT nombreproc (#PCDATA)>
+<!ELEMENT cache (#PCDATA)>
+<!ATTLIST cache tamanyo (MB|GB|TB) "GB">
+<!ELEMENT numero (#PCDATA)>
+<!ELEMENT vel (#PCDATA)>
+<!ATTLIST vel medida CDATA #FIXED "GHz">
+<!ELEMENT ram (memoria, tipo)>
+<!ELEMENT memoria (#PCDATA)>
+<!ATTLIST memoria unidad_medida (MB|GB|TB) "GB">
+<!ELEMENT tipo (#PCDATA)>
+<!ELEMENT disco (tamanyodisco, tipodisco)>
+<!ELEMENT tamanyodisco (#PCDATA)>
+<!ATTLIST tamanyodisco tam (MB|GB|TB) "GB">
+<!ELEMENT tipodisco (#PCDATA)>
+<!ELEMENT pantalla (dimension, resolucion, max_resolucion?)>
+<!ELEMENT dimension (#PCDATA)>
+<!ELEMENT resolucion (#PCDATA)>
+<!ELEMENT max_resolucion (#PCDATA)>
 <!ELEMENT grafica (#PCDATA)>
 <!ELEMENT foto (#PCDATA)>
 

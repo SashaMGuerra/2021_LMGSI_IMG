@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE catalogo SYSTEM "catalogo.dtd">
-<!-- Autor: Sasha. Fecha de creación: 23/2/2021 -->
+<!-- Autor: Sasha. Fecha de creación: 25/2/2021 -->
 
-
-<catalogo>
+<catalogo
+    xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance'
+    xsi:noNamespaceSchemaLocation='catalogo.xsd'>
+    
     <portatil>
         <ref>HP10219</ref>
         <nombre>DA0204NS</nombre>
@@ -15,11 +16,11 @@
             <vel>1</vel>
         </procesador>
         <ram>
-            <memoria>8</memoria>
+            <memoria tamanyo="TB">1</memoria>
             <tipo>DDR4</tipo>
         </ram>
         <disco>
-            <tamanyodisco>256</tamanyodisco>
+            <tamanyodisco tamanyo="GB">256</tamanyodisco>
             <tipodisco>SSD</tipodisco>
         </disco>
         <pantalla>
@@ -27,8 +28,6 @@
             <resolucion>1266x768</resolucion>
             <max_resolucion>1366x768</max_resolucion>
         </pantalla>
-        <grafica/>
-        <foto>portatilhp.jpg</foto>
     </portatil>
     <portatil>
         <ref>LV14583</ref>
@@ -45,7 +44,7 @@
             <tipo>DDR4</tipo>
         </ram>
         <disco>
-            <tamanyodisco tam="MB">51200</tamanyodisco>
+            <tamanyodisco tamanyo="MB">51200</tamanyodisco>
             <tipodisco>HDD</tipodisco>
         </disco>
         <pantalla>
@@ -55,5 +54,6 @@
         </pantalla>
         <grafica>Intel UHD Graphics 620</grafica>
         <foto>portatillenovo.jpg</foto>
+        <foto>portatillenovo.png</foto>
     </portatil>
 </catalogo>

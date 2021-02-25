@@ -1,49 +1,43 @@
 <?xml version="1.0"?>
-<!-- Autor: Sasha. Fecha de creación: 18/2/2021
-Faltan restricciones
-Faltan required -->
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
 
 <xs:schema version="1.0"
            xmlns:xs="http://www.w3.org/2001/XMLSchema"
            elementFormDefault="qualified">
     
     <xs:element name="horario">
-        <!-- Elementos contenidos -->
         <xs:complexType>
             <xs:sequence>
-                <!-- Modulos -->
                 <xs:element name="modulos">
                     <xs:complexType>
                         <xs:sequence>
                             <xs:element name="modulo" maxOccurs="unbounded">
-                                <!-- Sólo los tipos complejos tienen atributos
-                                    Los tipos complejos pueden contener contenido simple o complejo;
-                                        el contenido simple sólo puede tener caracteres,
-                                        el contenido complejo puede tener elementos hijos
-                                    
-                                    extension = extiende (por ejemplo, un atributo a un tipo simple);
-                                    restriction = restringe.
-                                -->
                                 <xs:complexType>
-                                    <xs:complexContent>
-                                        <xs:extension base="xs:simple">
-                                        <!-- extension porque hay texto + atributos -->
-                                            <xs:attribute name="codM" type="xs:ID">
+                                    <xs:simpleContent>
+                                        <xs:extension base="xs:string">
+                                            <xs:attribute name="codM">
                                                 <xs:simpleType>
-                                                    <xs:restriction base="xs:string">
-                                                        <xs:pattern value="(EDD|LMGSI|SINF|PROG|BBDD|FOL)"/>
+                                                    <xs:restriction base="xs:ID">
+                                                        <xs:enumeration value="EDD"/>
+                                                        <xs:enumeration value="LMGSI"/>
+                                                        <xs:enumeration value="PROG"/>
+                                                        <xs:enumeration value="BBDD"/>
+                                                        <xs:enumeration value="FOL"/>
+                                                        <xs:enumeration value="SINF"/>
                                                     </xs:restriction>
                                                 </xs:simpleType>
                                             </xs:attribute>
                                         </xs:extension>
-                                    </xs:complexContent>
-                                    <!-- Pattern del elemento -->
+                                    </xs:simpleContent>
                                 </xs:complexType>
                             </xs:element>
                         </xs:sequence>
                     </xs:complexType>
                 </xs:element>
-                <!-- Profesores -->
                 <xs:element name="profesores">
                     <xs:complexType>
                         <xs:sequence>
@@ -51,17 +45,20 @@ Faltan required -->
                                 <xs:complexType>
                                     <xs:simpleContent>
                                         <xs:extension base="xs:string">
-                                            <xs:attribute name="codP" type="xs:ID"/>
-                                            <!-- Pattern del atributo -->
+                                            <xs:attribute name="codP">
+                                                <xs:simpleType>
+                                                    <xs:restriction base="xs:ID">
+                                                        <xs:pattern value="[A-Z]{3}"/>
+                                                    </xs:restriction>
+                                                </xs:simpleType>
+                                            </xs:attribute>
                                         </xs:extension>
                                     </xs:simpleContent>
-                                    <!-- Pattern del elemento -->
                                 </xs:complexType>
                             </xs:element>
                         </xs:sequence>
                     </xs:complexType>
                 </xs:element>
-                <!-- Imparte -->
                 <xs:element name="imparte">
                     <xs:complexType>
                         <xs:sequence>
@@ -74,7 +71,6 @@ Faltan required -->
                         </xs:sequence>
                     </xs:complexType>
                 </xs:element>
-                <!-- Grupo -->
                 <xs:element name="grupo">
                     <xs:complexType>
                         <xs:sequence>
@@ -82,42 +78,51 @@ Faltan required -->
                                 <xs:complexType>
                                     <xs:sequence>
                                         <xs:element name="dia_sem" maxOccurs="unbounded">
-                                            <xs:complexType mixed="true">
-                                                <xs:attribute name="dia">
-                                                    <xs:simpleType>
-                                                        <xs:restriction base="xs:string">
-                                                            <xs:enumeration value="lunes"/>
-                                                            <xs:enumeration value="martes"/>
-                                                            <xs:enumeration value="miercoles"/>
-                                                            <xs:enumeration value="jueves"/>
-                                                            <xs:enumeration value="viernes"/>
-                                                        </xs:restriction>
-                                                    </xs:simpleType>
-                                                </xs:attribute>
-                                                <xs:attribute name="num">
-                                                    <xs:simpleType>
-                                                        <xs:restriction base="xs:integer">
-                                                            <xs:enumeration value="1"/>
-                                                            <xs:enumeration value="2"/>
-                                                        </xs:restriction>
-                                                    </xs:simpleType>
-                                                </xs:attribute>
+                                            <xs:complexType>
+                                                <xs:simpleContent>
+                                                    <xs:extension base="xs:string">
+                                                        <xs:attribute name="dia">
+                                                            <xs:simpleType>
+                                                                <xs:restriction base="xs:string">
+                                                                    <xs:enumeration value="lunes"/>
+                                                                    <xs:enumeration value="martes"/>
+                                                                    <xs:enumeration value="miercoles"/>
+                                                                    <xs:enumeration value="jueves"/>
+                                                                    <xs:enumeration value="viernes"/>
+                                                                </xs:restriction>
+                                                            </xs:simpleType>
+                                                        </xs:attribute>
+                                                        <xs:attribute name="num">
+                                                            <xs:simpleType>
+                                                                <xs:restriction base="xs:byte">
+                                                                    <xs:enumeration value="1"/>
+                                                                    <xs:enumeration value="2"/>
+                                                                </xs:restriction>
+                                                            </xs:simpleType>
+                                                        </xs:attribute>
+                                                    </xs:extension>
+                                                </xs:simpleContent>
                                             </xs:complexType>
                                         </xs:element>
                                     </xs:sequence>
                                     <xs:attribute name="entrada" type="xs:time"/>
-                                    <!-- Restricción -->
                                     <xs:attribute name="salida" type="xs:time"/>
-                                    <!-- Restricción -->
                                 </xs:complexType>
                             </xs:element>
                         </xs:sequence>
-                        <xs:attribute name="idgrupo" type="xs:IDREF"/>
+                        <xs:attribute name="idgrupo">
+                            <xs:simpleType>
+                                <xs:restriction base="xs:string">
+                                    <xs:pattern value="[A-Z]{3}[0-9]"/>
+                                </xs:restriction>
+                            </xs:simpleType>
+                        </xs:attribute>
                         <xs:attribute name="codT" type="xs:IDREF"/>
                     </xs:complexType>
                 </xs:element>
             </xs:sequence>
-            <xs:attribute name="curso" type="xs:ID"/>
+            <xs:attribute name="curso"/>
         </xs:complexType>
     </xs:element>
+
 </xs:schema>
