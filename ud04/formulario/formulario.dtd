@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Autor: Sasha. Fecha de creación: 3/3/2021 -->
+
+<!ELEMENT personajes (personaje+)>
+<!ELEMENT personaje (infobasica, ocupacion, otros)>
+<!ATTLIST personaje id ID #REQUIRED
+                    tipopersonaje CDATA #REQUIRED>
+
+<!ELEMENT infobasica (apodo, nombre, apellidos, fechanac, otrosnombres*, origen, idioma, familia?)>
+<!ATTLIST infobasica sexo (M|H) #REQUIRED>
+<!ELEMENT apodo (#PCDATA)>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT apellidos (#PCDATA)>
+<!ELEMENT fechanac (#PCDATA)>
+<!ELEMENT otrosnombres (#PCDATA)>
+<!ELEMENT origen (#PCDATA)>
+<!ELEMENT idioma (#PCDATA)>
+<!ELEMENT familia (parejas?, hijos?)>
+<!ELEMENT parejas (pareja+)>
+<!ELEMENT pareja (#PCDATA)>
+<!ATTLIST pareja idpareja IDREF #REQUIRED>
+<!ELEMENT hijos (hijo+)>
+<!ELEMENT hijo (#PCDATA)>
+<!ATTLIST hijo idhijo IDREF #REQUIRED>
+
+<!ELEMENT ocupacion (trabajo|estudio|ocupacion)>
+<!ELEMENT trabajo (#PCDATA)>
+<!ELEMENT estudio (#PCDATA)>
+<!ELEMENT sinocupacion EMPTY>
+
+<!ELEMENT otros (documentacion, comunicacion)>
+<!ELEMENT documentacion (documentonacional|pasaporte)>
+<!ELEMENT documentonacional
