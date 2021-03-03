@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- Autor: Sasha. Fecha de creación: 3/3/2021
--->
+<!-- Autor: Sasha. Fecha de creación: 3/3/2021 -->
 
-<personajes xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance'
-            xsi:noNamespaceSchemaLocation='formulario.xsd'>
+<!DOCTYPE personajes SYSTEM "formulario.dtd">
 
+<personajes>
     <personaje id="nombre" tipopersonaje="protagonista">
         <infobasica sexo="M">
             <apodo>Apodo</apodo>

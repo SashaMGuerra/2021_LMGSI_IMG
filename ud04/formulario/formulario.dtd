@@ -4,7 +4,7 @@
 <!ELEMENT personajes (personaje+)>
 <!ELEMENT personaje (infobasica, ocupacion, otros)>
 <!ATTLIST personaje id ID #REQUIRED
-                    tipopersonaje CDATA #REQUIRED>
+                    tipopersonaje (protagonista|secundario|terciario|antagonista) #REQUIRED>
 
 <!ELEMENT infobasica (apodo, nombre, apellidos, fechanac, otrosnombres*, origen, idioma, familia?)>
 <!ATTLIST infobasica sexo (M|H) #REQUIRED>
@@ -30,4 +30,18 @@
 
 <!ELEMENT otros (documentacion, comunicacion)>
 <!ELEMENT documentacion (documentonacional|pasaporte)>
-<!ELEMENT documentonacional
+<!ELEMENT documentonacional (numdoc, docexpedicion, docexpiracion)>
+<!ELEMENT numdoc (#PCDATA)>
+<!ELEMENT docexpedicion (#PCDATA)>
+<!ELEMENT docexpiracion (#PCDATA)>
+<!ELEMENT pasaporte (numpasaporte, pasexpedicion, pasexpiracion)>
+<!ELEMENT numpassaporte (#PCDATA)>
+<!ELEMENT pasexpedicion (#PCDATA)>
+<!ELEMENT pasexpiracion (#PCDATA)>
+<!ATTLIST pasaporte lugar CDATA #REQUIRED>
+<!ELEMENT comunicacion (correos?, tfnos?)>
+<!ELEMENT tfnos (tfno+)>
+<!ELEMENT tfno (#PCDATA)>
+<!ELEMENT correos (correo+)>
+<!ELEMENT correo (#PCDATA)>
+<!ATTLIST correo tipocorreo (personal|empresa) #REQUIRED>
