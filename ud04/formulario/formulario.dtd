@@ -25,7 +25,7 @@
 <!ELEMENT hijo (#PCDATA)>
 <!ATTLIST hijo idhijo IDREF #REQUIRED>
 
-<!ELEMENT ocupacion (trabajo|estudio|ocupacion)>
+<!ELEMENT ocupacion (trabajo|estudio|sinocupacion)>
 <!ELEMENT trabajo (#PCDATA)>
 <!ELEMENT estudio (#PCDATA)>
 <!ELEMENT sinocupacion EMPTY>
@@ -38,7 +38,7 @@
 <!ELEMENT docexpiracion (#PCDATA)>
 <!ELEMENT fotodoc (#PCDATA)>
 <!ELEMENT pasaporte (numpasaporte, pasexpedicion, pasexpiracion, fotopas)>
-<!ELEMENT numpassaporte (#PCDATA)>
+<!ELEMENT numpasaporte (#PCDATA)>
 <!ELEMENT pasexpedicion (#PCDATA)>
 <!ELEMENT pasexpiracion (#PCDATA)>
 <!ELEMENT fotopas (#PCDATA)>

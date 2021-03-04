@@ -12,7 +12,6 @@
             <nombre>Nombre</nombre>
             <apellidos>ApellidoA ApellidoB</apellidos>
             <fechanac>2001-03-12</fechanac>
-            <otrosnombres/>
             <origen>La Liga</origen>
             <idioma>PT</idioma>
         </infobasica>
@@ -37,6 +36,31 @@
                     <tfno>789456321</tfno>
                 </tfnos>
             </comunicacion>
+        </otros>
+    </personaje>
+    <personaje id="iddos" tipopersonaje="secundario">
+        <infobasica sexo="H">
+            <apodo>Personaje 2</apodo>
+            <nombre>Nombre</nombre>
+            <apellidos>Hola Adiós</apellidos>
+            <fechanac>1999-05-23</fechanac>
+            <otrosnombres>Nombre</otrosnombres>
+            <origen>La Alianza</origen>
+            <idioma/>
+        </infobasica>
+        <ocupacion>
+            <sinocupacion/>
+        </ocupacion>
+        <otros>
+            <documentacion>
+                <pasaporte lugar="El Anillo">
+                    <numpasaporte>PTHRK8</numpasaporte>
+                    <pasexpedicion>2019-05-05</pasexpedicion>
+                    <pasexpiracion>2030-10-11</pasexpiracion>
+                    <fotopas>foto2.jpg</fotopas>
+                </pasaporte>
+            </documentacion>
+            <comunicacion/>
         </otros>
     </personaje>
 </personajes>
