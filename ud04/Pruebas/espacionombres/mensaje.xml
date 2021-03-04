@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+
+
+<ns1:mensaje
+    xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance'
+    xmlns:ns1='http://www.miempresa.com/mensajes'
+    xmlns:esp='http://www.miempresa.com/pedido'
+    xsi:schemaLocation='http://www.miempresa.com/mensajes mensaje.xsd'>
+    <ns1:emisor>directora</ns1:emisor>
+    <ns1:destinatario>alumno</ns1:destinatario>
+    <ns1:cuerpo>
+        <esp:pedido>
+            <esp:ordenpedido>ESP01</esp:ordenpedido>
+            <esp:fecha>2021-03-04</esp:fecha>
+            <esp:id>12</esp:id>
+        </esp:pedido>
+    </ns1:cuerpo>
+
+</ns1:mensaje>

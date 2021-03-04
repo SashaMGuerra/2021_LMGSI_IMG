@@ -8,6 +8,20 @@
     <xs:element name="modelo">
         <xs:complexType>
             <xs:sequence>
+                <xs:element name="ejemplo">
+                    <xs:complexType>
+                        <xs:simpleContent>
+                            <xs:extension base="xs:simpletype">
+                                <!--
+                                <xs:restriction base="xs:string">
+                                    <xs:pattern value="[a-z]*"/>
+                                </xs:restriction>
+                                                                -->
+                                <xs:attribute name="atributo" type="xs:string"/>
+                            </xs:extension>
+                        </xs:simpleContent>
+                    </xs:complexType>
+                </xs:element>
                 <xs:element name="curso">
                     <xs:simpleType>
                         <xs:restriction base="xs:integer">

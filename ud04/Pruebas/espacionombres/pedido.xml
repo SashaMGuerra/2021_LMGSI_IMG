@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+
+
+<esp:pedido
+    xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance'
+    xmlns:esp='http://www.miempresa.com/pedido'
+    xsi:schemaLocation='http://www.miempresa.com/pedido pedido.xsd'>
+    <esp:ordenpedido>ESP01</esp:ordenpedido>
+    <esp:fecha>2021-03-04</esp:fecha>
+    <esp:id>12</esp:id>
+
+</esp:pedido>

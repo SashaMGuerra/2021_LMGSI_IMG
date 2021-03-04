@@ -2,6 +2,8 @@
 <!-- Autor: Sasha. Fecha de creación: 3/3/2021 -->
 
 <!ELEMENT personajes (personaje+)>
+<!ATTLIST personajes xmlns:xsi CDATA #IMPLIED
+    xsi:noNamespaceSchemaLocation CDATA #IMPLIED>
 <!ELEMENT personaje (infobasica, ocupacion, otros)>
 <!ATTLIST personaje id ID #REQUIRED
                     tipopersonaje (protagonista|secundario|terciario|antagonista) #REQUIRED>
@@ -30,14 +32,16 @@
 
 <!ELEMENT otros (documentacion, comunicacion)>
 <!ELEMENT documentacion (documentonacional|pasaporte)>
-<!ELEMENT documentonacional (numdoc, docexpedicion, docexpiracion)>
+<!ELEMENT documentonacional (numdoc, docexpedicion, docexpiracion, fotodoc)>
 <!ELEMENT numdoc (#PCDATA)>
 <!ELEMENT docexpedicion (#PCDATA)>
 <!ELEMENT docexpiracion (#PCDATA)>
-<!ELEMENT pasaporte (numpasaporte, pasexpedicion, pasexpiracion)>
+<!ELEMENT fotodoc (#PCDATA)>
+<!ELEMENT pasaporte (numpasaporte, pasexpedicion, pasexpiracion, fotopas)>
 <!ELEMENT numpassaporte (#PCDATA)>
 <!ELEMENT pasexpedicion (#PCDATA)>
 <!ELEMENT pasexpiracion (#PCDATA)>
+<!ELEMENT fotopas (#PCDATA)>
 <!ATTLIST pasaporte lugar CDATA #REQUIRED>
 <!ELEMENT comunicacion (correos?, tfnos?)>
 <!ELEMENT tfnos (tfno+)>

@@ -9,6 +9,7 @@ and open the template in the editor.
 <modelo
     xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance'
     xsi:noNamespaceSchemaLocation='Modelo.xsd'>
+    <ejemplo atributo="at">nombrerestringido</ejemplo>
     <curso>1</curso>
     <ciclo>DAW</ciclo>
     <nombreciclo>Desarrollo de Aplicaciones Web</nombreciclo>

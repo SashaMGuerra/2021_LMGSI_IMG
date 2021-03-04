@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<!-- Fecha creación: 4/3/2021 -->
+
+<xs:schema version="1.0"
+           xmlns:xs="http://www.w3.org/2001/XMLSchema"
+           xmlns="http://www.miempresa.com/mensajes"
+           targetNamespace="http://www.miempresa.com/mensajes"
+           elementFormDefault="qualified">
+
+    <xs:element name="mensaje">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="emisor" type="xs:string"/>
+                <xs:element name="destinatario" type="xs:string"/>
+                <xs:element name="cuerpo">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:any minOccurs="0"/>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>
