@@ -17,14 +17,14 @@
             <link>http://192.168.2.110/ud04/practicas/02.xml</link>
             <description>XML de una tabla de países</description>
             <category>XML</category>
-            <pubDate>Tue, 26 Jan 2021 13:00:00 +0100</pubDate>
+            <pubDate>Tue, 26 Jan 2021 13:05:00 +0100</pubDate>
         </item>
         <item>
             <title>Práctica XML 03</title>
             <link>http://192.168.2.110/ud04/practicas/03.xml</link>
             <description>XML de fundación de empresas</description>
             <category>XML</category>
-            <pubDate>Tue, 26 Jan 2021 13:00:00 +0100</pubDate>
+            <pubDate>Tue, 26 Jan 2021 13:10:00 +0100</pubDate>
         </item>
         <item>
             <title>Práctica DTD 04</title>
@@ -40,7 +40,7 @@
             <description>Información sobre un empleado</description>
             <category>XML</category>
             <category>DTD</category>
-            <pubDate>Tue, 02 Feb 2021 13:00:00 +0100</pubDate>
+            <pubDate>Tue, 02 Feb 2021 13:05:00 +0100</pubDate>
         </item>
         <item>
             <title>Práctica DTD 06</title>
@@ -48,7 +48,7 @@
             <description>Ejemplos de código</description>
             <category>XML</category>
             <category>DTD</category>
-            <pubDate>Tue, 02 Feb 2021 13:00:00 +0100</pubDate>
+            <pubDate>Tue, 02 Feb 2021 13:10:00 +0100</pubDate>
         </item>
         <item>
             <title>Práctica DTD 07</title>
@@ -56,7 +56,7 @@
             <description>Grupo de estudiantes</description>
             <category>XML</category>
             <category>DTD</category>
-            <pubDate>Tue, 02 Feb 2021 13:00:00 +0100</pubDate>
+            <pubDate>Tue, 02 Feb 2021 13:15:00 +0100</pubDate>
         </item>
         <item>
             <title>Práctica DTD 08</title>
@@ -64,7 +64,7 @@
             <description>Práctica con PCDATA junto a entidades</description>
             <category>XML</category>
             <category>DTD</category>
-            <pubDate>Tue, 02 Feb 2021 13:00:00 +0100</pubDate>
+            <pubDate>Tue, 02 Feb 2021 13:20:00 +0100</pubDate>
         </item>
         <item>
             <title>Práctica DTD 09</title>
@@ -80,7 +80,7 @@
             <description>Horario de clase</description>
             <category>XML</category>
             <category>DTD</category>
-            <pubDate>Thu, 04 Feb 2021 10:00:00 +0100</pubDate>
+            <pubDate>Thu, 04 Feb 2021 10:05:00 +0100</pubDate>
         </item>
         <item>
             <title>Práctica SCHEMA 01</title>
@@ -98,7 +98,7 @@
             <description>Práctica 02 en Schema</description>
             <category>XML</category>
             <category>SCHEMA</category>
-            <pubDate>Tue, 9 Feb 2021 10:00:00 +0100</pubDate>
+            <pubDate>Tue, 9 Feb 2021 10:05:00 +0100</pubDate>
         </item>
         <item>
             <title>Práctica SCHEMA 03</title>
@@ -107,7 +107,7 @@
             <description>Práctica 03 en Schema</description>
             <category>XML</category>
             <category>SCHEMA</category>
-            <pubDate>Tue, 9 Feb 2021 10:00:00 +0100</pubDate>
+            <pubDate>Tue, 9 Feb 2021 10:10:00 +0100</pubDate>
         </item>
         <item>
             <title>Práctica SCHEMA 05</title>
@@ -125,7 +125,7 @@
             <description>Práctica 06 en Schema</description>
             <category>XML</category>
             <category>SCHEMA</category>
-            <pubDate>Thu, 18 Feb 2021 10:00:00 +0100</pubDate>
+            <pubDate>Thu, 18 Feb 2021 10:05:00 +0100</pubDate>
         </item>
         <item>
             <title>Práctica SCHEMA 07</title>
@@ -134,7 +134,7 @@
             <description>Práctica 07 en Schema</description>
             <category>XML</category>
             <category>SCHEMA</category>
-            <pubDate>Thu, 18 Feb 2021 10:00:00 +0100</pubDate>
+            <pubDate>Thu, 18 Feb 2021 10:10:00 +0100</pubDate>
         </item>
         <item>
             <title>Práctica SCHEMA 08</title>
@@ -143,7 +143,7 @@
             <description>Práctica 08 en Schema</description>
             <category>XML</category>
             <category>SCHEMA</category>
-            <pubDate>Thu, 18 Feb 2021 10:00:00 +0100</pubDate>
+            <pubDate>Thu, 18 Feb 2021 10:15:00 +0100</pubDate>
         </item>
         <item>
             <title>Práctica SCHEMA 10 (horario)</title>
@@ -152,7 +152,7 @@
             <description>Práctica 10 en Schema</description>
             <category>XML</category>
             <category>SCHEMA</category>
-            <pubDate>Thu, 18 Feb 2021 10:00:00 +0100</pubDate>
+            <pubDate>Thu, 18 Feb 2021 10:20:00 +0100</pubDate>
         </item>
         <item>
             <title>Examen XML, DTD y SCHEMA 2020</title>
