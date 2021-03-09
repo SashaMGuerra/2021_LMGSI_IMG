@@ -7,28 +7,28 @@
         <description>Actualización de las prácticas</description>
         <item>
             <title>Práctica XML 01</title>
-            <link>http://192.168.2.110/ud04/01.xml</link>
+            <link>http://192.168.2.110/ud04/practicas/01.xml</link>
             <description>XML de un correo</description>
             <category>XML</category>
             <pubDate>Tue, 26 Jan 2021 13:00:00 +0100</pubDate>
         </item>
         <item>
             <title>Práctica XML 02</title>
-            <link>http://192.168.2.110/ud04/02.xml</link>
+            <link>http://192.168.2.110/ud04/practicas/02.xml</link>
             <description>XML de una tabla de países</description>
             <category>XML</category>
             <pubDate>Tue, 26 Jan 2021 13:00:00 +0100</pubDate>
         </item>
         <item>
             <title>Práctica XML 03</title>
-            <link>http://192.168.2.110/ud04/03.xml</link>
+            <link>http://192.168.2.110/ud04/practicas/03.xml</link>
             <description>XML de fundación de empresas</description>
             <category>XML</category>
             <pubDate>Tue, 26 Jan 2021 13:00:00 +0100</pubDate>
         </item>
         <item>
             <title>Práctica DTD 04</title>
-            <link>http://192.168.2.110/ud04/04.xml</link>
+            <link>http://192.168.2.110/ud04/practicas/04.xml</link>
             <description>Horario de clase</description>
             <category>XML</category>
             <category>DTD</category>
@@ -36,7 +36,7 @@
         </item>
         <item>
             <title>Práctica DTD 05</title>
-            <link>http://192.168.2.110/ud04/05.xml</link>
+            <link>http://192.168.2.110/ud04/practicas/05.xml</link>
             <description>Información sobre un empleado</description>
             <category>XML</category>
             <category>DTD</category>
@@ -44,7 +44,7 @@
         </item>
         <item>
             <title>Práctica DTD 06</title>
-            <link>http://192.168.2.110/ud04/06.xml</link>
+            <link>http://192.168.2.110/ud04/practicas/06.xml</link>
             <description>Ejemplos de código</description>
             <category>XML</category>
             <category>DTD</category>
@@ -52,7 +52,7 @@
         </item>
         <item>
             <title>Práctica DTD 07</title>
-            <link>http://192.168.2.110/ud04/07.xml</link>
+            <link>http://192.168.2.110/ud04/practicas/07.xml</link>
             <description>Grupo de estudiantes</description>
             <category>XML</category>
             <category>DTD</category>
@@ -60,7 +60,7 @@
         </item>
         <item>
             <title>Práctica DTD 08</title>
-            <link>http://192.168.2.110/ud04/08.xml</link>
+            <link>http://192.168.2.110/ud04/practicas/08.xml</link>
             <description>Práctica con PCDATA junto a entidades</description>
             <category>XML</category>
             <category>DTD</category>
@@ -68,19 +68,91 @@
         </item>
         <item>
             <title>Práctica DTD 09</title>
-            <link>http://192.168.2.110/ud04/09.xml</link>
+            <link>http://192.168.2.110/ud04/practicas/09.xml</link>
             <description>Práctica con entidades</description>
             <category>XML</category>
             <category>DTD</category>
-            <pubDate>Tue, 04 Feb 2021 10:00:00 +0100</pubDate>
+            <pubDate>Thu, 04 Feb 2021 10:00:00 +0100</pubDate>
         </item>
         <item>
             <title>Práctica DTD 10</title>
-            <link>http://192.168.2.110/ud04/10.xml</link>
+            <link>http://192.168.2.110/ud04/practicas/10.xml</link>
             <description>Horario de clase</description>
             <category>XML</category>
             <category>DTD</category>
-            <pubDate>Tue, 04 Feb 2021 10:00:00 +0100</pubDate>
+            <pubDate>Thu, 04 Feb 2021 10:00:00 +0100</pubDate>
+        </item>
+        <item>
+            <title>Práctica SCHEMA 01</title>
+            <link>http://192.168.2.110/ud04/schema/01-Schema.xml</link>
+            <link>http://192.168.2.110/ud04/schema/01-Schema.xsd</link>
+            <description>Práctica 01 en Schema</description>
+            <category>XML</category>
+            <category>SCHEMA</category>
+            <pubDate>Tue, 9 Feb 2021 10:00:00 +0100</pubDate>
+        </item>
+        <item>
+            <title>Práctica SCHEMA 02</title>
+            <link>http://192.168.2.110/ud04/schema/02-Schema.xml</link>
+            <link>http://192.168.2.110/ud04/schema/02-Schema.xsd</link>
+            <description>Práctica 02 en Schema</description>
+            <category>XML</category>
+            <category>SCHEMA</category>
+            <pubDate>Tue, 9 Feb 2021 10:00:00 +0100</pubDate>
+        </item>
+        <item>
+            <title>Práctica SCHEMA 03</title>
+            <link>http://192.168.2.110/ud04/schema/03-Schema.xml</link>
+            <link>http://192.168.2.110/ud04/schema/03-Schema.xsd</link>
+            <description>Práctica 03 en Schema</description>
+            <category>XML</category>
+            <category>SCHEMA</category>
+            <pubDate>Tue, 9 Feb 2021 10:00:00 +0100</pubDate>
+        </item>
+        <item>
+            <title>Práctica SCHEMA 05</title>
+            <link>http://192.168.2.110/ud04/schema/05-Schema.xml</link>
+            <link>http://192.168.2.110/ud04/schema/05-Schema.xsd</link>
+            <description>Práctica 05 en Schema</description>
+            <category>XML</category>
+            <category>SCHEMA</category>
+            <pubDate>Thu, 18 Feb 2021 10:00:00 +0100</pubDate>
+        </item>
+        <item>
+            <title>Práctica SCHEMA 06</title>
+            <link>http://192.168.2.110/ud04/schema/06-Schema.xml</link>
+            <link>http://192.168.2.110/ud04/schema/06-Schema.xsd</link>
+            <description>Práctica 06 en Schema</description>
+            <category>XML</category>
+            <category>SCHEMA</category>
+            <pubDate>Thu, 18 Feb 2021 10:00:00 +0100</pubDate>
+        </item>
+        <item>
+            <title>Práctica SCHEMA 07</title>
+            <link>http://192.168.2.110/ud04/schema/07-Schema.xml</link>
+            <link>http://192.168.2.110/ud04/schema/07-Schema.xsd</link>
+            <description>Práctica 07 en Schema</description>
+            <category>XML</category>
+            <category>SCHEMA</category>
+            <pubDate>Thu, 18 Feb 2021 10:00:00 +0100</pubDate>
+        </item>
+        <item>
+            <title>Práctica SCHEMA 08</title>
+            <link>http://192.168.2.110/ud04/schema/08-Schema.xml</link>
+            <link>http://192.168.2.110/ud04/schema/08-Schema.xsd</link>
+            <description>Práctica 08 en Schema</description>
+            <category>XML</category>
+            <category>SCHEMA</category>
+            <pubDate>Thu, 18 Feb 2021 10:00:00 +0100</pubDate>
+        </item>
+        <item>
+            <title>Práctica SCHEMA 10 (horario)</title>
+            <link>http://192.168.2.110/ud04/schema/10-Schema.xml</link>
+            <link>http://192.168.2.110/ud04/schema/10-Schema.xsd</link>
+            <description>Práctica 10 en Schema</description>
+            <category>XML</category>
+            <category>SCHEMA</category>
+            <pubDate>Thu, 18 Feb 2021 10:00:00 +0100</pubDate>
         </item>
         <item>
             <title>Examen XML, DTD y SCHEMA 2020</title>
