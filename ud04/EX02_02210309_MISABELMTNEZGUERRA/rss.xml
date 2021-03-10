@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+    <channel>
+        <title>Noticias sobre planetas</title>
+        <link>https://mapaestelar.com</link>
+        <description>Noticias sobre los planetas</description>
+        <item>
+            <title>Mercurio</title>
+            <link>https://mapaestelar/mercurio.html</link>
+            <description>El planeta Mercurio, asolado de nuevo por una tormenta de fuego</description>
+            <author>johnpaso.prensa@hotmail.com (John Paso)</author>
+            <pubDate>Fri, 05 Mar 2021 12:35:49 +0100</pubDate>
+            <guid>https://mapaestelar/mercurio.html</guid>
+        </item>
+        <item>
+            <title>Venus</title>
+            <link>https://mapaestelar/venus.html</link>
+            <description>Orígenes de Venus: de la mancha de leche a la diosa de la belleza</description>
+            <author>richardblu@gmail.com(Richard Blu)</author>
+            <pubDate>Fri, 05 Feb 2021 18:49:52 +0100</pubDate>
+            <guid>https://mapaestelar/venus.html</guid>
+        </item>
+        <item>
+            <title>Tierra</title>
+            <link>https://mapaestelar/tierra.html</link>
+            <description>Desmintiendo el mito: ¿es la Tierra perfectamente esférica?</description>
+            <author>entrevistas.patiomari@elpais.com(Mari Patio)</author>
+            <pubDate>Tue, 05 Jan 2021 21:21:21 +0100</pubDate>
+            <guid>https://mapaestelar/tierra.html</guid>
+        </item>
+    </channel>
+</rss>

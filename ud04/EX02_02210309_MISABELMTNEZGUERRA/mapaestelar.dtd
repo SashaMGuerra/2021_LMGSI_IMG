@@ -1,0 +1,54 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<!ELEMENT constelaciones (constelacion)*>
+<!ATTLIST constelaciones
+    xsi:noNamespaceSchemaLocation CDATA #IMPLIED
+    xmlns:xsi CDATA #IMPLIED
+  >
+
+
+<!ELEMENT constelacion (nombreespanyol,superficie,estrellas,objetos,colindantes,observacion)>
+<!ATTLIST constelacion
+    nombreLatin CDATA #IMPLIED
+  >
+
+<!ELEMENT nombreespanyol (#PCDATA)>
+<!ELEMENT superficie (#PCDATA)>
+
+<!ELEMENT estrellas (asterismo,masBrillante,estrella*)>
+<!ATTLIST estrellas
+    numestrellas CDATA #IMPLIED
+  >
+
+<!ELEMENT asterismo (#PCDATA)>
+<!ELEMENT masBrillante (#PCDATA)>
+<!ATTLIST masBrillante
+    luminosidad CDATA #IMPLIED
+  >
+<!ELEMENT estrella (nombrestrella,constorigen,distancia,luminosidad,temperatura,masa)>
+
+<!ELEMENT nombrestrella (#PCDATA)>
+<!ELEMENT constorigen (#PCDATA)>
+<!ELEMENT distancia (#PCDATA)>
+<!ELEMENT luminosidad (#PCDATA)>
+<!ELEMENT temperatura (#PCDATA)>
+<!ELEMENT masa (#PCDATA)>
+
+<!ELEMENT objetos (cumulos,nebulosas,galaxias,cuasares,lluviameteros*)>
+
+<!ELEMENT cumulos (#PCDATA)>
+<!ELEMENT nebulosas (#PCDATA)>
+<!ELEMENT galaxias (#PCDATA)>
+<!ELEMENT cuasares (#PCDATA)>
+<!ELEMENT lluviameteoros (#PCDATA)>
+
+<!ELEMENT colindantes (nombre)*>
+<!ELEMENT nombre (#PCDATA)>
+
+<!ELEMENT observacion (hemisferio,mes,hora)>
+
+<!ELEMENT hemisferio (#PCDATA)>
+
+<!ELEMENT mes (#PCDATA)>
+
+<!ELEMENT hora (#PCDATA)>

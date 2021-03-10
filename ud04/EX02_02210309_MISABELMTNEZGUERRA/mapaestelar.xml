@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE constelaciones SYSTEM "mapaestelar.dtd">
+
+<constelaciones
+    xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance'
+    xsi:noNamespaceSchemaLocation='mapaestelar.xsd'>
+    <constelacion nombreLatin="ursamaior">
+        <nombreespanyol>Osa Mayor</nombreespanyol>
+        <superficie>1279.7</superficie>
+        <estrellas numestrellas="439">
+            <asterismo>177</asterismo>
+            <masBrillante luminosidad="108">Alioth</masBrillante>
+            <estrella>
+                <nombrestrella>Alioth</nombrestrella>
+                <constorigen>Osa Mayor</constorigen>
+                <distancia>81</distancia>
+                <luminosidad>108</luminosidad>
+                <temperatura>9400</temperatura>
+                <masa>3</masa>
+            </estrella>
+        </estrellas>
+        <objetos>
+            <cumulos>false</cumulos>
+            <nebulosas>true</nebulosas>
+            <galaxias>true</galaxias>
+            <cuasares>false</cuasares>
+        </objetos>
+        <colindantes>
+            <nombre>Bootes</nombre>
+            <nombre>Camelopardalis</nombre>
+            <nombre>Canes Venatici</nombre>
+            <nombre>Draco</nombre>
+            <nombre>Leo</nombre>
+            <nombre>Leo Minor</nombre>
+            <nombre>Lynx</nombre>
+        </colindantes>
+        <observacion>
+            <hemisferio>norte</hemisferio>
+            <mes>2</mes>
+            <hora>12:12:12</hora>
+        </observacion>
+    </constelacion>
+</constelaciones>
