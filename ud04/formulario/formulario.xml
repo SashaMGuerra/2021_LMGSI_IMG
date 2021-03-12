@@ -47,6 +47,11 @@
             <otrosnombres>Nombre</otrosnombres>
             <origen>La Alianza</origen>
             <idioma/>
+            <familia>
+                <parejas>
+                    <pareja idpareja="nombre">Nombre</pareja>
+                </parejas>
+            </familia>
         </infobasica>
         <ocupacion>
             <sinocupacion/>
