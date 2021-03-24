@@ -16,8 +16,12 @@
     src: url(../fonts/Inconsolata/Inconsolata-Regular.ttf);
 }
 @font-face{
-    font-family: InconsolataL;
+    font-family: InconsolataLight;
     src: url(../fonts/Inconsolata/Inconsolata-Light.ttf);
+}
+@font-face{
+    font-family: InconsolataBlack;
+    src: url(../fonts/Inconsolata/Inconsolata-Black.ttf);
 }
 *{
     font-family: Inconsolata, monospace;
@@ -28,97 +32,89 @@
     text-decoration: line-through;
 }
 
+/*Fondo*/
+body{
+    background-color: gainsboro;
+    background-image: url(../images/fondocebra_claro.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
 /*Header*/
 div.header{
     background-color: black;
-    top: 0;
-    width: 100%;
-    margin-bottom: 0;
-    display: block;
+    text-align: center;
+    
 }
-
+img.github, img.rss{
+    width: 50px;
+    margin: 0.25% 0.75%;
+}
 img.github{
-    width: 40px;
-    padding: 0.15%;
-    filter: invert(100%);
+    filter: invert(100);
 }
-img.rss{
-    width: 40px;
-    padding: 0.15%;
-}
-
 
 /*Título*/
 h1{
+    font-family: InconsolataBlack;
     text-align: center;
-    padding: 0.75%;
+    padding: 1%;
+    
 }
-
 
 /*Subtítulos y Unidades*/
-h3, caption{
-    text-align: center;
-    font-weight: bold; 
-    padding: 0.5%;
-}
 body{
     text-align: center;
 }
-div{
+div.unidad{
+    width: 49.5%;
+    margin: auto;
+    background: rgb(255,255,255,0.75);
+    padding: 1%;
+    box-sizing: border-box;
     display: inline-block;
-    width: 49%;
     margin-bottom: 1%;
 }
-
-/*Unidad 2*/
-.ud02{
-    width: 100%;
-    margin-bottom: 1%;
-}
-
-/*Unidad 3*/
-.ud03{
-    width: 100%;
-    margin-bottom: 1%;
-    padding-left: 5%;
-    padding-right: 5%;
-}
-
-.ud03 td:first-child{
-    text-align: left;
-}
-.ud03 td:nth-child(2){
+table.tabla{
     text-align: center;
-    padding-right: 15%;
-}
-.ud03 td:nth-child(3){
-    text-align: right;
-}
-
-/*Unidad 4*/
-.ud04{
     width: 100%;
-    margin-bottom: 1%;
-    border-collapse: collapse;
+    box-sizing: border-box;
 }
-.ud04 tr:nth-child(3), .ud04 tr:nth-child(4){
-    background-color: rgb(0,0,0,0.1);
-}
-.xmlhora{
-    /*No funciona*/
-    margin: 20%;
+table.tabla caption{
+    font-weight: bold;
+    font-size: large;
+    padding: 0.5%;
+    box-sizing: border-box;
 }
 
+/*Links*/
+a:hover{
+    color: red;
+}
+a:visited{
+    color: royalblue;
+}
+a:link{
+    color: magenta;
+}
 
-
-
-/*
-To change this license header, choose License Headers in Project Properties.
-To change this template file, choose Tools | Templates
-and open the template in the editor.
-*/
-/* 
-    Created on : 12 ene. 2021, 20:12:40
-    Author     : Clase
-*/
-
+/*Desplegable*/
+.collapsible {
+    font-weight: bold;
+    cursor: pointer;
+    font-size: large;
+    padding: 2%;
+    width: 100%;
+    border: none;
+    outline: none;
+    box-sizing: border-box;
+}
+.active, .collapsible:hover {
+    background-color: black;
+    color: white;
+}
+.content{
+    display: none;
+    overflow: hidden;
+}
