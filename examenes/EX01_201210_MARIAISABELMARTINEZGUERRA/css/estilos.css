@@ -1,0 +1,109 @@
+/*Limpieza de márgenes, padding y decoración del texto*/
+*{
+	text-decoration: none;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+/*Todas las páginas*/
+*{
+	font-family: cursive;
+	color: white;
+}
+body{
+	background-color: black;
+	background-image: url(../images/netflix-website.jpg);
+	background-repeat: no-repeat;
+}
+.cabecera{
+	margin-top: 2%;
+	font-size: 30pt;
+}
+h1{
+	display: inline-block;
+	color: red;
+	position: absolute;
+	margin-left: 6%;
+}
+form input{
+	color: black;
+}
+
+/*index*/
+button{
+	display: inline-block;
+	font-size: 30pt;
+	background-color: red;
+	padding: 6px 72px 6px 72px;
+	position: absolute;
+	margin-right: 6%;
+	right: 0;
+}
+
+div.cuerpo{
+	position: absolute;
+	top: 35%;
+	left: 25%;
+}
+h2, h3, div.cuerpo form{
+	margin-bottom: 2%;
+}
+h2{
+	font-size: 45pt;
+}
+h3{
+	font-size: 30pt;
+}
+
+.formulario input{
+	font-size: 20pt;
+	padding: 1%;
+}
+.formulario input:nth-child(2){
+	width: 60%;
+}
+.formulario input:nth-child(3){
+	background-color: red;
+	color: white;
+	padding-left: 3%;
+	padding-right: 3%;
+}
+
+/*form-inicio.html*/
+
+div.sesion{
+	position: absolute;
+	top: 30%;
+	left: 12.5%;
+	background-color: rgb(0,0,0,0.8);
+	padding: 1%;
+	width: 75%;
+	text-align: center;
+}
+.sesion input{
+	width: 65%;
+	font-size: 15pt;
+	padding: 0.5%;
+	box-sizing: border-box;
+	margin-bottom: 1%;
+}
+.sesion input:nth-child(1){
+	background-color: red;
+	color: white;
+}
+li:first-child{
+	font-size: 40pt;
+	margin-bottom: 1%;
+}
+li:last-child input[type="checkbox"]{
+	margin: 0px;
+	padding: 0px;
+	font-size: 12pt;
+	text-align: left;
+	width: 2%;
+}
+li:last-child{
+	text-align: left;
+	margin-left: 18%;
+}
