@@ -59,12 +59,6 @@
             <xsl:attribute name="rowspan">
                 <xsl:value-of select="@num"/>
             </xsl:attribute>
-            <xsl:value-of select="."/>
         </td>
     </xsl:template>
-    
-    <xsl:template match="imparte">
-        
-    </xsl:template>
-
 </xsl:stylesheet>
