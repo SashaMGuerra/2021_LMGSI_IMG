@@ -60,7 +60,7 @@
             <dia_sem dia="miercoles" num="1">EDD</dia_sem>		
         </hora>
     </grupo>
-    <grupo idgrupo="SMR1" codT="ARN">
+    <grupo idgrupo="DAW2" codT="ARN">
         <hora entrada="08:30" salida="09:20">
             <dia_sem dia="lunes" num="1">EDD</dia_sem>
             <dia_sem dia="martes" num="1">BBDD</dia_sem>

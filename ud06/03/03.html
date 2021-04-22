@@ -6,6 +6,8 @@
                     *{
                         font-family: Calibri, monospace;
                         text-align: center;
+                        padding: 0;
+                        margin: 0;
                     }
                     table{
                         text-align: center;
@@ -28,18 +30,48 @@
                         width: 49.5%;
                         display: inline-block;
                     }
+                    nav{
+                        background-color: black;
+                        color: white;
+                        padding: 0.3%;
+                    }
+                    nav a{
+                        text-decoration: none;
+                        padding: 5%;
+                    }
+                    nav a:visited, nav a:link, nav a:active{
+                        color: white;
+                    }
+                    nav a:hover{
+                        color: lightsteelblue;
+                    }
+                    h2{
+                        margin: 2% 0;
+                    }
+                    abbr{
+                        text-decoration: none;
+                    }
                 </style>
     </head>
     <body>
+        <nav>
+            <a href="#modulos">M&oacute;dulos</a><a href="#profesores">Profesores</a><a href="#asignaturas">Asignaturas</a><a href="#horarios">Horarios</a>
+        </nav>
         <div>
-            <div class="caja">
+            <div class="caja" id="modulos">
                 <h2>M&oacute;dulos</h2>
                 <table>
                     <tr>
                         <th>C&oacute;digo</th><th>Nombre</th>
                     </tr>
                     <tr>
+                        <td>BBDD</td><td>Bases de Datos</td>
+                    </tr>
+                    <tr>
                         <td>EDD</td><td>Entornos de Desarrollo</td>
+                    </tr>
+                    <tr>
+                        <td>FOL</td><td>Formaci&oacute;n y orientaci&oacute;n laboral</td>
                     </tr>
                     <tr>
                         <td>LMSGI</td><td>Lenguaje de Marcas y Sistemas de Gestion de la Informaci&oacute;n</td>
@@ -48,33 +80,27 @@
                         <td>PROG</td><td>Programaci&oacute;n</td>
                     </tr>
                     <tr>
-                        <td>BBDD</td><td>Bases de Datos</td>
-                    </tr>
-                    <tr>
-                        <td>FOL</td><td>Formaci&oacute;n y orientaci&oacute;n laboral</td>
-                    </tr>
-                    <tr>
                         <td>SINF</td><td>Sistemas de Informaci&oacute;n</td>
                     </tr>
                 </table>
             </div>
-            <div class="caja">
+            <div class="caja" id="profesores">
                 <h2>Profesores</h2>
                 <table>
                     <tr>
                         <th>C&oacute;digo</th><th>Nombre</th>
                     </tr>
                     <tr>
-                        <td>MUP</td><td>Marcos Unzueta Puente</td>
+                        <td>ACF</td><td>Ambrosio Casado Fernandez</td>
                     </tr>
                     <tr>
                         <td>ARN</td><td>Amor Rodriguez Navarro</td>
                     </tr>
                     <tr>
-                        <td>ACF</td><td>Ambrosio Casado Fernandez</td>
+                        <td>HRO</td><td>Hermelinda Ramos Osorio</td>
                     </tr>
                     <tr>
-                        <td>HRO</td><td>Hermelinda Ramos Osorio</td>
+                        <td>MUP</td><td>Marcos Unzueta Puente</td>
                     </tr>
                     <tr>
                         <td>MAM</td><td>Maria del Cielo Alejo Mulas</td>
@@ -84,123 +110,128 @@
                     </tr>
                 </table>
             </div>
-            <div>
+            <div id="asignaturas">
                 <h2>Asignaturas</h2>
                 <table>
                     <tr>
                         <th>Asignatura</th><th>Profesor</th>
                     </tr>
                     <tr>
-                        <td>Entornos de Desarrollo</td><td>Marcos Unzueta Puente</td>
-                    </tr>
-                    <tr>
-                        <td>Lenguaje de Marcas y Sistemas de Gestion de la Informaci&oacute;n</td><td>Amor Rodriguez Navarro</td>
+                        <td>Sistemas de Informaci&oacute;n</td><td>Natividad Crespo Belver</td>
                     </tr>
                     <tr>
                         <td>Programaci&oacute;n</td><td>Ambrosio Casado Fernandez</td>
                     </tr>
                     <tr>
-                        <td>Bases de Datos</td><td>Hermelinda Ramos Osorio</td>
+                        <td>Lenguaje de Marcas y Sistemas de Gestion de la Informaci&oacute;n</td><td>Amor Rodriguez Navarro
+                            <br>
+                            Hermelinda Ramos Osorio</td>
                     </tr>
                     <tr>
                         <td>Formaci&oacute;n y orientaci&oacute;n laboral</td><td>Maria del Cielo Alejo Mulas</td>
                     </tr>
                     <tr>
-                        <td>Sistemas de Informaci&oacute;n</td><td>Natividad Crespo Belver</td>
+                        <td>Entornos de Desarrollo</td><td>Marcos Unzueta Puente</td>
+                    </tr>
+                    <tr>
+                        <td>Bases de Datos</td><td>Hermelinda Ramos Osorio</td>
                     </tr>
                 </table>
             </div>
         </div>
-        <div>
-            <table>
-                <caption>
-                    Horario del curso DAW1
-                    <br>
-                    Tutor: Marcos Unzueta Puente
-                </caption>
-                <tr>
-                    <th>Hora</th><th>Lunes</th><th>Martes</th><th>Mi&eacute;rcoles</th><th>Jueves</th><th>Viernes</th>
-                </tr>
-                <tr>
-                    <td>08:30-09:20</td><td rowspan="1"><abbr title="Entornos de Desarrollo">EDD</abbr>
+        <div id="horarios">
+            <h2>Horarios</h2>
+            <div>
+                <table>
+                    <caption>
+                        Horario del curso DAW1
                         <br>
-                        MUP</td><td rowspan="2"><abbr title="Bases de Datos">BBDD</abbr>
+                        Tutor: Marcos Unzueta Puente
+                    </caption>
+                    <tr>
+                        <th>Hora</th><th>Lunes</th><th>Martes</th><th>Mi&eacute;rcoles</th><th>Jueves</th><th>Viernes</th>
+                    </tr>
+                    <tr>
+                        <td>08:30-09:20</td><td rowspan="1"><abbr title="Entornos de Desarrollo">EDD</abbr>
+                            <br>
+                            <abbr title="Marcos Unzueta Puente">MUP</abbr></td><td rowspan="2"><abbr title="Bases de Datos">BBDD</abbr>
+                            <br>
+                            <abbr title="Hermelinda Ramos Osorio">HRO</abbr></td><td rowspan="2"><abbr title="Programaci&oacute;n">PROG</abbr>
+                            <br>
+                            <abbr title="Ambrosio Casado Fernandez">ACF</abbr></td><td rowspan="2"><abbr title="Lenguaje de Marcas y Sistemas de Gestion de la Informaci&oacute;n">LMSGI</abbr>
+                            <br>
+                            <abbr title="">ARN HRO</abbr></td><td rowspan="1"><abbr title="Entornos de Desarrollo">EDD</abbr>
+                            <br>
+                            <abbr title="Marcos Unzueta Puente">MUP</abbr></td>
+                    </tr>
+                    <tr>
+                        <td>09:20-10:10</td><td rowspan="2"><abbr title="Sistemas de Informaci&oacute;n">SINF</abbr>
+                            <br>
+                            <abbr title="Natividad Crespo Belver">NCB</abbr></td><td rowspan="2"><abbr title="Sistemas de Informaci&oacute;n">SINF</abbr>
+                            <br>
+                            <abbr title="Natividad Crespo Belver">NCB</abbr></td>
+                    </tr>
+                    <tr>
+                        <td>10:10-11:00</td><td rowspan="2"><abbr title="Programaci&oacute;n">PROG</abbr>
+                            <br>
+                            <abbr title="Ambrosio Casado Fernandez">ACF</abbr></td><td rowspan="1"><abbr title="Formaci&oacute;n y orientaci&oacute;n laboral">FOL</abbr>
+                            <br>
+                            <abbr title="Maria del Cielo Alejo Mulas">MAM</abbr></td><td rowspan="2"><abbr title="Programaci&oacute;n">PROG</abbr>
+                            <br>
+                            <abbr title="Ambrosio Casado Fernandez">ACF</abbr></td>
+                    </tr>
+                    <tr>
+                        <td>11:00-11:50</td><td rowspan="2"><abbr title="Programaci&oacute;n">PROG</abbr>
+                            <br>
+                            <abbr title="Ambrosio Casado Fernandez">ACF</abbr></td><td rowspan="2"><abbr title="Bases de Datos">BBDD</abbr>
+                            <br>
+                            <abbr title="Hermelinda Ramos Osorio">HRO</abbr></td><td rowspan="1"><abbr title="Formaci&oacute;n y orientaci&oacute;n laboral">FOL</abbr>
+                            <br>
+                            <abbr title="Maria del Cielo Alejo Mulas">MAM</abbr></td>
+                    </tr>
+                    <tr>
+                        <td>12:15-13:05</td><td rowspan="2"><abbr title="Lenguaje de Marcas y Sistemas de Gestion de la Informaci&oacute;n">LMSGI</abbr>
+                            <br>
+                            <abbr title="">ARN HRO</abbr></td><td rowspan="2"><abbr title="Sistemas de Informaci&oacute;n">SINF</abbr>
+                            <br>
+                            <abbr title="Natividad Crespo Belver">NCB</abbr></td><td rowspan="2"><abbr title="Bases de Datos">BBDD</abbr>
+                            <br>
+                            <abbr title="Hermelinda Ramos Osorio">HRO</abbr></td>
+                    </tr>
+                    <tr>
+                        <td>13:05-13:55</td><td rowspan="1"><abbr title="Formaci&oacute;n y orientaci&oacute;n laboral">FOL</abbr>
+                            <br>
+                            <abbr title="Maria del Cielo Alejo Mulas">MAM</abbr></td><td rowspan="1"><abbr title="Entornos de Desarrollo">EDD</abbr>
+                            <br>
+                            <abbr title="Marcos Unzueta Puente">MUP</abbr></td>
+                    </tr>
+                </table>
+            </div>
+            <div>
+                <table>
+                    <caption>
+                        Horario del curso DAW2
                         <br>
-                        HRO</td><td rowspan="2"><abbr title="Programaci&oacute;n">PROG</abbr>
-                        <br>
-                        ACF</td><td rowspan="2"><abbr title="Lenguaje de Marcas y Sistemas de Gestion de la Informaci&oacute;n">LMSGI</abbr>
-                        <br>
-                        ARN HRO</td><td rowspan="1"><abbr title="Entornos de Desarrollo">EDD</abbr>
-                        <br>
-                        MUP</td>
-                </tr>
-                <tr>
-                    <td>09:20-10:10</td><td rowspan="2"><abbr title="Sistemas de Informaci&oacute;n">SINF</abbr>
-                        <br>
-                        NCB</td><td rowspan="2"><abbr title="Sistemas de Informaci&oacute;n">SINF</abbr>
-                        <br>
-                        NCB</td>
-                </tr>
-                <tr>
-                    <td>10:10-11:00</td><td rowspan="2"><abbr title="Programaci&oacute;n">PROG</abbr>
-                        <br>
-                        ACF</td><td rowspan="1"><abbr title="Formaci&oacute;n y orientaci&oacute;n laboral">FOL</abbr>
-                        <br>
-                        MAM</td><td rowspan="2"><abbr title="Programaci&oacute;n">PROG</abbr>
-                        <br>
-                        ACF</td>
-                </tr>
-                <tr>
-                    <td>11:00-11:50</td><td rowspan="2"><abbr title="Programaci&oacute;n">PROG</abbr>
-                        <br>
-                        ACF</td><td rowspan="2"><abbr title="Bases de Datos">BBDD</abbr>
-                        <br>
-                        HRO</td><td rowspan="1"><abbr title="Formaci&oacute;n y orientaci&oacute;n laboral">FOL</abbr>
-                        <br>
-                        MAM</td>
-                </tr>
-                <tr>
-                    <td>12:15-13:05</td><td rowspan="2"><abbr title="Lenguaje de Marcas y Sistemas de Gestion de la Informaci&oacute;n">LMSGI</abbr>
-                        <br>
-                        ARN HRO</td><td rowspan="2"><abbr title="Sistemas de Informaci&oacute;n">SINF</abbr>
-                        <br>
-                        NCB</td><td rowspan="2"><abbr title="Bases de Datos">BBDD</abbr>
-                        <br>
-                        HRO</td>
-                </tr>
-                <tr>
-                    <td>13:05-13:55</td><td rowspan="1"><abbr title="Formaci&oacute;n y orientaci&oacute;n laboral">FOL</abbr>
-                        <br>
-                        MAM</td><td rowspan="1"><abbr title="Entornos de Desarrollo">EDD</abbr>
-                        <br>
-                        MUP</td>
-                </tr>
-            </table>
-        </div>
-        <div>
-            <table>
-                <caption>
-                    Horario del curso SMR1
-                    <br>
-                    Tutor: Amor Rodriguez Navarro
-                </caption>
-                <tr>
-                    <th>Hora</th><th>Lunes</th><th>Martes</th><th>Mi&eacute;rcoles</th><th>Jueves</th><th>Viernes</th>
-                </tr>
-                <tr>
-                    <td>08:30-09:20</td><td rowspan="1"><abbr title="Entornos de Desarrollo">EDD</abbr>
-                        <br>
-                        MUP</td><td rowspan="1"><abbr title="Bases de Datos">BBDD</abbr>
-                        <br>
-                        HRO</td><td rowspan="1"><abbr title="Programaci&oacute;n">PROG</abbr>
-                        <br>
-                        ACF</td><td rowspan="1"><abbr title="Lenguaje de Marcas y Sistemas de Gestion de la Informaci&oacute;n">LMSGI</abbr>
-                        <br>
-                        ARN HRO</td><td rowspan="1"><abbr title="Entornos de Desarrollo">EDD</abbr>
-                        <br>
-                        MUP</td>
-                </tr>
-            </table>
+                        Tutor: Amor Rodriguez Navarro
+                    </caption>
+                    <tr>
+                        <th>Hora</th><th>Lunes</th><th>Martes</th><th>Mi&eacute;rcoles</th><th>Jueves</th><th>Viernes</th>
+                    </tr>
+                    <tr>
+                        <td>08:30-09:20</td><td rowspan="1"><abbr title="Entornos de Desarrollo">EDD</abbr>
+                            <br>
+                            <abbr title="Marcos Unzueta Puente">MUP</abbr></td><td rowspan="1"><abbr title="Bases de Datos">BBDD</abbr>
+                            <br>
+                            <abbr title="Hermelinda Ramos Osorio">HRO</abbr></td><td rowspan="1"><abbr title="Programaci&oacute;n">PROG</abbr>
+                            <br>
+                            <abbr title="Ambrosio Casado Fernandez">ACF</abbr></td><td rowspan="1"><abbr title="Lenguaje de Marcas y Sistemas de Gestion de la Informaci&oacute;n">LMSGI</abbr>
+                            <br>
+                            <abbr title="">ARN HRO</abbr></td><td rowspan="1"><abbr title="Entornos de Desarrollo">EDD</abbr>
+                            <br>
+                            <abbr title="Marcos Unzueta Puente">MUP</abbr></td>
+                    </tr>
+                </table>
+            </div>
         </div>
     </body>
 </html>
