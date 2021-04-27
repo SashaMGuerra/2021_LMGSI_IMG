@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?><factura>
+    <datos_emisor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        	
+        <nombre>Informática Sauces</nombre>
+        	
+        <dir>Av. Federico Silva, 48</dir>
+        	
+        <poblacion cod_postal="49800">Benavente</poblacion>
+        	
+        <provincia>Zamora</provincia>
+        	
+        <cif>Q-99777000</cif>
+                
+        <telefono/>
+          
+    </datos_emisor>
+</factura>
