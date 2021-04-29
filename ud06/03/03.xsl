@@ -18,56 +18,7 @@
         <html>
             <head>
                 <title>Horario</title>
-                <style>
-                    *{
-                        font-family: Calibri, monospace;
-                        text-align: center;
-                        padding: 0;
-                        margin: 0;
-                    }
-                    table{
-                        text-align: center;
-                        width: 100%;
-                        table-layout: fixed;
-                    }
-                    table, td, tr, th{
-                        border-collapse: collapse;
-                        border: 1px solid black;
-                    }
-                    caption{
-                        font-variant: small-caps;
-                        margin-bottom: 2%;
-                    }
-                    div{
-                        margin-bottom: 3%;
-                    }
-                    div.caja{
-                        margin-bottom: auto;
-                        width: 49.5%;
-                        display: inline-block;
-                    }
-                    nav{
-                        background-color: black;
-                        color: white;
-                        padding: 0.3%;
-                    }
-                    nav a{
-                        text-decoration: none;
-                        padding: 5%;
-                    }
-                    nav a:visited, nav a:link, nav a:active{
-                        color: white;
-                    }
-                    nav a:hover{
-                        color: lightsteelblue;
-                    }
-                    h2{
-                        margin: 2% 0;
-                    }
-                    abbr{
-                        text-decoration: none;
-                    }
-                </style>
+                <link rel="stylesheet" href="03.css" type="text/css"/>
             </head>
             <body>
                 <nav>
@@ -183,14 +134,22 @@
             <xsl:variable name="listaProfesores" select="../../../imparte/asignatura[@codM=current()]/@codProfesor"/>
             <abbr>
                 <xsl:attribute name="title">
-                    <xsl:apply-templates select="profesor[contains($listaProfesores,@codP)/.]"/>
+                    <xsl:value-of select="../../../profesores/profesor[@codP=(current()/../../../imparte/asignatura[@codM=current()]/@codProfesor)]/."/>
+                </xsl:attribute>
+                <xsl:value-of select="$listaProfesores"/>
+            </abbr>
+            <br/>
+            <abbr>
+                <xsl:text>Hola</xsl:text>
+                <xsl:attribute name="title">
+                    <xsl:apply-templates select="../../../profesores/profesor[@codP=(current()/../../../imparte/asignatura[@codM=current()]/@codProfesor" mode="xxx"/>
                 </xsl:attribute>
                 <xsl:value-of select="$listaProfesores"/>
                 <!--
                 <xsl:attribute name="title">
-                    <xsl:value-of select="../../../profesores/profesor[@codP=(current()/../../../imparte/asignatura[@codM=current()]/@codProfesor)]/."/>
+                    <xsl:apply-templates select="profesor[contains($listaProfesores,@codP)/.]"/>
                 </xsl:attribute>
-                <xsl:value-of select="../../../imparte/asignatura[@codM=current()]/@codProfesor"/>
+                <xsl:value-of select="$listaProfesores"/>
                 -->
             </abbr>
         </td>
@@ -200,5 +159,11 @@
             <xsl:text>, </xsl:text>
         </xsl:if>
         <xsl:value-of select="."/>
+    </xsl:template>
+    
+    <xsl:template match="@codProfesor/text()" mode="xxx">
+        <xsl:if test="position()!=1">
+            <xsl:text>, </xsl:text>
+        </xsl:if>
     </xsl:template>
 </xsl:stylesheet>
