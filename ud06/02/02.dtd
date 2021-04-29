@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!-- Autor: Sasha. Fecha de creación: 29/04/2021 -->
+
+<!ELEMENT listatickets (ticket+)>
+<!ATTLIST listatickets
+    xsi:noNamespaceSchemaLocation CDATA #IMPLIED
+    xmlns:xsi CDATA #IMPLIED
+  >
+
+<!ELEMENT ticket (numero, fecha, hora, producto+, total)>
+
+<!ELEMENT numero (#PCDATA)>
+<!ELEMENT fecha (#PCDATA)>
+<!ELEMENT hora (#PCDATA)>
+<!ELEMENT producto (nombre, precio)>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT precio (#PCDATA)>
+<!ELEMENT total (#PCDATA)>
