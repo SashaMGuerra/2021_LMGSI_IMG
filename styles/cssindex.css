@@ -40,6 +40,14 @@ body{
     background-size: cover;
     background-attachment: fixed;
 }
+.darkbody{
+    background-color: black;
+    background-image: url(../images/fondocebra_oscuro.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    color: white;
+}
 
 /*Header*/
 div.header{
@@ -76,6 +84,7 @@ div.unidad{
     display: inline-block;
     margin-bottom: 1%;
 }
+
 table.tabla{
     text-align: center;
     width: 100%;

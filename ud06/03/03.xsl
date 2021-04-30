@@ -140,9 +140,8 @@
             </abbr>
             <br/>
             <abbr>
-                <xsl:text>Hola</xsl:text>
                 <xsl:attribute name="title">
-                    <xsl:apply-templates select="../../../profesores/profesor[@codP=(current()/../../../imparte/asignatura[@codM=current()])]/@codProfesor" mode="xxx"/>
+                    <xsl:apply-templates select="../../../profesores/profesor[@codP=(current()/../../../imparte/asignatura[@codM=current()]/@codProfesor)]/." mode="xxx"/>
                 </xsl:attribute>
                 <xsl:value-of select="$listaProfesores"/>
                 <!--
