@@ -55,29 +55,12 @@ div.header{
     text-align: center;
     
 }
-img.github, img.rss {
+img.github, img.rss{
     width: 50px;
     margin: 0.25% 0.75%;
 }
 img.github{
     filter: invert(100);
-}
-
-/*Footer*/
-footer{
-    background-color: black;
-    margin-top: 20%;
-    padding: 1% 0;
-}
-button.modo{
-    outline: none;
-    text-transform: uppercase;
-    font-weight: bold;
-    padding: 0.5% 1%;
-}
-button.modo:hover{
-    background-color: gainsboro;
-    cursor: pointer;
 }
 
 /*Título*/
@@ -94,7 +77,6 @@ body{
 }
 div.unidad{
     width: 49.5%;
-    color: black;
     margin: auto;
     background: rgb(255,255,255,0.75);
     padding: 1%;
