@@ -11,14 +11,41 @@
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="1.0">
     <xsl:output method="xml" indent="yes" omit-xml-declaration="no"/>
 
-    <xsl:template match="/">
-        <xsl:apply-templates select="factura"/>
-    </xsl:template>
+    <!-- Stylesheet to remove all namespaces from a document -->
     
-    <xsl:template match="factura">
-        <factura>
-            <xsl:copy-of select="datos_emisor"/>
-        </factura>
+    <!-- template to copy elements -->
+    <xsl:template match="*">
+        <xsl:element name="{local-name()}">
+            <xsl:apply-templates select="@*"/>
+            <xsl:apply-templates select="node()"/>
+            <!--
+            <xsl:apply-templates select="@* | node()"/> -->
+        </xsl:element>
     </xsl:template>
 
+    <!-- template to copy attributes -->
+    <xsl:template match="@*">
+        <xsl:choose>
+            <xsl:when test="current()='04.xsd'">
+                <xsl:text>Prueba</xsl:text>
+            </xsl:when>
+            <xsl:when test="current()='http://www.w3.org/2001/XMLSchema-instance'">
+                <xsl:text>Prueba2</xsl:text>
+            </xsl:when>
+            <xsl:otherwise>
+                <xsl:element name="{local-name()}">
+                    <xsl:value-of select="."/>
+                </xsl:element>
+            </xsl:otherwise>
+        </xsl:choose>
+        
+        
+    </xsl:template>
+
+    <!-- template to copy the rest of the nodes -->
+    <xsl:template match="text()">
+        <xsl:value-of select="."/>
+        <!-- <xsl:copy/> -->
+    </xsl:template>
+    
 </xsl:stylesheet>
