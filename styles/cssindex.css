@@ -40,20 +40,11 @@ body{
     background-size: cover;
     background-attachment: fixed;
 }
-.darkbody{
-    background-color: black;
-    background-image: url(../images/fondocebra_oscuro.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-    color: white;
-}
 
 /*Header*/
 div.header{
     background-color: black;
     text-align: center;
-    
 }
 img.github, img.rss {
     width: 50px;
@@ -136,8 +127,11 @@ a:link{
     border: none;
     outline: none;
     box-sizing: border-box;
+    background-image: url(../images/leopard_light.jpg);
+    background-size: cover;
 }
 .active, .collapsible:hover {
+    background-image: none;
     background-color: black;
     color: white;
 }

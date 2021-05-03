@@ -1,0 +1,23 @@
+.darkbody{
+    background-color: black;
+    background-image: url(../images/fondocebra_oscuro.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    color: white;
+}
+.darkbody div.unidad{
+    color: white;
+    background: rgb(0,0,0,0.5);
+}
+.darkbody .collapsible{
+    /*background-image: url(../images/fondocebra_claro.jpg);*/
+    background-image: url(../images/leopard_dark.jpg);
+    background-size: cover;
+    color: white;
+}
+.darkbody .active, .darkbody .collapsible:hover {
+    background-image: none;
+    background-color: white;
+    color: black;
+}
