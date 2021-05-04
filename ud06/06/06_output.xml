@@ -1,228 +1,227 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<root>
+<?xml version="1.0" encoding="UTF-8"?><root>
     <row>
-        <anyo>2012</anyo>
-        <concepto>Usuarios registrados </concepto>
-        <usuarios>53577</usuarios>
+        <Anyo>2012</Anyo>
+        <Concepto>Usuarios registrados </Concepto>
+        <Usuarios_registrados>53577</Usuarios_registrados>
     </row>
     <row>
-        <anyo>2012</anyo>
-        <concepto>Préstamos </concepto>
-        <usuarios>315402</usuarios>
+        <Anyo>2012</Anyo>
+        <Concepto>Préstamos </Concepto>
+        <Usuarios_registrados>315402</Usuarios_registrados>
     </row>
     <row>
-        <anyo>2012</anyo>
-        <concepto>Asistentes a actividades de animación</concepto>
-        <usuarios>24461</usuarios>
+        <Anyo>2012</Anyo>
+        <Concepto>Asistentes a actividades de animación</Concepto>
+        <Usuarios_registrados>24461</Usuarios_registrados>
     </row>
     <row>
-        <anyo>2012</anyo>
-        <concepto>Usos de la sala de lectura</concepto>
-        <usuarios>254146</usuarios>
+        <Anyo>2012</Anyo>
+        <Concepto>Usos de la sala de lectura</Concepto>
+        <Usuarios_registrados>254146</Usuarios_registrados>
     </row>
     <row>
-        <anyo>2012</anyo>
-        <concepto>Horas de uso multimedia</concepto>
-        <usuarios>122043</usuarios>
+        <Anyo>2012</Anyo>
+        <Concepto>Horas de uso multimedia</Concepto>
+        <Usuarios_registrados>122043</Usuarios_registrados>
     </row>
     <row>
-        <anyo>2013</anyo>
-        <concepto>Usuarios registrados </concepto>
-        <usuarios>57851</usuarios>
+        <Anyo>2013</Anyo>
+        <Concepto>Usuarios registrados </Concepto>
+        <Usuarios_registrados>57851</Usuarios_registrados>
     </row>
     <row>
-        <anyo>2013</anyo>
-        <concepto>Préstamos </concepto>
-        <usuarios>277315</usuarios>
+        <Anyo>2013</Anyo>
+        <Concepto>Préstamos </Concepto>
+        <Usuarios_registrados>277315</Usuarios_registrados>
     </row>
     <row>
-        <anyo>2013</anyo>
-        <concepto>Asistentes a actividades de animación</concepto>
-        <usuarios>25512</usuarios>
+        <Anyo>2013</Anyo>
+        <Concepto>Asistentes a actividades de animación</Concepto>
+        <Usuarios_registrados>25512</Usuarios_registrados>
     </row>
     <row>
-        <anyo>2013</anyo>
-        <concepto>Usos de la sala de lectura</concepto>
-        <usuarios>249417</usuarios>
+        <Anyo>2013</Anyo>
+        <Concepto>Usos de la sala de lectura</Concepto>
+        <Usuarios_registrados>249417</Usuarios_registrados>
     </row>
     <row>
-        <anyo>2013</anyo>
-        <concepto>Horas de uso multimedia</concepto>
-        <usuarios>132328</usuarios>
+        <Anyo>2013</Anyo>
+        <Concepto>Horas de uso multimedia</Concepto>
+        <Usuarios_registrados>132328</Usuarios_registrados>
     </row>
     <row>
-        <anyo>2014</anyo>
-        <concepto>Usuarios registrados </concepto>
-        <usuarios>61498</usuarios>
+        <Anyo>2014</Anyo>
+        <Concepto>Usuarios registrados </Concepto>
+        <Usuarios_registrados>61498</Usuarios_registrados>
     </row>
     <row>
-        <anyo>2014</anyo>
-        <concepto>Préstamos </concepto>
-        <usuarios>246892</usuarios>
+        <Anyo>2014</Anyo>
+        <Concepto>Préstamos </Concepto>
+        <Usuarios_registrados>246892</Usuarios_registrados>
     </row>
     <row>
-        <anyo>2014</anyo>
-        <concepto>Asistentes a actividades de animación</concepto>
-        <usuarios>26400</usuarios>
+        <Anyo>2014</Anyo>
+        <Concepto>Asistentes a actividades de animación</Concepto>
+        <Usuarios_registrados>26400</Usuarios_registrados>
     </row>
     <row>
-        <anyo>2014</anyo>
-        <concepto>Usos de la sala de lectura</concepto>
-        <usuarios>246892</usuarios>
+        <Anyo>2014</Anyo>
+        <Concepto>Usos de la sala de lectura</Concepto>
+        <Usuarios_registrados>246892</Usuarios_registrados>
     </row>
     <row>
-        <anyo>2014</anyo>
-        <concepto>Horas de uso multimedia</concepto>
-        <usuarios>124504</usuarios>
+        <Anyo>2014</Anyo>
+        <Concepto>Horas de uso multimedia</Concepto>
+        <Usuarios_registrados>124504</Usuarios_registrados>
     </row>
     <row>
-        <anyo>2015</anyo>
-        <concepto>Usuarios registrados </concepto>
-        <usuarios>63991</usuarios>
+        <Anyo>2015</Anyo>
+        <Concepto>Usuarios registrados </Concepto>
+        <Usuarios_registrados>63991</Usuarios_registrados>
     </row>
     <row>
-        <anyo>2015</anyo>
-        <concepto>Préstamos </concepto>
-        <usuarios>237366</usuarios>
+        <Anyo>2015</Anyo>
+        <Concepto>Préstamos </Concepto>
+        <Usuarios_registrados>237366</Usuarios_registrados>
     </row>
     <row>
-        <anyo>2015</anyo>
-        <concepto>Asistentes a actividades de animación</concepto>
-        <usuarios>26900</usuarios>
+        <Anyo>2015</Anyo>
+        <Concepto>Asistentes a actividades de animación</Concepto>
+        <Usuarios_registrados>26900</Usuarios_registrados>
     </row>
     <row>
-        <anyo>2015</anyo>
-        <concepto>Usos de la sala de lectura</concepto>
-        <usuarios>288624</usuarios>
+        <Anyo>2015</Anyo>
+        <Concepto>Usos de la sala de lectura</Concepto>
+        <Usuarios_registrados>288624</Usuarios_registrados>
     </row>
     <row>
-        <anyo>2015</anyo>
-        <concepto>Horas de uso multimedia</concepto>
-        <usuarios>144225</usuarios>
+        <Anyo>2015</Anyo>
+        <Concepto>Horas de uso multimedia</Concepto>
+        <Usuarios_registrados>144225</Usuarios_registrados>
     </row>
     <row>
-        <anyo>2015</anyo>
-        <concepto>Seguidores Twitter</concepto>
-        <usuarios>947</usuarios>
+        <Anyo>2015</Anyo>
+        <Concepto>Seguidores Twitter</Concepto>
+        <Usuarios_registrados>947</Usuarios_registrados>
     </row>
     <row>
-        <anyo>2015</anyo>
-        <concepto>Seguidores Facebook</concepto>
-        <usuarios>713</usuarios>
+        <Anyo>2015</Anyo>
+        <Concepto>Seguidores Facebook</Concepto>
+        <Usuarios_registrados>713</Usuarios_registrados>
     </row>
     <row>
-        <anyo>2016</anyo>
-        <concepto>Usuarios registrados </concepto>
-        <usuarios>67432</usuarios>
+        <Anyo>2016</Anyo>
+        <Concepto>Usuarios registrados </Concepto>
+        <Usuarios_registrados>67432</Usuarios_registrados>
     </row>
     <row>
-        <anyo>2016</anyo>
-        <concepto>Préstamos </concepto>
-        <usuarios>232648</usuarios>
+        <Anyo>2016</Anyo>
+        <Concepto>Préstamos </Concepto>
+        <Usuarios_registrados>232648</Usuarios_registrados>
     </row>
     <row>
-        <anyo>2016</anyo>
-        <concepto>Asistentes a actividades de animación</concepto>
-        <usuarios>27815</usuarios>
+        <Anyo>2016</Anyo>
+        <Concepto>Asistentes a actividades de animación</Concepto>
+        <Usuarios_registrados>27815</Usuarios_registrados>
     </row>
     <row>
-        <anyo>2016</anyo>
-        <concepto>Usos de la sala de lectura</concepto>
-        <usuarios>301053</usuarios>
+        <Anyo>2016</Anyo>
+        <Concepto>Usos de la sala de lectura</Concepto>
+        <Usuarios_registrados>301053</Usuarios_registrados>
     </row>
     <row>
-        <anyo>2016</anyo>
-        <concepto>Horas de uso multimedia</concepto>
-        <usuarios>148993</usuarios>
+        <Anyo>2016</Anyo>
+        <Concepto>Horas de uso multimedia</Concepto>
+        <Usuarios_registrados>148993</Usuarios_registrados>
     </row>
     <row>
-        <anyo>2016</anyo>
-        <concepto>Seguidores Twitter</concepto>
-        <usuarios>1127</usuarios>
+        <Anyo>2016</Anyo>
+        <Concepto>Seguidores Twitter</Concepto>
+        <Usuarios_registrados>1127</Usuarios_registrados>
     </row>
     <row>
-        <anyo>2016</anyo>
-        <concepto>Seguidores Facebook</concepto>
-        <usuarios>874</usuarios>
+        <Anyo>2016</Anyo>
+        <Concepto>Seguidores Facebook</Concepto>
+        <Usuarios_registrados>874</Usuarios_registrados>
     </row>
     <row>
-        <anyo>2017</anyo>
-        <concepto>Usuarios registrados </concepto>
-        <usuarios>50464</usuarios>
+        <Anyo>2017</Anyo>
+        <Concepto>Usuarios registrados </Concepto>
+        <Usuarios_registrados>50464</Usuarios_registrados>
     </row>
     <row>
-        <anyo>2017</anyo>
-        <concepto>Préstamos </concepto>
-        <usuarios>224711</usuarios>
+        <Anyo>2017</Anyo>
+        <Concepto>Préstamos </Concepto>
+        <Usuarios_registrados>224711</Usuarios_registrados>
     </row>
     <row>
-        <anyo>2017</anyo>
-        <concepto>Asistentes a actividades de animación</concepto>
-        <usuarios>26012</usuarios>
+        <Anyo>2017</Anyo>
+        <Concepto>Asistentes a actividades de animación</Concepto>
+        <Usuarios_registrados>26012</Usuarios_registrados>
     </row>
     <row>
-        <anyo>2017</anyo>
-        <concepto>Usos de la sala de lectura</concepto>
-        <usuarios>284921</usuarios>
+        <Anyo>2017</Anyo>
+        <Concepto>Usos de la sala de lectura</Concepto>
+        <Usuarios_registrados>284921</Usuarios_registrados>
     </row>
     <row>
-        <anyo>2017</anyo>
-        <concepto>Horas de uso multimedia</concepto>
-        <usuarios>145012</usuarios>
+        <Anyo>2017</Anyo>
+        <Concepto>Horas de uso multimedia</Concepto>
+        <Usuarios_registrados>145012</Usuarios_registrados>
     </row>
     <row>
-        <anyo>2017</anyo>
-        <concepto>Seguidores Twitter</concepto>
-        <usuarios>1230</usuarios>
+        <Anyo>2017</Anyo>
+        <Concepto>Seguidores Twitter</Concepto>
+        <Usuarios_registrados>1230</Usuarios_registrados>
     </row>
     <row>
-        <anyo>2017</anyo>
-        <concepto>Seguidores Facebook</concepto>
-        <usuarios>1047</usuarios>
+        <Anyo>2017</Anyo>
+        <Concepto>Seguidores Facebook</Concepto>
+        <Usuarios_registrados>1047</Usuarios_registrados>
     </row>
     <row>
-        <anyo>2017</anyo>
-        <concepto>Accesos al OPAC (Online Public Access Catalog)</concepto>
-        <usuarios>143561</usuarios>
+        <Anyo>2017</Anyo>
+        <Concepto>Accesos al OPAC (Online Public Access Catalog)</Concepto>
+        <Usuarios_registrados>143561</Usuarios_registrados>
     </row>
     <row>
-        <anyo>2018</anyo>
-        <concepto>Usuarios registrados </concepto>
-        <usuarios>49238</usuarios>
+        <Anyo>2018</Anyo>
+        <Concepto>Usuarios registrados </Concepto>
+        <Usuarios_registrados>49238</Usuarios_registrados>
     </row>
     <row>
-        <anyo>2018</anyo>
-        <concepto>Préstamos </concepto>
-        <usuarios>199224</usuarios>
+        <Anyo>2018</Anyo>
+        <Concepto>Préstamos </Concepto>
+        <Usuarios_registrados>199224</Usuarios_registrados>
     </row>
     <row>
-        <anyo>2018</anyo>
-        <concepto>Asistentes a actividades de animación</concepto>
-        <usuarios>27975</usuarios>
+        <Anyo>2018</Anyo>
+        <Concepto>Asistentes a actividades de animación</Concepto>
+        <Usuarios_registrados>27975</Usuarios_registrados>
     </row>
     <row>
-        <anyo>2018</anyo>
-        <concepto>Usos de la sala de lectura</concepto>
-        <usuarios>307897</usuarios>
+        <Anyo>2018</Anyo>
+        <Concepto>Usos de la sala de lectura</Concepto>
+        <Usuarios_registrados>307897</Usuarios_registrados>
     </row>
     <row>
-        <anyo>2018</anyo>
-        <concepto>Horas de uso multimedia</concepto>
-        <usuarios>182154</usuarios>
+        <Anyo>2018</Anyo>
+        <Concepto>Horas de uso multimedia</Concepto>
+        <Usuarios_registrados>182154</Usuarios_registrados>
     </row>
     <row>
-        <anyo>2018</anyo>
-        <concepto>Seguidores Twitter</concepto>
-        <usuarios>1297</usuarios>
+        <Anyo>2018</Anyo>
+        <Concepto>Seguidores Twitter</Concepto>
+        <Usuarios_registrados>1297</Usuarios_registrados>
     </row>
     <row>
-        <anyo>2018</anyo>
-        <concepto>Seguidores Facebook</concepto>
-        <usuarios>1201</usuarios>
+        <Anyo>2018</Anyo>
+        <Concepto>Seguidores Facebook</Concepto>
+        <Usuarios_registrados>1201</Usuarios_registrados>
     </row>
     <row>
-        <anyo>2018</anyo>
-        <concepto>Accesos al OPAC (Online Public Access Catalog)</concepto>
-        <usuarios>155116</usuarios>
+        <Anyo>2018</Anyo>
+        <Concepto>Accesos al OPAC (Online Public Access Catalog)</Concepto>
+        <Usuarios_registrados>155116</Usuarios_registrados>
     </row>
 </root>

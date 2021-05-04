@@ -16,14 +16,19 @@
     -->
     <xsl:template match="/">
         <root>
-            <xsl:for-each select="root/row">
-                <row>
-                    <anyo><xsl:value-of select="@Anyo"/></anyo>
-                    <concepto><xsl:value-of select="@Concepto"/></concepto>
-                    <usuarios><xsl:value-of select="@Usuarios_registrados"/></usuarios>
-                </row>
-            </xsl:for-each>
+            <xsl:apply-templates select="root/row"/>
         </root>
     </xsl:template>
-
+    
+    <xsl:template match="row">
+        <row>
+            <xsl:apply-templates select="@*"/>
+        </row>
+    </xsl:template>
+    
+    <xsl:template match="@*">
+        <xsl:element name="{name()}">
+            <xsl:value-of select="."/>
+        </xsl:element>
+    </xsl:template>
 </xsl:stylesheet>

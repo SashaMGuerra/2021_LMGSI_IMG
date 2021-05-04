@@ -27,19 +27,15 @@
     <xsl:template match="@*">
         <xsl:choose>
             <xsl:when test="current()='04.xsd'">
-                <xsl:text>Prueba</xsl:text>
             </xsl:when>
             <xsl:when test="current()='http://www.w3.org/2001/XMLSchema-instance'">
-                <xsl:text>Prueba2</xsl:text>
             </xsl:when>
             <xsl:otherwise>
-                <xsl:element name="{local-name()}">
+                <xsl:element name="{name()}">
                     <xsl:value-of select="."/>
                 </xsl:element>
             </xsl:otherwise>
         </xsl:choose>
-        
-        
     </xsl:template>
 
     <!-- template to copy the rest of the nodes -->
