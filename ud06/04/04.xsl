@@ -41,6 +41,17 @@
     <!-- template to copy the rest of the nodes -->
     <xsl:template match="text()">
         <xsl:value-of select="."/>
+        
+        <!--
+        <xsl:choose>
+            <xsl:when test="name(.)">
+                <xsl:text>CORRECTO</xsl:text>
+            </xsl:when>
+            <xsl:otherwise>
+                <xsl:text>INCORRECTO</xsl:text>
+            </xsl:otherwise>
+        </xsl:choose> -->
+        
         <!-- <xsl:copy/> -->
     </xsl:template>
     

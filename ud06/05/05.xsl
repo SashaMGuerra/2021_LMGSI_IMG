@@ -96,7 +96,7 @@
                         </tr>
                         <tr>
                             <td colspan="3">
-                                <table>
+                                <table class="interna">
                                     <theader>
                                         <tr>
                                             <th>Ref</th>
@@ -117,7 +117,7 @@
                         <tr>
                             <th colspan="3" class="titulo">Importes factura</th>
                         </tr>
-                        <tr>
+                        <tr class="total">
                             <td>Base: <xsl:value-of select="//base"/></td>
                             <td>Cuota IVA: <xsl:value-of select="//cuota_iva"/></td>
                             <td>Total Factura: <xsl:value-of select="//total"/></td>

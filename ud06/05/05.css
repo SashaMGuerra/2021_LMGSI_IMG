@@ -15,7 +15,7 @@ table, tr, th, td{
 }
 
 th, td{
-    padding-left: 5%;
+    padding: 0.25% 2%;
 }
 
 /*Cabecera*/
@@ -27,11 +27,13 @@ thead{
 }
 .titulo{
     color: red;
+    text-align: left;
+    text-transform: uppercase;
 }
 
 /*Resaltado*/
 td{
-    font-weight: bold;
+    font-weight: normal;
 }
 
 /*Tabla interior*/
@@ -40,6 +42,15 @@ table table{
     color: black;
 }
 
-table table td{
+table.interna td{
     font-weight: normal;
+}
+table.interna td, table.interna th{
+    padding: 0 1%;
+}
+
+tr.total td{
+    padding: 0;
+    margin: 0;
+    text-align: right;
 }

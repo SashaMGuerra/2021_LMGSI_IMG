@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml-stylesheet type="text/xsl" href="05.xsl"?>
 <factura>
     <n_factura>F555</n_factura>
     <datos_emisor>
