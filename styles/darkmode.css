@@ -21,3 +21,7 @@
     background-color: white;
     color: black;
 }
+
+.darkbody .tabla6 tr:nth-child(odd){
+    background-color: rgb(100, 100, 100, 0.35);
+}

@@ -106,6 +106,16 @@ table.tabla caption{
     box-sizing: border-box;
 }
 
+table.tabla6{
+    text-align: center;
+    width: 100%;
+    box-sizing: border-box;
+    border-collapse: collapse;
+}
+.tabla6 tr:nth-child(odd){
+    background-color: rgb(200, 200, 200, 0.35);
+}
+
 /*Links*/
 a:hover{
     color: red;
