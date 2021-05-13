@@ -47,3 +47,10 @@ ul{
 radio:checked{
     border: 5px solid red;
 }
+
+.conhover:hover:nth-child(odd){
+    background-color: violet;
+}
+.conhover:hover:nth-child(even){
+    background-color: cornflowerblue;
+}

@@ -50,7 +50,7 @@
             <ul>
                 <xsl:for-each select="respuestas/respuesta">
                     <xsl:variable name="identificador" select="../../@id"/>
-                    <li>
+                    <li class="conhover">
                         <input type="radio">
                             <xsl:attribute name="name">
                                 <xsl:value-of select="concat('p', $identificador)"/>

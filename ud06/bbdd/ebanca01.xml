@@ -1,0 +1,916 @@
+<?xml version="1.0"?>
+<mysqldump xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<database name="ebanca">
+	<table_structure name="clientes">
+		<field Field="codigo_cliente" Type="int" Null="NO" Key="PRI" Extra="auto_increment" Comment="" />
+		<field Field="dni" Type="int" Null="NO" Key="UNI" Extra="" Comment="" />
+		<field Field="nombre" Type="char(20)" Null="NO" Key="" Extra="" Comment="" />
+		<field Field="apellido1" Type="char(20)" Null="NO" Key="" Extra="" Comment="" />
+		<field Field="apellido2" Type="char(20)" Null="YES" Key="" Extra="" Comment="" />
+		<field Field="direccion" Type="char(50)" Null="NO" Key="" Extra="" Comment="" />
+		<field Field="region" Type="varchar(45)" Null="YES" Key="" Extra="" Comment="" />
+		<key Table="clientes" Non_unique="0" Key_name="PRIMARY" Seq_in_index="1" Column_name="codigo_cliente" Collation="A" Cardinality="0" Null="" Index_type="BTREE" Comment="" Index_comment="" Visible="YES" />
+		<key Table="clientes" Non_unique="0" Key_name="idni" Seq_in_index="1" Column_name="dni" Collation="A" Cardinality="0" Null="" Index_type="BTREE" Comment="" Index_comment="" Visible="YES" />
+		<options Name="clientes" Engine="InnoDB" Version="10" Row_format="Dynamic" Rows="0" Avg_row_length="0" Data_length="16384" Max_data_length="0" Index_length="16384" Data_free="0" Auto_increment="21" Create_time="2021-05-07 11:10:47" Update_time="2021-05-07 11:10:47" Collation="latin1_swedish_ci" Create_options="" Comment="" />
+	</table_structure>
+	<table_data name="clientes">
+	<row>
+		<field name="codigo_cliente">1</field>
+		<field name="dni">11111111</field>
+		<field name="nombre">jcarlos</field>
+		<field name="apellido1">baldo</field>
+		<field name="apellido2" xsi:nil="true" />
+		<field name="direccion">d1</field>
+		<field name="region">aragon</field>
+	</row>
+	<row>
+		<field name="codigo_cliente">2</field>
+		<field name="dni">22222222</field>
+		<field name="nombre">pilar</field>
+		<field name="apellido1">rodri</field>
+		<field name="apellido2" xsi:nil="true" />
+		<field name="direccion">d2</field>
+		<field name="region">aragon</field>
+	</row>
+	<row>
+		<field name="codigo_cliente">3</field>
+		<field name="dni">33333333</field>
+		<field name="nombre">pablo</field>
+		<field name="apellido1">babes</field>
+		<field name="apellido2" xsi:nil="true" />
+		<field name="direccion">d3</field>
+		<field name="region">pais vasco</field>
+	</row>
+	<row>
+		<field name="codigo_cliente">4</field>
+		<field name="dni">44444444</field>
+		<field name="nombre">javi</field>
+		<field name="apellido1">sonas</field>
+		<field name="apellido2" xsi:nil="true" />
+		<field name="direccion">d4</field>
+		<field name="region">pais vasco</field>
+	</row>
+	<row>
+		<field name="codigo_cliente">5</field>
+		<field name="dni">55555555</field>
+		<field name="nombre">angel</field>
+		<field name="apellido1">alva</field>
+		<field name="apellido2" xsi:nil="true" />
+		<field name="direccion">d5</field>
+		<field name="region">pais vasco</field>
+	</row>
+	<row>
+		<field name="codigo_cliente">6</field>
+		<field name="dni">66666666</field>
+		<field name="nombre">pilar</field>
+		<field name="apellido1">bueso</field>
+		<field name="apellido2">perez</field>
+		<field name="direccion">d6</field>
+		<field name="region">aragon</field>
+	</row>
+	<row>
+		<field name="codigo_cliente">7</field>
+		<field name="dni">77777777</field>
+		<field name="nombre">alberto</field>
+		<field name="apellido1">perez</field>
+		<field name="apellido2">dominguez</field>
+		<field name="direccion">d7</field>
+		<field name="region">aragon</field>
+	</row>
+	<row>
+		<field name="codigo_cliente">8</field>
+		<field name="dni">88888888</field>
+		<field name="nombre">antonio</field>
+		<field name="apellido1">martinez</field>
+		<field name="apellido2">barea</field>
+		<field name="direccion">d8</field>
+		<field name="region">extremadura</field>
+	</row>
+	<row>
+		<field name="codigo_cliente">9</field>
+		<field name="dni">99999999</field>
+		<field name="nombre">maria jesus</field>
+		<field name="apellido1">longares</field>
+		<field name="apellido2">hernandez</field>
+		<field name="direccion">d9</field>
+		<field name="region">extremadura</field>
+	</row>
+	<row>
+		<field name="codigo_cliente">10</field>
+		<field name="dni">10101010</field>
+		<field name="nombre">ana</field>
+		<field name="apellido1">guillen</field>
+		<field name="apellido2">lopera</field>
+		<field name="direccion">d10</field>
+		<field name="region">aragon</field>
+	</row>
+	<row>
+		<field name="codigo_cliente">11</field>
+		<field name="dni">12121212</field>
+		<field name="nombre">fernando</field>
+		<field name="apellido1">montero</field>
+		<field name="apellido2">iglesias</field>
+		<field name="direccion">d11</field>
+		<field name="region">aragon</field>
+	</row>
+	<row>
+		<field name="codigo_cliente">12</field>
+		<field name="dni">13131313</field>
+		<field name="nombre">silvia</field>
+		<field name="apellido1">lopez</field>
+		<field name="apellido2">escartin</field>
+		<field name="direccion">d12</field>
+		<field name="region">aragon</field>
+	</row>
+	<row>
+		<field name="codigo_cliente">13</field>
+		<field name="dni">14141414</field>
+		<field name="nombre">raquel</field>
+		<field name="apellido1">beltran</field>
+		<field name="apellido2">acebes</field>
+		<field name="direccion">d13</field>
+		<field name="region">aragon</field>
+	</row>
+	<row>
+		<field name="codigo_cliente">14</field>
+		<field name="dni">15151515</field>
+		<field name="nombre">mario</field>
+		<field name="apellido1">cabaña</field>
+		<field name="apellido2">encinas</field>
+		<field name="direccion">d14</field>
+		<field name="region">aragon</field>
+	</row>
+	<row>
+		<field name="codigo_cliente">15</field>
+		<field name="dni">16161616</field>
+		<field name="nombre">manuel</field>
+		<field name="apellido1">falceto</field>
+		<field name="apellido2">carrera</field>
+		<field name="direccion">d15</field>
+		<field name="region">aragon</field>
+	</row>
+	<row>
+		<field name="codigo_cliente">16</field>
+		<field name="dni">17171717</field>
+		<field name="nombre">jordi</field>
+		<field name="apellido1">eulalia</field>
+		<field name="apellido2">perales</field>
+		<field name="direccion">d16</field>
+		<field name="region">aragon</field>
+	</row>
+	<row>
+		<field name="codigo_cliente">17</field>
+		<field name="dni">18181818</field>
+		<field name="nombre">marc</field>
+		<field name="apellido1">garriga</field>
+		<field name="apellido2">higuera</field>
+		<field name="direccion">d17</field>
+		<field name="region">aragon</field>
+	</row>
+	<row>
+		<field name="codigo_cliente">18</field>
+		<field name="dni">19191919</field>
+		<field name="nombre">rafael</field>
+		<field name="apellido1">hueso</field>
+		<field name="apellido2">ibañez</field>
+		<field name="direccion">d18</field>
+		<field name="region">aragon</field>
+	</row>
+	<row>
+		<field name="codigo_cliente">19</field>
+		<field name="dni">20202020</field>
+		<field name="nombre">fran</field>
+		<field name="apellido1">granada</field>
+		<field name="apellido2">mariategui</field>
+		<field name="direccion">d19</field>
+		<field name="region">aragon</field>
+	</row>
+	<row>
+		<field name="codigo_cliente">20</field>
+		<field name="dni">21212121</field>
+		<field name="nombre">porfirio</field>
+		<field name="apellido1">gambo</field>
+		<field name="apellido2">perez</field>
+		<field name="direccion">d20</field>
+		<field name="region">aragon</field>
+	</row>
+	</table_data>
+	<table_structure name="cuentas">
+		<field Field="fecha_creacion" Type="date" Null="NO" Key="MUL" Extra="" Comment="" />
+		<field Field="saldo" Type="int" Null="NO" Key="" Default="0" Extra="" Comment="" />
+		<field Field="cod_cuenta" Type="int" Null="NO" Key="PRI" Extra="" Comment="" />
+		<field Field="cod_cliente" Type="int" Null="NO" Key="MUL" Extra="" Comment="" />
+		<key Table="cuentas" Non_unique="0" Key_name="PRIMARY" Seq_in_index="1" Column_name="cod_cuenta" Collation="A" Cardinality="0" Null="" Index_type="BTREE" Comment="" Index_comment="" Visible="YES" />
+		<key Table="cuentas" Non_unique="1" Key_name="ccl" Seq_in_index="1" Column_name="cod_cliente" Collation="A" Cardinality="0" Null="" Index_type="BTREE" Comment="" Index_comment="" Visible="YES" />
+		<key Table="cuentas" Non_unique="1" Key_name="fc" Seq_in_index="1" Column_name="fecha_creacion" Collation="A" Cardinality="0" Null="" Index_type="BTREE" Comment="" Index_comment="" Visible="YES" />
+		<key Table="cuentas" Non_unique="1" Key_name="fc" Seq_in_index="2" Column_name="cod_cliente" Collation="A" Cardinality="0" Null="" Index_type="BTREE" Comment="" Index_comment="" Visible="YES" />
+		<key Table="cuentas" Non_unique="1" Key_name="cfc" Seq_in_index="1" Column_name="fecha_creacion" Collation="A" Cardinality="0" Null="" Index_type="BTREE" Comment="" Index_comment="" Visible="YES" />
+		<key Table="cuentas" Non_unique="1" Key_name="cfc" Seq_in_index="2" Column_name="cod_cliente" Collation="A" Cardinality="0" Null="" Index_type="BTREE" Comment="" Index_comment="" Visible="YES" />
+		<options Name="cuentas" Engine="InnoDB" Version="10" Row_format="Dynamic" Rows="0" Avg_row_length="0" Data_length="16384" Max_data_length="0" Index_length="49152" Data_free="0" Create_time="2021-05-07 11:10:47" Update_time="2021-05-07 11:10:47" Collation="latin1_swedish_ci" Create_options="" Comment="" />
+	</table_structure>
+	<table_data name="cuentas">
+	<row>
+		<field name="fecha_creacion">2012-01-01</field>
+		<field name="saldo">30000</field>
+		<field name="cod_cuenta">0</field>
+		<field name="cod_cliente">6</field>
+	</row>
+	<row>
+		<field name="fecha_creacion">2010-01-01</field>
+		<field name="saldo">100</field>
+		<field name="cod_cuenta">1</field>
+		<field name="cod_cliente">1</field>
+	</row>
+	<row>
+		<field name="fecha_creacion">2010-02-01</field>
+		<field name="saldo">100</field>
+		<field name="cod_cuenta">2</field>
+		<field name="cod_cliente">2</field>
+	</row>
+	<row>
+		<field name="fecha_creacion">2009-02-13</field>
+		<field name="saldo">4400</field>
+		<field name="cod_cuenta">3</field>
+		<field name="cod_cliente">3</field>
+	</row>
+	<row>
+		<field name="fecha_creacion">2011-12-13</field>
+		<field name="saldo">-40</field>
+		<field name="cod_cuenta">4</field>
+		<field name="cod_cliente">4</field>
+	</row>
+	<row>
+		<field name="fecha_creacion">2011-06-23</field>
+		<field name="saldo">20040</field>
+		<field name="cod_cuenta">5</field>
+		<field name="cod_cliente">5</field>
+	</row>
+	<row>
+		<field name="fecha_creacion">2012-01-01</field>
+		<field name="saldo">30000</field>
+		<field name="cod_cuenta">6</field>
+		<field name="cod_cliente">6</field>
+	</row>
+	<row>
+		<field name="fecha_creacion">2012-02-01</field>
+		<field name="saldo">3300</field>
+		<field name="cod_cuenta">7</field>
+		<field name="cod_cliente">7</field>
+	</row>
+	<row>
+		<field name="fecha_creacion">2012-02-03</field>
+		<field name="saldo">0</field>
+		<field name="cod_cuenta">8</field>
+		<field name="cod_cliente">8</field>
+	</row>
+	<row>
+		<field name="fecha_creacion">2012-02-03</field>
+		<field name="saldo">41990</field>
+		<field name="cod_cuenta">9</field>
+		<field name="cod_cliente">9</field>
+	</row>
+	<row>
+		<field name="fecha_creacion">2012-12-13</field>
+		<field name="saldo">4718</field>
+		<field name="cod_cuenta">10</field>
+		<field name="cod_cliente">10</field>
+	</row>
+	<row>
+		<field name="fecha_creacion">2012-12-23</field>
+		<field name="saldo">47622</field>
+		<field name="cod_cuenta">11</field>
+		<field name="cod_cliente">10</field>
+	</row>
+	<row>
+		<field name="fecha_creacion">2012-12-23</field>
+		<field name="saldo">45452</field>
+		<field name="cod_cuenta">12</field>
+		<field name="cod_cliente">9</field>
+	</row>
+	<row>
+		<field name="fecha_creacion">2012-11-03</field>
+		<field name="saldo">36414</field>
+		<field name="cod_cuenta">13</field>
+		<field name="cod_cliente">3</field>
+	</row>
+	<row>
+		<field name="fecha_creacion">2008-05-03</field>
+		<field name="saldo">32799</field>
+		<field name="cod_cuenta">14</field>
+		<field name="cod_cliente">15</field>
+	</row>
+	<row>
+		<field name="fecha_creacion">2008-05-03</field>
+		<field name="saldo">45464</field>
+		<field name="cod_cuenta">15</field>
+		<field name="cod_cliente">4</field>
+	</row>
+	<row>
+		<field name="fecha_creacion">2010-09-12</field>
+		<field name="saldo">18632</field>
+		<field name="cod_cuenta">16</field>
+		<field name="cod_cliente">4</field>
+	</row>
+	<row>
+		<field name="fecha_creacion">2012-02-02</field>
+		<field name="saldo">44837</field>
+		<field name="cod_cuenta">17</field>
+		<field name="cod_cliente">17</field>
+	</row>
+	<row>
+		<field name="fecha_creacion">2009-02-02</field>
+		<field name="saldo">34210</field>
+		<field name="cod_cuenta">18</field>
+		<field name="cod_cliente">15</field>
+	</row>
+	<row>
+		<field name="fecha_creacion">2009-04-10</field>
+		<field name="saldo">46461</field>
+		<field name="cod_cuenta">19</field>
+		<field name="cod_cliente">5</field>
+	</row>
+	<row>
+		<field name="fecha_creacion">2009-07-13</field>
+		<field name="saldo">24873</field>
+		<field name="cod_cuenta">20</field>
+		<field name="cod_cliente">14</field>
+	</row>
+	<row>
+		<field name="fecha_creacion">2010-01-23</field>
+		<field name="saldo">4435</field>
+		<field name="cod_cuenta">21</field>
+		<field name="cod_cliente">5</field>
+	</row>
+	<row>
+		<field name="fecha_creacion">2010-03-29</field>
+		<field name="saldo">10415</field>
+		<field name="cod_cuenta">22</field>
+		<field name="cod_cliente">3</field>
+	</row>
+	<row>
+		<field name="fecha_creacion">2011-02-24</field>
+		<field name="saldo">7971</field>
+		<field name="cod_cuenta">23</field>
+		<field name="cod_cliente">6</field>
+	</row>
+	<row>
+		<field name="fecha_creacion">2011-02-25</field>
+		<field name="saldo">7726</field>
+		<field name="cod_cuenta">24</field>
+		<field name="cod_cliente">15</field>
+	</row>
+	<row>
+		<field name="fecha_creacion">2012-02-25</field>
+		<field name="saldo">-25061</field>
+		<field name="cod_cuenta">25</field>
+		<field name="cod_cliente">2</field>
+	</row>
+	<row>
+		<field name="fecha_creacion">2012-12-15</field>
+		<field name="saldo">-6621</field>
+		<field name="cod_cuenta">26</field>
+		<field name="cod_cliente">5</field>
+	</row>
+	<row>
+		<field name="fecha_creacion">2012-11-09</field>
+		<field name="saldo">-255</field>
+		<field name="cod_cuenta">27</field>
+		<field name="cod_cliente">3</field>
+	</row>
+	<row>
+		<field name="fecha_creacion">2011-11-09</field>
+		<field name="saldo">-4525</field>
+		<field name="cod_cuenta">28</field>
+		<field name="cod_cliente">19</field>
+	</row>
+	<row>
+		<field name="fecha_creacion">2011-04-11</field>
+		<field name="saldo">-3777</field>
+		<field name="cod_cuenta">29</field>
+		<field name="cod_cliente">4</field>
+	</row>
+	<row>
+		<field name="fecha_creacion">2011-06-05</field>
+		<field name="saldo">-4890</field>
+		<field name="cod_cuenta">30</field>
+		<field name="cod_cliente">2</field>
+	</row>
+	<row>
+		<field name="fecha_creacion">2011-06-17</field>
+		<field name="saldo">-3917</field>
+		<field name="cod_cuenta">31</field>
+		<field name="cod_cliente">9</field>
+	</row>
+	<row>
+		<field name="fecha_creacion">2010-06-17</field>
+		<field name="saldo">-423</field>
+		<field name="cod_cuenta">32</field>
+		<field name="cod_cliente">19</field>
+	</row>
+	<row>
+		<field name="fecha_creacion">2010-08-17</field>
+		<field name="saldo">-4263</field>
+		<field name="cod_cuenta">33</field>
+		<field name="cod_cliente">10</field>
+	</row>
+	<row>
+		<field name="fecha_creacion">2009-08-17</field>
+		<field name="saldo">-873</field>
+		<field name="cod_cuenta">34</field>
+		<field name="cod_cliente">4</field>
+	</row>
+	<row>
+		<field name="fecha_creacion">2009-12-01</field>
+		<field name="saldo">-3339</field>
+		<field name="cod_cuenta">35</field>
+		<field name="cod_cliente">15</field>
+	</row>
+	</table_data>
+	<table_structure name="milypico">
+		<field Field="codigo_cliente" Type="int" Null="NO" Key="" Default="0" Extra="" Comment="" />
+		<field Field="nombre" Type="char(20)" Null="NO" Key="" Extra="" Comment="" />
+		<field Field="cod_cuenta" Type="int" Null="NO" Key="" Extra="" Comment="" />
+		<options Name="milypico" Create_time="2021-05-07 11:11:15" Comment="VIEW" />
+	</table_structure>
+	<table_structure name="movimientos">
+		<field Field="id_movimiento" Type="int" Null="NO" Key="PRI" Extra="auto_increment" Comment="" />
+		<field Field="fechahora" Type="date" Null="NO" Key="" Extra="" Comment="" />
+		<field Field="cantidad" Type="double" Null="NO" Key="" Extra="" Comment="" />
+		<field Field="dni" Type="int" Null="NO" Key="MUL" Extra="" Comment="" />
+		<field Field="cod_cuenta" Type="int" Null="NO" Key="MUL" Extra="" Comment="" />
+		<key Table="movimientos" Non_unique="0" Key_name="PRIMARY" Seq_in_index="1" Column_name="id_movimiento" Collation="A" Cardinality="0" Null="" Index_type="BTREE" Comment="" Index_comment="" Visible="YES" />
+		<key Table="movimientos" Non_unique="1" Key_name="ccuenta" Seq_in_index="1" Column_name="cod_cuenta" Collation="A" Cardinality="0" Null="" Index_type="BTREE" Comment="" Index_comment="" Visible="YES" />
+		<key Table="movimientos" Non_unique="1" Key_name="fk1_dni" Seq_in_index="1" Column_name="dni" Collation="A" Cardinality="0" Null="" Index_type="BTREE" Comment="" Index_comment="" Visible="YES" />
+		<key Table="movimientos" Non_unique="1" Key_name="fk2_ccuenta" Seq_in_index="1" Column_name="cod_cuenta" Collation="A" Cardinality="0" Null="" Index_type="BTREE" Comment="" Index_comment="" Visible="YES" />
+		<options Name="movimientos" Engine="InnoDB" Version="10" Row_format="Dynamic" Rows="0" Avg_row_length="0" Data_length="16384" Max_data_length="0" Index_length="49152" Data_free="0" Auto_increment="123" Create_time="2021-05-07 11:10:47" Update_time="2021-05-07 11:10:47" Collation="latin1_swedish_ci" Create_options="" Comment="" />
+	</table_structure>
+	<table_data name="movimientos">
+	<row>
+		<field name="id_movimiento">37</field>
+		<field name="fechahora">2011-04-18</field>
+		<field name="cantidad">64028</field>
+		<field name="dni">11111111</field>
+		<field name="cod_cuenta">1</field>
+	</row>
+	<row>
+		<field name="id_movimiento">38</field>
+		<field name="fechahora">2011-04-18</field>
+		<field name="cantidad">60528</field>
+		<field name="dni">44444444</field>
+		<field name="cod_cuenta">4</field>
+	</row>
+	<row>
+		<field name="id_movimiento">39</field>
+		<field name="fechahora">2011-04-18</field>
+		<field name="cantidad">13979</field>
+		<field name="dni">44444444</field>
+		<field name="cod_cuenta">4</field>
+	</row>
+	<row>
+		<field name="id_movimiento">40</field>
+		<field name="fechahora">2011-04-18</field>
+		<field name="cantidad">26467</field>
+		<field name="dni">44444444</field>
+		<field name="cod_cuenta">4</field>
+	</row>
+	<row>
+		<field name="id_movimiento">41</field>
+		<field name="fechahora">2011-04-18</field>
+		<field name="cantidad">6906</field>
+		<field name="dni">22222222</field>
+		<field name="cod_cuenta">2</field>
+	</row>
+	<row>
+		<field name="id_movimiento">42</field>
+		<field name="fechahora">2011-04-18</field>
+		<field name="cantidad">47477</field>
+		<field name="dni">44444444</field>
+		<field name="cod_cuenta">4</field>
+	</row>
+	<row>
+		<field name="id_movimiento">43</field>
+		<field name="fechahora">2011-04-18</field>
+		<field name="cantidad">15490</field>
+		<field name="dni">33333333</field>
+		<field name="cod_cuenta">3</field>
+	</row>
+	<row>
+		<field name="id_movimiento">44</field>
+		<field name="fechahora">2011-04-18</field>
+		<field name="cantidad">57323</field>
+		<field name="dni">22222222</field>
+		<field name="cod_cuenta">2</field>
+	</row>
+	<row>
+		<field name="id_movimiento">45</field>
+		<field name="fechahora">2011-04-18</field>
+		<field name="cantidad">67620</field>
+		<field name="dni">33333333</field>
+		<field name="cod_cuenta">3</field>
+	</row>
+	<row>
+		<field name="id_movimiento">46</field>
+		<field name="fechahora">2011-04-18</field>
+		<field name="cantidad">61864</field>
+		<field name="dni">33333333</field>
+		<field name="cod_cuenta">3</field>
+	</row>
+	<row>
+		<field name="id_movimiento">47</field>
+		<field name="fechahora">2011-04-18</field>
+		<field name="cantidad">35142</field>
+		<field name="dni">11111111</field>
+		<field name="cod_cuenta">1</field>
+	</row>
+	<row>
+		<field name="id_movimiento">48</field>
+		<field name="fechahora">2011-04-18</field>
+		<field name="cantidad">87009</field>
+		<field name="dni">11111111</field>
+		<field name="cod_cuenta">1</field>
+	</row>
+	<row>
+		<field name="id_movimiento">49</field>
+		<field name="fechahora">2011-04-18</field>
+		<field name="cantidad">11884</field>
+		<field name="dni">22222222</field>
+		<field name="cod_cuenta">2</field>
+	</row>
+	<row>
+		<field name="id_movimiento">50</field>
+		<field name="fechahora">2011-04-18</field>
+		<field name="cantidad">1480</field>
+		<field name="dni">11111111</field>
+		<field name="cod_cuenta">1</field>
+	</row>
+	<row>
+		<field name="id_movimiento">51</field>
+		<field name="fechahora">2011-04-18</field>
+		<field name="cantidad">75530</field>
+		<field name="dni">22222222</field>
+		<field name="cod_cuenta">2</field>
+	</row>
+	<row>
+		<field name="id_movimiento">52</field>
+		<field name="fechahora">2011-04-18</field>
+		<field name="cantidad">32424</field>
+		<field name="dni">44444444</field>
+		<field name="cod_cuenta">4</field>
+	</row>
+	<row>
+		<field name="id_movimiento">53</field>
+		<field name="fechahora">2011-04-18</field>
+		<field name="cantidad">86077</field>
+		<field name="dni">44444444</field>
+		<field name="cod_cuenta">4</field>
+	</row>
+	<row>
+		<field name="id_movimiento">54</field>
+		<field name="fechahora">2011-04-18</field>
+		<field name="cantidad">96523</field>
+		<field name="dni">33333333</field>
+		<field name="cod_cuenta">3</field>
+	</row>
+	<row>
+		<field name="id_movimiento">55</field>
+		<field name="fechahora">2011-04-18</field>
+		<field name="cantidad">35796</field>
+		<field name="dni">22222222</field>
+		<field name="cod_cuenta">2</field>
+	</row>
+	<row>
+		<field name="id_movimiento">56</field>
+		<field name="fechahora">2011-04-18</field>
+		<field name="cantidad">99784</field>
+		<field name="dni">33333333</field>
+		<field name="cod_cuenta">3</field>
+	</row>
+	<row>
+		<field name="id_movimiento">57</field>
+		<field name="fechahora">2010-05-04</field>
+		<field name="cantidad">-583</field>
+		<field name="dni">55555555</field>
+		<field name="cod_cuenta">14</field>
+	</row>
+	<row>
+		<field name="id_movimiento">78</field>
+		<field name="fechahora">2009-03-25</field>
+		<field name="cantidad">-3327</field>
+		<field name="dni">55555555</field>
+		<field name="cod_cuenta">33</field>
+	</row>
+	<row>
+		<field name="id_movimiento">79</field>
+		<field name="fechahora">2009-03-21</field>
+		<field name="cantidad">471</field>
+		<field name="dni">55555555</field>
+		<field name="cod_cuenta">3</field>
+	</row>
+	<row>
+		<field name="id_movimiento">80</field>
+		<field name="fechahora">2010-12-05</field>
+		<field name="cantidad">2881</field>
+		<field name="dni">66666666</field>
+		<field name="cod_cuenta">13</field>
+	</row>
+	<row>
+		<field name="id_movimiento">81</field>
+		<field name="fechahora">2011-01-09</field>
+		<field name="cantidad">2784</field>
+		<field name="dni">66666666</field>
+		<field name="cod_cuenta">13</field>
+	</row>
+	<row>
+		<field name="id_movimiento">82</field>
+		<field name="fechahora">2010-10-11</field>
+		<field name="cantidad">4939</field>
+		<field name="dni">66666666</field>
+		<field name="cod_cuenta">9</field>
+	</row>
+	<row>
+		<field name="id_movimiento">83</field>
+		<field name="fechahora">2010-06-01</field>
+		<field name="cantidad">4972</field>
+		<field name="dni">77777777</field>
+		<field name="cod_cuenta">31</field>
+	</row>
+	<row>
+		<field name="id_movimiento">84</field>
+		<field name="fechahora">2009-12-22</field>
+		<field name="cantidad">4450</field>
+		<field name="dni">77777777</field>
+		<field name="cod_cuenta">31</field>
+	</row>
+	<row>
+		<field name="id_movimiento">85</field>
+		<field name="fechahora">2009-03-07</field>
+		<field name="cantidad">1763</field>
+		<field name="dni">88888888</field>
+		<field name="cod_cuenta">11</field>
+	</row>
+	<row>
+		<field name="id_movimiento">86</field>
+		<field name="fechahora">2009-08-22</field>
+		<field name="cantidad">902</field>
+		<field name="dni">88888888</field>
+		<field name="cod_cuenta">34</field>
+	</row>
+	<row>
+		<field name="id_movimiento">87</field>
+		<field name="fechahora">2010-05-15</field>
+		<field name="cantidad">4605</field>
+		<field name="dni">88888888</field>
+		<field name="cod_cuenta">16</field>
+	</row>
+	<row>
+		<field name="id_movimiento">88</field>
+		<field name="fechahora">2009-08-09</field>
+		<field name="cantidad">4066</field>
+		<field name="dni">88888888</field>
+		<field name="cod_cuenta">3</field>
+	</row>
+	<row>
+		<field name="id_movimiento">89</field>
+		<field name="fechahora">2011-02-08</field>
+		<field name="cantidad">994</field>
+		<field name="dni">99999999</field>
+		<field name="cod_cuenta">23</field>
+	</row>
+	<row>
+		<field name="id_movimiento">90</field>
+		<field name="fechahora">2009-03-19</field>
+		<field name="cantidad">4733</field>
+		<field name="dni">10101010</field>
+		<field name="cod_cuenta">12</field>
+	</row>
+	<row>
+		<field name="id_movimiento">91</field>
+		<field name="fechahora">2008-12-26</field>
+		<field name="cantidad">1827</field>
+		<field name="dni">10101010</field>
+		<field name="cod_cuenta">6</field>
+	</row>
+	<row>
+		<field name="id_movimiento">92</field>
+		<field name="fechahora">2009-01-25</field>
+		<field name="cantidad">-3397</field>
+		<field name="dni">10101010</field>
+		<field name="cod_cuenta">29</field>
+	</row>
+	<row>
+		<field name="id_movimiento">93</field>
+		<field name="fechahora">2010-10-29</field>
+		<field name="cantidad">-2440</field>
+		<field name="dni">10101010</field>
+		<field name="cod_cuenta">28</field>
+	</row>
+	<row>
+		<field name="id_movimiento">94</field>
+		<field name="fechahora">2009-08-31</field>
+		<field name="cantidad">-3496</field>
+		<field name="dni">11111111</field>
+		<field name="cod_cuenta">21</field>
+	</row>
+	<row>
+		<field name="id_movimiento">95</field>
+		<field name="fechahora">2008-11-20</field>
+		<field name="cantidad">-3826</field>
+		<field name="dni">11111111</field>
+		<field name="cod_cuenta">2</field>
+	</row>
+	<row>
+		<field name="id_movimiento">96</field>
+		<field name="fechahora">2011-01-26</field>
+		<field name="cantidad">-1699</field>
+		<field name="dni">12121212</field>
+		<field name="cod_cuenta">12</field>
+	</row>
+	<row>
+		<field name="id_movimiento">97</field>
+		<field name="fechahora">2009-06-07</field>
+		<field name="cantidad">-2685</field>
+		<field name="dni">12121212</field>
+		<field name="cod_cuenta">18</field>
+	</row>
+	<row>
+		<field name="id_movimiento">98</field>
+		<field name="fechahora">2011-03-03</field>
+		<field name="cantidad">-3959</field>
+		<field name="dni">13131313</field>
+		<field name="cod_cuenta">25</field>
+	</row>
+	<row>
+		<field name="id_movimiento">99</field>
+		<field name="fechahora">2010-11-06</field>
+		<field name="cantidad">-4243</field>
+		<field name="dni">13131313</field>
+		<field name="cod_cuenta">22</field>
+	</row>
+	<row>
+		<field name="id_movimiento">100</field>
+		<field name="fechahora">2009-07-01</field>
+		<field name="cantidad">-2586</field>
+		<field name="dni">14141414</field>
+		<field name="cod_cuenta">17</field>
+	</row>
+	<row>
+		<field name="id_movimiento">101</field>
+		<field name="fechahora">2011-05-24</field>
+		<field name="cantidad">-2351</field>
+		<field name="dni">15151515</field>
+		<field name="cod_cuenta">12</field>
+	</row>
+	<row>
+		<field name="id_movimiento">102</field>
+		<field name="fechahora">2010-06-16</field>
+		<field name="cantidad">-3289</field>
+		<field name="dni">15151515</field>
+		<field name="cod_cuenta">9</field>
+	</row>
+	<row>
+		<field name="id_movimiento">103</field>
+		<field name="fechahora">2010-06-13</field>
+		<field name="cantidad">-4672</field>
+		<field name="dni">16161616</field>
+		<field name="cod_cuenta">22</field>
+	</row>
+	<row>
+		<field name="id_movimiento">104</field>
+		<field name="fechahora">2010-05-07</field>
+		<field name="cantidad">-4996</field>
+		<field name="dni">16161616</field>
+		<field name="cod_cuenta">29</field>
+	</row>
+	<row>
+		<field name="id_movimiento">105</field>
+		<field name="fechahora">2010-09-14</field>
+		<field name="cantidad">-3550</field>
+		<field name="dni">17171717</field>
+		<field name="cod_cuenta">27</field>
+	</row>
+	<row>
+		<field name="id_movimiento">107</field>
+		<field name="fechahora">2009-08-07</field>
+		<field name="cantidad">-1928</field>
+		<field name="dni">21212121</field>
+		<field name="cod_cuenta">33</field>
+	</row>
+	<row>
+		<field name="id_movimiento">108</field>
+		<field name="fechahora">2013-03-08</field>
+		<field name="cantidad">-1922</field>
+		<field name="dni">15151515</field>
+		<field name="cod_cuenta">33</field>
+	</row>
+	<row>
+		<field name="id_movimiento">109</field>
+		<field name="fechahora">2013-03-01</field>
+		<field name="cantidad">-1773</field>
+		<field name="dni">15151515</field>
+		<field name="cod_cuenta">29</field>
+	</row>
+	<row>
+		<field name="id_movimiento">110</field>
+		<field name="fechahora">2011-09-01</field>
+		<field name="cantidad">-4997</field>
+		<field name="dni">15151515</field>
+		<field name="cod_cuenta">24</field>
+	</row>
+	<row>
+		<field name="id_movimiento">111</field>
+		<field name="fechahora">2012-10-01</field>
+		<field name="cantidad">-1906</field>
+		<field name="dni">14141414</field>
+		<field name="cod_cuenta">14</field>
+	</row>
+	<row>
+		<field name="id_movimiento">112</field>
+		<field name="fechahora">2014-01-02</field>
+		<field name="cantidad">-2566</field>
+		<field name="dni">13131313</field>
+		<field name="cod_cuenta">24</field>
+	</row>
+	<row>
+		<field name="id_movimiento">113</field>
+		<field name="fechahora">2014-01-23</field>
+		<field name="cantidad">-3821</field>
+		<field name="dni">13131313</field>
+		<field name="cod_cuenta">31</field>
+	</row>
+	<row>
+		<field name="id_movimiento">114</field>
+		<field name="fechahora">2011-12-07</field>
+		<field name="cantidad">-1447</field>
+		<field name="dni">13131313</field>
+		<field name="cod_cuenta">30</field>
+	</row>
+	<row>
+		<field name="id_movimiento">115</field>
+		<field name="fechahora">2012-07-17</field>
+		<field name="cantidad">-2631</field>
+		<field name="dni">99999999</field>
+		<field name="cod_cuenta">13</field>
+	</row>
+	<row>
+		<field name="id_movimiento">116</field>
+		<field name="fechahora">2012-02-29</field>
+		<field name="cantidad">-1446</field>
+		<field name="dni">99999999</field>
+		<field name="cod_cuenta">21</field>
+	</row>
+	<row>
+		<field name="id_movimiento">117</field>
+		<field name="fechahora">2011-10-21</field>
+		<field name="cantidad">-4691</field>
+		<field name="dni">99999999</field>
+		<field name="cod_cuenta">8</field>
+	</row>
+	<row>
+		<field name="id_movimiento">118</field>
+		<field name="fechahora">2012-06-23</field>
+		<field name="cantidad">-1273</field>
+		<field name="dni">77777777</field>
+		<field name="cod_cuenta">2</field>
+	</row>
+	<row>
+		<field name="id_movimiento">119</field>
+		<field name="fechahora">2013-03-14</field>
+		<field name="cantidad">-217</field>
+		<field name="dni">77777777</field>
+		<field name="cod_cuenta">8</field>
+	</row>
+	<row>
+		<field name="id_movimiento">120</field>
+		<field name="fechahora">2011-07-25</field>
+		<field name="cantidad">-2981</field>
+		<field name="dni">33333333</field>
+		<field name="cod_cuenta">27</field>
+	</row>
+	<row>
+		<field name="id_movimiento">121</field>
+		<field name="fechahora">2011-11-23</field>
+		<field name="cantidad">-2669</field>
+		<field name="dni">11111111</field>
+		<field name="cod_cuenta">4</field>
+	</row>
+	<row>
+		<field name="id_movimiento">122</field>
+		<field name="fechahora">2014-02-12</field>
+		<field name="cantidad">-3086</field>
+		<field name="dni">11111111</field>
+		<field name="cod_cuenta">3</field>
+	</row>
+	</table_data>
+	<table_structure name="tiene">
+		<field Field="dni" Type="int" Null="NO" Key="PRI" Extra="" Comment="" />
+		<field Field="cod_cuenta" Type="int" Null="NO" Key="PRI" Extra="" Comment="" />
+		<key Table="tiene" Non_unique="0" Key_name="PRIMARY" Seq_in_index="1" Column_name="dni" Collation="A" Cardinality="0" Null="" Index_type="BTREE" Comment="" Index_comment="" Visible="YES" />
+		<key Table="tiene" Non_unique="0" Key_name="PRIMARY" Seq_in_index="2" Column_name="cod_cuenta" Collation="A" Cardinality="0" Null="" Index_type="BTREE" Comment="" Index_comment="" Visible="YES" />
+		<key Table="tiene" Non_unique="1" Key_name="dd" Seq_in_index="1" Column_name="dni" Collation="A" Cardinality="0" Null="" Index_type="BTREE" Comment="" Index_comment="" Visible="YES" />
+		<key Table="tiene" Non_unique="1" Key_name="fk2_tccuenta" Seq_in_index="1" Column_name="cod_cuenta" Collation="A" Cardinality="0" Null="" Index_type="BTREE" Comment="" Index_comment="" Visible="YES" />
+		<options Name="tiene" Engine="InnoDB" Version="10" Row_format="Dynamic" Rows="0" Avg_row_length="0" Data_length="16384" Max_data_length="0" Index_length="32768" Data_free="0" Create_time="2021-05-07 11:10:47" Collation="latin1_swedish_ci" Create_options="" Comment="" />
+	</table_structure>
+	<table_data name="tiene">
+	</table_data>
+</database>
+</mysqldump>
