@@ -13,13 +13,13 @@
     <xsl:template name="metaWeb">
         <meta charset="UTF-8"/>
         <meta name="viewport" content="width=device-width, initial-scale=1.0"/>       
-        <meta name="author" content="Amor Rodríguez"/>
+        <meta name="author" content="Sasha"/>
         <meta name="application-name" content="AppWeb de LMSGI"/>
-        <meta name="description" content="Información de tickets"/>
-        <meta name="keywords" content="tickets, total, xslt, xml" />
+        <meta name="description" content="Ejercicio de LMGSI"/>
+        <meta name="keywords" content="xslt, xml" />
         <meta name="robots" content="index, follow"/>      
-        <link href="css/estilo.css"  rel="stylesheet"       type="text/css" />
-        <link rel="icon" href="favicon.ico" type="image/x-icon"/>
+        <link href="estilo.css"  rel="stylesheet"       type="text/css" />
+        <link rel="icon" href="../../images/favicon.png" type="image/png"/>
     </xsl:template>
     <!-- Escribir el DocType -->
     <xsl:template name="DocTipo">

@@ -13,6 +13,8 @@ and open the template in the editor.
 }
 h1{
     text-align: center;
+    color: cornflowerblue;
+    margin: 1%;
 }
 
 table{
@@ -20,7 +22,7 @@ table{
     text-align: center;
     margin: auto;
     border: 5px solid cornflowerblue;
-    width: 80%;
+    width: 75%;
     border-top: none;
 }
 caption{
