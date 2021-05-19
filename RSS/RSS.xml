@@ -84,7 +84,6 @@
         </item>
         <item>
             <title>Práctica SCHEMA 01</title>
-            <link>http://192.168.2.110/ud04/schema/01-Schema.xml</link>
             <link>http://192.168.2.110/ud04/schema/01-Schema.xsd</link>
             <description>Práctica 01 en Schema</description>
             <category>XML</category>
@@ -93,7 +92,6 @@
         </item>
         <item>
             <title>Práctica SCHEMA 02</title>
-            <link>http://192.168.2.110/ud04/schema/02-Schema.xml</link>
             <link>http://192.168.2.110/ud04/schema/02-Schema.xsd</link>
             <description>Práctica 02 en Schema</description>
             <category>XML</category>
@@ -102,7 +100,6 @@
         </item>
         <item>
             <title>Práctica SCHEMA 03</title>
-            <link>http://192.168.2.110/ud04/schema/03-Schema.xml</link>
             <link>http://192.168.2.110/ud04/schema/03-Schema.xsd</link>
             <description>Práctica 03 en Schema</description>
             <category>XML</category>
@@ -111,7 +108,6 @@
         </item>
         <item>
             <title>Práctica SCHEMA 05</title>
-            <link>http://192.168.2.110/ud04/schema/05-Schema.xml</link>
             <link>http://192.168.2.110/ud04/schema/05-Schema.xsd</link>
             <description>Práctica 05 en Schema</description>
             <category>XML</category>
@@ -120,7 +116,6 @@
         </item>
         <item>
             <title>Práctica SCHEMA 06</title>
-            <link>http://192.168.2.110/ud04/schema/06-Schema.xml</link>
             <link>http://192.168.2.110/ud04/schema/06-Schema.xsd</link>
             <description>Práctica 06 en Schema</description>
             <category>XML</category>
@@ -129,7 +124,6 @@
         </item>
         <item>
             <title>Práctica SCHEMA 07</title>
-            <link>http://192.168.2.110/ud04/schema/07-Schema.xml</link>
             <link>http://192.168.2.110/ud04/schema/07-Schema.xsd</link>
             <description>Práctica 07 en Schema</description>
             <category>XML</category>
@@ -138,7 +132,6 @@
         </item>
         <item>
             <title>Práctica SCHEMA 08</title>
-            <link>http://192.168.2.110/ud04/schema/08-Schema.xml</link>
             <link>http://192.168.2.110/ud04/schema/08-Schema.xsd</link>
             <description>Práctica 08 en Schema</description>
             <category>XML</category>
@@ -147,7 +140,6 @@
         </item>
         <item>
             <title>Práctica SCHEMA 10 (horario)</title>
-            <link>http://192.168.2.110/ud04/schema/10-Schema.xml</link>
             <link>http://192.168.2.110/ud04/schema/10-Schema.xsd</link>
             <description>Práctica 10 en Schema</description>
             <category>XML</category>
@@ -156,7 +148,6 @@
         </item>
         <item>
             <title>Examen XML, DTD y SCHEMA 2020</title>
-            <link>http://192.168.2.110/ud04/ex-2020/catalogo.xml</link>
             <link>http://192.168.2.110/ud04/ex-2020/catalogo_schema.xml</link>
             <description>Examen con XML, DTD y Schema</description>
             <category>XML</category>
@@ -166,7 +157,6 @@
         </item>
         <item>
             <title>Examen XML, DTD y SCHEMA 2014</title>
-            <link>http://192.168.2.110/ud04/ex-2014/xml.xml</link>
             <link>http://192.168.2.110/ud04/ex-2014/schema.xml</link>
             <description>Examen con XML, DTD y Schema</description>
             <category>XML</category>
@@ -182,6 +172,100 @@
             <category>DTD</category>
             <category>SCHEMA</category>
             <pubDate>Thu, 04 Mar 2021 10:00:00 +0100</pubDate>
+        </item>
+        <item>
+            <title>Ejercicio XPath 01</title>
+            <link>http://19.168.2.110/ud05/5-01.pdf</link>
+            <description>Ejercicios de XPath</description>
+            <category>XML</category>
+            <category>XPath</category>
+            <pubDate>Fri, 05 Mar 2021 09:50:00 +0100</pubDate>
+        </item>
+        <item>
+            <title>Ejercicio XPath 02</title>
+            <link>http://19.168.2.110/ud05/5-02.pdf</link>
+            <description>Ejercicios de XPath</description>
+            <category>XML</category>
+            <category>XPath</category>
+            <pubDate>Tue, 09 Mar 2021 09:50:00 +0100</pubDate>
+        </item>
+        <item>
+            <title>Ejercicio XPath 03</title>
+            <link>http://19.168.2.110/ud05/5-03.pdf</link>
+            <description>Ejercicios de XPath</description>
+            <category>XML</category>
+            <category>XPath</category>
+            <pubDate>Thu, 11 Mar 2021 09:50:00 +0100</pubDate>
+        </item>
+        <item>
+            <title>Práctica XSLT 01</title>
+            <link>http://19.168.2.110/ud06/01/01.xsl</link>
+            <description>Conversión de un xml con una vivienda a html</description>
+            <category>XML</category>
+            <category>XSLT</category>
+            <category>HTML</category>
+            <pubDate>Thu, 08 Apr 2021 09:50:00 +0100</pubDate>
+        </item>
+        <item>
+            <title>Práctica XSLT 02</title>
+            <link>http://19.168.2.110/ud06/02/02.xsl</link>
+            <description>Conversión de un xml con tickets a html</description>
+            <category>XML</category>
+            <category>XSLT</category>
+            <category>HTML</category>
+            <pubDate>Wed, 28 Apr 2021 09:50:00 +0100</pubDate>
+        </item>
+        <item>
+            <title>Práctica XSLT 03</title>
+            <link>http://19.168.2.110/ud06/03/03.xsl</link>
+            <description>Conversión de un xml con información sobre asignaturas, profesores y horarios a html</description>
+            <category>XML</category>
+            <category>XSLT</category>
+            <category>HTML</category>
+            <pubDate>Tue, 13 Apr 2021 12:55:00 +0100</pubDate>
+        </item>
+        <item>
+            <title>Práctica XSLT 04</title>
+            <link>http://19.168.2.110/ud06/04/04.xsl</link>
+            <description>Conversión de un xml con una factura a otro xml</description>
+            <category>XML</category>
+            <category>XSLT</category>
+            <pubDate>Tue, 27 Apr 2021 12:10:00 +0100</pubDate>
+        </item>
+        <item>
+            <title>Práctica XSLT 05</title>
+            <link>http://19.168.2.110/ud06/05/05.xsl</link>
+            <description>Conversión de un xml con una vivienda a html</description>
+            <category>XML</category>
+            <category>XSLT</category>
+            <category>HTML</category>
+            <pubDate>Tue, 04 May 2021 09:50:00 +0100</pubDate>
+        </item>
+        <item>
+            <title>Práctica XSLT 06</title>
+            <link>http://19.168.2.110/ud06/06/06.xsl</link>
+            <description>Conversión de un xml con información sobre plataformas y usuarios a otro xml</description>
+            <category>XML</category>
+            <category>XSLT</category>
+            <pubDate>Thu, 29 Apr 2021 10:10:00 +0100</pubDate>
+        </item>
+        <item>
+            <title>Práctica XSLT 07</title>
+            <link>http://19.168.2.110/ud06/07/07.xsl</link>
+            <description>Conversión de un xml con un formulario a html, según si está corregido o no</description>
+            <category>XML</category>
+            <category>XSLT</category>
+            <category>HTML</category>
+            <pubDate>Fri, 07 May 2021 09:10:00 +0100</pubDate>
+        </item>
+        <item>
+            <title>Práctica XSLT 08</title>
+            <link>http://19.168.2.110/ud06/08/08.xsl</link>
+            <description>Conversión de un xml con información sobre el tiempo a html</description>
+            <category>XML</category>
+            <category>XSLT</category>
+            <category>HTML</category>
+            <pubDate>Thu, 13 May 2021 09:00:00 +0100</pubDate>
         </item>
     </channel>
 </rss>
