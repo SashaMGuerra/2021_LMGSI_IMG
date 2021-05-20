@@ -10,15 +10,18 @@
 
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="1.0">
     <xsl:output method="html"/>
+    <xsl:include href="../libWeb.xsl"/>
 
     <!-- TODO customize transformation rules 
          syntax recommendation http://www.w3.org/TR/xslt 
     -->
     <xsl:template match="horario">
+        <xsl:call-template name="DocTipo"/>
         <html>
             <head>
-                <title>Horario</title>
-                <link rel="stylesheet" href="03.css" type="text/css"/>
+                <xsl:call-template name="metaWeb">
+                    <xsl:with-param name="titulo" select="'03 XSLT'"/>
+                </xsl:call-template>
             </head>
             <body>
                 <nav>

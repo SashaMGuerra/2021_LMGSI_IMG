@@ -9,21 +9,37 @@
 -->
 
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="1.0">
-     <!--  Escribir las tag META de la web y el favicon    -->
+    
+    <!--  Escribir las tag META de la web y el favicon    -->
     <xsl:template name="metaWeb">
-        <meta charset="UTF-8"/>
+        <xsl:param name="titulo"/>
+        <xsl:param name="keywords" select="'xml, xslt'"/>
+        <xsl:param name="description" select="'Ejercicio de LMGSI'"/> 
+       
+        <!--Etiquetas meta-->
         <meta name="viewport" content="width=device-width, initial-scale=1.0"/>       
         <meta name="author" content="Sasha"/>
         <meta name="application-name" content="AppWeb de LMSGI"/>
-        <meta name="description" content="Ejercicio de LMGSI"/>
-        <meta name="keywords" content="xslt, xml" />
+        <meta name="description">
+            <xsl:attribute name="content">
+                <xsl:value-of select="$description"/>
+            </xsl:attribute>
+        </meta>
+        <meta name="keywords">
+            <xsl:attribute name="content">
+                <xsl:value-of select="$keywords"/>
+            </xsl:attribute>
+        </meta>
         <meta name="robots" content="index, follow"/>      
-        <link href="estilo.css"  rel="stylesheet"       type="text/css" />
+        <link href="estilo.css" rel="stylesheet" type="text/css" />
         <link rel="icon" href="../../images/favicon.png" type="image/png"/>
+        <title>
+            <xsl:value-of select="concat($titulo, ' Isabel Mtnez. Guerra')"/>
+        </title>
     </xsl:template>
-    <!-- Escribir el DocType -->
+    <!--  *********************Escribir el DocType -->
     <xsl:template name="DocTipo">
-          <xsl:text disable-output-escaping="yes">&lt;!DOCTYPE html&gt;</xsl:text>
+        <xsl:text disable-output-escaping="yes">&lt;!DOCTYPE html&gt;</xsl:text>
     </xsl:template>
     <!-- Copiar los comentario -->
     <xsl:template match="comment()"> 

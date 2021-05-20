@@ -10,16 +10,18 @@
 
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="1.0">
     <xsl:output method="html"/>
+    <xsl:include href="../libWeb.xsl"/>
 
     <!-- TODO customize transformation rules 
          syntax recommendation http://www.w3.org/TR/xslt 
     -->
     <xsl:template match="edificio">
+        <xsl:call-template name="DocTipo"/>
         <html>
             <head>
-                <title>01 XSLT Isabel Mtnez Guerra</title>
-                <link rel="icon" href="../../images/favicon.png" type="image/png"/>
-                <link rel="stylesheet" href="01.css" type="text/css"/>
+                <xsl:call-template name="metaWeb">
+                    <xsl:with-param name="titulo" select="'01 XSLT'"/>
+                </xsl:call-template>
             </head>
             <body>
                 <h1>Información de las viviendas</h1>

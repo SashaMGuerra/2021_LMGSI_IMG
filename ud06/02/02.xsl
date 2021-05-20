@@ -4,6 +4,7 @@
 
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="1.0">
     <xsl:output method="html" indent="yes"/>
+    <xsl:include href="../libWeb.xsl"/>
 
     <!-- TODO customize transformation rules 
          syntax recommendation http://www.w3.org/TR/xslt 
@@ -13,15 +14,9 @@
         <xsl:apply-templates select="comment()"/>
         <html>
             <head>
-                <title>02 XSLT Isabel Mtnez. Guerra</title>
-                <meta charset="UTF-8"/>
-                <link rel="stylesheet" href="02.css" type="text/css"/>
-                <link rel="icon" href="../../images/favicon.png" type="image/png"/>
-                <meta name="author" content="Sasha"/>
-                <meta name="application-name" content="AppWeb de Sasha"/>
-                <meta name="description" content="Información sobre tickets"/>
-                <meta name="keywords" content="tickets, total, xslt, xml"/>
-                <meta name="robots" content="index, follow"/>
+                <xsl:call-template name="metaWeb">
+                    <xsl:with-param name="titulo" select="'02 XSLT'"/>
+                </xsl:call-template>
             </head>
             <body>
                 <header>

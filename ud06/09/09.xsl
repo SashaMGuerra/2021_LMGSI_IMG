@@ -10,28 +10,27 @@
 
 
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="1.0">
-    <xsl:import href="../libWeb.xsl"/>
     <xsl:output method="html" indent="yes"/>
+    <xsl:include href="../libWeb.xsl"/>
     
     <xsl:template match="/">
         <xsl:call-template name="DocTipo"/>
         <html>
             <head>
-                <title>09 XSLT Isabel Mtnez. Guerra</title>
-                <xsl:call-template name="metaWeb"/>
+                <xsl:call-template name="metaWeb">
+                    <xsl:with-param name="description" select="'Listado de carreras'"/>
+                    <xsl:with-param name="titulo" select="'XSLT 09'"/>
+                </xsl:call-template>
             </head>
             <body>
-                <h1>09 XSLT Universidad de Victoria</h1>
+                <h1>09 XSLT <xsl:value-of select="/universidad/nombre"/></h1>
                 <xsl:for-each select="//carreras/carrera">
                     <xsl:sort select="nombre"/>
                     <div>
                         <h2>
                             <xsl:value-of select="concat(@id, ' - ', nombre, ' (', plan,')')"/>
                         </h2>
-                        <div>
-                            <xsl:attribute name="class">
-                                <xsl:value-of select="concat('interior')"/>
-                            </xsl:attribute>
+                        <div class="interior">
                             <xsl:value-of select="centro"/><br/>
                             <ul>
                                 <xsl:apply-templates select="//asignatura[@titulacion=(current()/@id)]">
@@ -58,7 +57,12 @@
     
     <xsl:template match="alumno">
         <li>
-            <xsl:value-of select="concat(apellido1, ' ', apellido2, ', ',nombre)"/>
+            <xsl:element name="abbr">
+                <xsl:attribute name="title">
+                    <xsl:value-of select="../../carreras/carrera[@id=(current()//carrera/@codigo)]/nombre"/>
+                </xsl:attribute>
+                <xsl:value-of select="concat(apellido1, ' ', apellido2, ', ',nombre)"/>
+            </xsl:element>
         </li>
     </xsl:template>
 

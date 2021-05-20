@@ -10,22 +10,18 @@
 
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="1.0">
     <xsl:output method="html" indent="yes"/>
+    <xsl:include href="../libWeb.xsl"/>
 
     <!-- TODO customize transformation rules 
          syntax recommendation http://www.w3.org/TR/xslt 
     -->
     <xsl:template match="factura">
-        <xsl:text disable-output-escaping="yes">&lt;!DOCTYPE html&gt;</xsl:text>
+        <xsl:call-template name="DocTipo"/>
         <html>
             <head>
-                <title>05 XSLT Factura F55 Isabel Mtnez. Guerra</title>
-                <link rel="stylesheet" href="05.css" type="text/css"/>
-                <link rel="icon" href="../../images/favicon.png" type="image/png"/>
-                <meta name="author" content="Sasha"/>
-                <meta name="application-name" content="Factura numero F555"/>
-                <meta name="description" content="Información sobre una factura"/>
-                <meta name="keywords" content="factura, total, xslt, xml"/>
-                <meta name="robots" content="index, follow"/>
+                <xsl:call-template name="metaWeb">
+                    <xsl:with-param name="titulo" select="'05 XSLT'"/>
+                </xsl:call-template>
             </head>
             <body>
                 <table>

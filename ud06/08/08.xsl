@@ -10,15 +10,18 @@
 
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="1.0">
     <xsl:output method="html"/>
+    <xsl:include href="../libWeb.xsl"/>
 
     <!-- TODO customize transformation rules 
          syntax recommendation http://www.w3.org/TR/xslt 
     -->
     <xsl:template match="/">
+        <xsl:call-template name="DocTipo"/>
         <html>
             <head>
-                <title>XSLT Predicción - Isabel Mtnez. Guerra</title>
-                <link rel="stylesheet" href="08.css" type="text/css"/>
+                <xsl:call-template name="metaWeb">
+                    <xsl:with-param name="titulo" select="'08 XSLT'"/>
+                </xsl:call-template>
             </head>
             <body>
                 <h1>Predicción por municipios</h1>
