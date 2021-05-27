@@ -22,15 +22,17 @@
             <xsl:value-of disable-output-escaping="yes" select="'&#9;'"/>
         </xsl:variable>
         <xsl:value-of select="concat(name(current()), ':')"/>
-        <xsl:value-of select="concat($newline, $newtab, name(//ethernets), ':')"/>
-        <xsl:value-of select="concat($newline, $newtab, $newtab, //name,  ':')"/>
-        <xsl:value-of select="concat($newline, $newtab, $newtab, $newtab, name(//ethernets/addresses),  ':')"/>
-        <xsl:value-of select="concat($newline, $newtab, $newtab, $newtab, '- ', //ethernets/addresses)"/>
-        <xsl:value-of select="concat($newline, $newtab, $newtab, $newtab, name(//gateway4),  ': ', //gateway4)"/>
-        <xsl:value-of select="concat($newline, $newtab, $newtab, $newtab, name(//nameservers),  ':')"/>
-        <xsl:value-of select="concat($newline, $newtab, $newtab, $newtab, $newtab, name(//addresses),  ':')"/>
-        <xsl:for-each select="//nameservers/addresses">
-            <xsl:value-of select="concat($newline, $newtab, $newtab, $newtab, $newtab, $newtab, '- ' ,current())"/>
+        <xsl:for-each select="//ethernets">
+            <xsl:value-of select="concat($newline, $newtab, name(current()), ':')"/>
+            <xsl:value-of select="concat($newline, $newtab, $newtab, //name,  ':')"/>
+            <xsl:value-of select="concat($newline, $newtab, $newtab, $newtab, name(addresses),  ':')"/>
+            <xsl:value-of select="concat($newline, $newtab, $newtab, $newtab, '- ', addresses)"/>
+            <xsl:value-of select="concat($newline, $newtab, $newtab, $newtab, name(gateway4),  ': ', gateway4)"/>
+            <xsl:value-of select="concat($newline, $newtab, $newtab, $newtab, name(nameservers),  ':')"/>
+            <xsl:value-of select="concat($newline, $newtab, $newtab, $newtab, $newtab, name(nameservers/addresses),  ':')"/>
+            <xsl:for-each select="//nameservers/addresses">
+                <xsl:value-of select="concat($newline, $newtab, $newtab, $newtab, $newtab, $newtab, '- ' ,current())"/>
+            </xsl:for-each>
         </xsl:for-each>
     </xsl:template>
 
