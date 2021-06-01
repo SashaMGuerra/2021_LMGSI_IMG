@@ -33,22 +33,27 @@
     <xsl:template match="signo">
         <div class="signo">
             <div class="imagenes">
-                <xsl:element name="img">
-                    <xsl:attribute name="src">
-                        <xsl:value-of select="concat('images/bg-', @id, '.jpg')"/>
+                <a>
+                    <xsl:attribute name="href">
+                        <xsl:value-of select="concat('horoscopo/',nombre,'/horoscopo.xml')"/>
                     </xsl:attribute>
-                    <xsl:attribute name="alt">
-                        <xsl:value-of select="nombre"/>
-                    </xsl:attribute>
-                </xsl:element>
-                <xsl:element name="img">
-                    <xsl:attribute name="src">
-                        <xsl:value-of select="concat('images/', @id, '.svg')"/>
-                    </xsl:attribute>
-                    <xsl:attribute name="alt">
-                        <xsl:value-of select="nombre"/>
-                    </xsl:attribute>
-                </xsl:element>
+                    <img>
+                        <xsl:attribute name="src">
+                            <xsl:value-of select="concat('images/bg-', @id, '.jpg')"/>
+                        </xsl:attribute>
+                        <xsl:attribute name="alt">
+                            <xsl:value-of select="nombre"/>
+                        </xsl:attribute>
+                    </img>
+                    <img>
+                        <xsl:attribute name="src">
+                            <xsl:value-of select="concat('images/', @id, '.svg')"/>
+                        </xsl:attribute>
+                        <xsl:attribute name="alt">
+                            <xsl:value-of select="nombre"/>
+                        </xsl:attribute>
+                    </img>
+                </a>
             </div>
             <p><xsl:value-of select="nombre"/></p>
             <div class="fecha">

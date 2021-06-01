@@ -13,16 +13,16 @@
     <xsl:include href="../../../libWeb.xsl"/>
 
     <xsl:template match="/">
-        <xsl:variable name="signo" select="'Aries'"/>
         <xsl:call-template name="DocTipo"/>
         <html>
             <head>
                 <xsl:call-template name="metaWeb">
-                    <xsl:with-param name="titulo" select="concat('Horóscopo de ',  $signo)"/>
+                    <xsl:with-param name="titulo" select="concat('Horóscopo')"/>
                     <xsl:with-param name="linkestilo" select="'../css/estilos.css'"/>
                 </xsl:call-template>
                 <style>
-                    img:last-image{
+                    div.imagenes{
+                        display: inline-block;
                     }
                     div.prediccion{
                         margin: 2% 10%;
@@ -47,7 +47,7 @@
                             <xsl:value-of select="concat('../images/bg-', //@id, '.jpg')"/>
                         </xsl:attribute>
                         <xsl:attribute name="alt">
-                            <xsl:value-of select="nombre"/>
+                            <xsl:value-of select="'horoscopo'"/>
                         </xsl:attribute>
                     </xsl:element>
                     <xsl:element name="img">
@@ -59,7 +59,7 @@
                         </xsl:attribute>
                     </xsl:element>
                 </div>
-                <h1>Horóscopo <xsl:value-of select="$signo"/></h1>
+                <h1>Horóscopo <xsl:value-of select="(document('../signos.xml')//signo[@id=current()//@id]/nombre"/></h1>
                 <div class="prediccion">
                     <h2>Predicción para hoy <xsl:value-of select="//date"/></h2>
                     <p><xsl:value-of select="//message"/></p>
