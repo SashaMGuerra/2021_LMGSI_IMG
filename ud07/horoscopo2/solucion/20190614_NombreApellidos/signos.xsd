@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- signos.xsd - Validacion de los signos del zodiaco
+	 Autor - Amor Rodríguez
+	 Fecha - 13/06/2019
+-->
+
+<xs:schema version="1.0" 
+xmlns:xs="http://www.w3.org/2001/XMLSchema">
+	<xs:element name="horoscopo">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="signo" maxOccurs="unbounded">
+					<xs:complexType>
+					<xs:sequence>
+						<xs:element name="nombre" type="tipoNombre"/>
+						<xs:element name="fecha" type="tipoFecha"/>
+					</xs:sequence>
+						<xs:attribute name="id" type="tipoId"/>
+					</xs:complexType>
+					
+				</xs:element>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	
+	<!--
+	<xs:simpleType name="tipoNombre">
+		<xs:simpleType>
+			<xs:restriction base="xs:string">
+				<xs:enumeration value="TAURO"/>
+				<xs:enumeration value="PISCIS"/>
+				...
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:simpleType>
+	-->
+	<xs:simpleType name="tipoNombre">
+		
+			<xs:restriction base="xs:string">
+				<xs:pattern value="ARIES|TAURO|GEMENIS|CANCER|LEO|VIRGO|LIBRA|ESCORPIO|SAGITARIO|CAPRICORNIO|ACUARIO|PISCIS"/>
+			</xs:restriction>
+	</xs:simpleType>
+
+			
+	
+	<xs:simpleType name="tipoId">
+		<xs:restriction base="xs:byte">
+			<xs:minInclusive value="1"/>
+			<xs:maxInclusive value="12"/>
+		</xs:restriction>
+	</xs:simpleType>
+	
+	
+	<xs:simpleType name="tipoFecha">
+		<xs:restriction base="xs:string">
+		<xs:maxLength value="100"/>
+		</xs:restriction>
+		</xs:simpleType>
+</xs:schema>
+	

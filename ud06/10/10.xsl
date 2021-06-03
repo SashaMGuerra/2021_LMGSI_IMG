@@ -19,7 +19,7 @@
             <xsl:value-of disable-output-escaping="yes" select="'&#10;'"/>
         </xsl:variable>
         <xsl:variable name="newtab">
-            <xsl:value-of disable-output-escaping="yes" select="'&#9;'"/>
+            <xsl:value-of disable-output-escaping="yes" select="'   '"/>
         </xsl:variable>
         <xsl:value-of select="concat(name(current()), ':')"/>
         <xsl:for-each select="//ethernets">

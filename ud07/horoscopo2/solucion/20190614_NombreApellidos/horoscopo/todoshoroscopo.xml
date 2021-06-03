@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<?xml-stylesheet type="text/xsl" href="../horoscopo.xsl" signoZodiaco="12"?>
+<horoscope>
+	<source>Astrologia</source>
+	<date>14/06/2019</date>
+	<sign id="1">
+		<message>
+Aries, hoy tendrás mucha facilidad para aprender; además, gracias a un trabajo cuidadoso y constructivo y con capacidad para expresarte, podrás lograr bienes materiales. Utiliza tu elevada energía y talento. El éxito será duradero en el futuro si tu trabajo es constante y intenso. Además, tu situación financiera podría experimentar un cambio favorable y espectacular, también podrías tener ascensos y reconocimiento profesional.
+		</message>
+		<numbers>
+10, 13, 37, 39, 43, 47
+		</numbers>
+		<compatibility>
+Géminis
+		</compatibility>
+	</sign>
+	<sign id="2">
+		<message>
+Tauro, debes enfrentarte a las nuevas responsabilidades y tener más confianza en ti, sin temer al fracaso. Aprovecha la energía del día para la expansión en el ámbito económico: no te arrepentirás. Por otra parte, deberías pensar de una forma más optimista... todo lo económico se resolverá de una manera positiva para ti: ten paciencia. Y recuerda: la diplomacia será tu mejor aliada.
+		</message>
+		<numbers>
+2, 7, 10, 16, 26, 29
+		</numbers>
+		<compatibility>
+Virgo
+		</compatibility>
+	</sign>
+	<sign id="3">
+		<message>
+Hoy podrías conseguir cierta paz y tranquilidad gracias a tu equilibrio interno, Géminis. En general, disfrutarás de la armonía y prosperidad resultantes de un trabajo organizado y pulcro; además, podrás conseguir ganancias gracias a tus amistades o a los viajes. Tendrás mucha agilidad mental e ingenio... utiliza estas energías para innovar, para emprender nuevos proyectos que te lleven al lugar que quieres y hagan realidad tus sueños.
+		</message>
+		<numbers>
+2, 9, 17, 22, 33, 41
+		</numbers>
+		<compatibility>
+Aries
+		</compatibility>
+	</sign>
+	<sign id="4">
+		<message>
+Hoy podría ser un día de trastornos domésticos, de falta de concentración, de indecisión y de retrasos en los proyectos, con la consiguiente ansiedad, discusiones y disentimientos. Para manejar esta energía positivamente deberás concentrarte en lo que hagas, Cáncer, y trabajar diligentemente en este día. Finalmente, si vas a cerrar proyectos hoy o a firmar papeles, lee bien la letra pequeña, es decir, revisa todo con sumo cuidado.
+		</message>
+		<numbers>
+13, 19, 28, 43, 44, 47
+		</numbers>
+		<compatibility>
+Piscis
+		</compatibility>
+	</sign>
+	<sign id="5">
+		<message>
+Leo, con simpatía, comprensión y honradez será como lograrás mejores resultados hoy. En general, demostrarás un genuino interés por el bienestar de los demás; tu actitud será muy madura y generosa, con cierto magnetismo personal y unas determinaciones firmes para enfrentarte a cualquier tipo de reto u oposición. Escucha a la voz de tu intuición, pero toma unas decisiones prácticas y lógicas.
+		</message>
+		<numbers>
+18, 21, 28, 31, 37, 41
+		</numbers>
+		<compatibility>
+Aries
+		</compatibility>
+	</sign>
+	<sign id="6">
+		<message>
+Tal vez hoy sea un día de tensión en los asuntos familiares o con tus seres queridos, Virgo; quizá pienses que debes trabajar más que los demás y esto te cause demasiadas presiones... Todo se conseguirá actuando de una forma responsable, con perseverancia y concentrándote en el trabajo, aunque es posible que sientas cierto descontento con el entorno que te rodea. ¡No discutas!
+		</message>
+		<numbers>
+2, 10, 21, 32, 39, 46
+		</numbers>
+		<compatibility>
+Tauro
+		</compatibility>
+	</sign>
+	<sign id="7">
+		<message>
+Contarás hoy con una gran madurez y responsabilidad, Libra, con confianza en ti, siendo persistente, paciente y demostrando tu destreza y habilidad en el trabajo... ¡así llegarás a tus metas! En general, serás una persona muy organizada, analítica y capaz de tomar las decisiones más rápidas y acertadas. Finalmente, tus actividades podrían estar mejor remuneradas o también es posible que recibas alguna noticia económica favorable.
+		</message>
+		<numbers>
+9, 20, 23, 28, 30, 48
+		</numbers>
+		<compatibility>
+Sagitario
+		</compatibility>
+	</sign>
+	<sign id="8">
+		<message>
+La ansiedad, las indecisiones y las dudas de hoy tal vez te causen cierta inseguridad, Escorpio; también las disputas y penas en el amor. Tienes que comprender que comportándote de una forma agresiva dañas a los demás. Además, es posible que soportes demasiadas tensiones y te mostrarás desafiante ante cualquier circunstancia. Finalmente, los proyectos que tienes quizá estén sufriendo retrasos; deberás ejercitarte en la paciencia.
+		</message>
+		<numbers>
+4, 7, 15, 19, 21, 22
+		</numbers>
+		<compatibility>
+Capricornio
+		</compatibility>
+	</sign>
+	<sign id="9">
+		<message>
+La valentía, capacidad y fuerza de personalidad te caracterizarán hoy, Sagitario; te enfrentarás con seguridad a cualquier problema. En general, estarás muy intelectual y ejercerás influencia sobre los demás, y a la vez, aprenderás a comunicarte de una forma amable, esto hará que tus relaciones, no solamente en la vida afectiva sino también en el trabajo, fluyan adecuadamente... así, tendrás mejoras y posibilidades de expansión.
+		</message>
+		<numbers>
+8, 10, 13, 18, 27, 28
+		</numbers>
+		<compatibility>
+Acuario
+		</compatibility>
+	</sign>
+	<sign id="10">
+		<message>
+Tu comportamiento hoy será muy activo y determinado, con mucha experiencia y autoridad; querrás controlar y dirigir a los demás... y lo harás bien, Capricornio. Serás una persona muy profesional y analítica; además, tendrás ahora nuevas ideas y planes. De todos modos, deberías tratar de fomentar la cooperación de las personas que trabajan contigo para así lograr un equipo competente. Estás en tu mejor momento y tienes que seguir concentrándote en las metas de tu vida.
+		</message>
+		<numbers>
+7, 27, 30, 32, 39, 47
+		</numbers>
+		<compatibility>
+Escorpio
+		</compatibility>
+	</sign>
+	<sign id="11">
+		<message>
+Tenderás hoy a un comportamiento impaciente, ansioso y beligerante, Acuario; con demasiadas explicaciones y falta de productividad general. No debes desanimarte porque las cosas no salgan tan pronto como quisieras, debes trabajar con perseverancia de una forma ordenada y aprender cualidades como la paciencia en este día. Tu ascenso será lento pero seguro... sé tenaz.
+		</message>
+		<numbers>
+2, 11, 12, 13, 35, 36
+		</numbers>
+		<compatibility>
+Sagitario
+		</compatibility>
+	</sign>
+	<sign id="12">
+		<message>
+Piscis, hoy mostrarás tu capacidad de liderazgo, carácter e inteligencia. En general, es posible que disfrutes de éxito en el trabajo y de unas inversiones acertadas. Tenderás a la cautela, a la diplomacia y a la perseverancia en tus relaciones con los demás; también demostrarás un autocontrol excepcional y sacarás partido de todas las oportunidades que se te presenten. Eres un ser muy perceptivo y te sueles dar cuenta cuando alguien pretende engañarte... ¡haz uso de esta facultad!
+		</message>
+		<numbers>
+9, 17, 27, 34, 48, 49
+		</numbers>
+		<compatibility>
+Cáncer
+		</compatibility>
+	</sign>
+</horoscope>

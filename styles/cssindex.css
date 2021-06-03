@@ -60,6 +60,11 @@ footer{
     margin-top: 20%;
     padding: 1% 0;
 }
+footer div{
+    margin-top: 0.5%;
+    font-size: small;
+    color: white;
+}
 button.modo{
     outline: none;
     text-transform: uppercase;

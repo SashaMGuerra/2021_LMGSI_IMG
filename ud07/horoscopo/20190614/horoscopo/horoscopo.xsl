@@ -59,7 +59,7 @@
                         </xsl:attribute>
                     </xsl:element>
                 </div>
-                <h1>Horóscopo <xsl:value-of select="(document('../signos.xml')//signo[@id=current()//@id]/nombre"/></h1>
+                <h1>Horóscopo <xsl:value-of select="document('../signos.xml')//signo[@id=current()//sign/@id]/nombre"/></h1>
                 <div class="prediccion">
                     <h2>Predicción para hoy <xsl:value-of select="//date"/></h2>
                     <p><xsl:value-of select="//message"/></p>
